@@ -19,3 +19,9 @@ WS - Weapon Skill
 D - Damage
 SR - Special Rules
 ! - Critical Hit Rules
+
+Distance
+Triangle = 1"
+Circle = 2"
+Square = 3"
+Pentagon = 6"
