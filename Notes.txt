@@ -1,0 +1,21 @@
+Profile Acronyms
+M - Movement
+APL - Action Point Limit
+GA - Group Activation
+DF - Defence
+SV - Save
+W - Wounds
+
+Ranged Weapon Profile Acronyms
+A - Attacks
+BS - Ballistic Skill
+D - Damage
+SR - Special Rules
+! - Critical Hit Rules
+
+Melee Weapon Profile Acronyms
+A - Attacks
+WS - Weapon Skill
+D - Damage
+SR - Special Rules
+! - Critical Hit Rules

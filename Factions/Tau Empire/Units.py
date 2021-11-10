@@ -1,0 +1,25 @@
+operatives = [
+    {
+        "name":"",
+        "stats":{
+            "move":"",
+            "apl":"",
+            "gpact":"",
+            "def":"",
+            "save":"",
+            "wounds":"",
+        },
+        "rweaps":[
+        ],
+        "mweaps":[
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"",
+        "faction":"",
+        "keywords":[
+        ],
+    },
+]
