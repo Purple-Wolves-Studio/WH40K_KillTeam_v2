@@ -1,8 +1,25 @@
 # WH40K_KillTeam_v2
 
+## v0.11.12.21
+
+### Project Files
+
+- New folder created
+  - Notes migrated to folder
+  - Templates migrated to folder
+    - Unit template updated
+
+### Factions
+
+- Tau Empire
+  - Unit data updated
+  - Need to add Drone data
+
+--------------------------------------------------------------------
+
 ## v0.11.10.21
 
-## Templates
+### Templates
 
 - Weapon template created
 - Unit template created

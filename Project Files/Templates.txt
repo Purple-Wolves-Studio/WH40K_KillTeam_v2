@@ -16,17 +16,7 @@ operatives = [
                     {
                         "pname":"",
                         "atts":"",
-                        "wskill":"",
-                        "dmg":"",
-                        "srule":[
-                        ],
-                        "crits":[
-                        ],
-                    },
-                    {
-                        "pname":"",
-                        "atts":"",
-                        "wskill":"",
+                        "bskill":"",
                         "dmg":"",
                         "srule":[
                         ],
@@ -40,16 +30,6 @@ operatives = [
             {   # Weapon Template
                 "wname":"",
                 "profiles":[
-                    {
-                        "pname":"",
-                        "atts":"",
-                        "wskill":"",
-                        "dmg":"",
-                        "srule":[
-                        ],
-                        "crits":[
-                        ],
-                    },
                     {
                         "pname":"",
                         "atts":"",

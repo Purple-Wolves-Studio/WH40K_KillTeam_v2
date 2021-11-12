@@ -16,7 +16,7 @@ operatives = [
                     {
                         "pname":"Close Range",
                         "atts":"4",
-                        "wskill":"4+",
+                        "bskill":"4+",
                         "dmg":"4/5",
                         "srule":[
                             "Range 6\""
@@ -28,7 +28,7 @@ operatives = [
                     {
                         "pname":"Long Range",
                         "atts":"4",
-                        "wskill":"4+",
+                        "bskill":"4+",
                         "dmg":"3/4",
                         "srule":[
                         ],
@@ -43,7 +43,7 @@ operatives = [
                     {
                         "pname":"",
                         "atts":"4",
-                        "wskill":"4+",
+                        "bskill":"4+",
                         "dmg":"4/5",
                         "srule":[
                         ],
@@ -58,7 +58,7 @@ operatives = [
                     {
                         "pname":"",
                         "atts":"4",
-                        "wskill":"4+",
+                        "bskill":"4+",
                         "dmg":"4/5",
                         "srule":[
                         ],
@@ -113,7 +113,7 @@ operatives = [
                     {
                         "pname":"Close Range",
                         "atts":"4",
-                        "wskill":"3+",
+                        "bskill":"3+",
                         "dmg":"4/5",
                         "srule":[
                             "Range 6\""
@@ -125,7 +125,7 @@ operatives = [
                     {
                         "pname":"Long Range",
                         "atts":"4",
-                        "wskill":"3+",
+                        "bskill":"3+",
                         "dmg":"3/4",
                         "srule":[
                         ],
@@ -140,7 +140,7 @@ operatives = [
                     {
                         "pname":"",
                         "atts":"4",
-                        "wskill":"3+",
+                        "bskill":"3+",
                         "dmg":"4/5",
                         "srule":[
                         ],
@@ -155,7 +155,7 @@ operatives = [
                     {
                         "pname":"",
                         "atts":"4",
-                        "wskill":"3+",
+                        "bskill":"3+",
                         "dmg":"4/5",
                         "srule":[
                         ],
@@ -211,7 +211,7 @@ operatives = [
                     {
                         "pname":"",
                         "atts":"4",
-                        "wskill":"4+",
+                        "bskill":"4+",
                         "dmg":"4/5",
                         "srule":[
                         ],
@@ -267,7 +267,7 @@ operatives = [
                     {
                         "pname":"Standard",
                         "atts":"5",
-                        "wskill":"4+",
+                        "bskill":"4+",
                         "dmg":"4/5",
                         "srule":[
                         ],
@@ -295,7 +295,7 @@ operatives = [
                     {
                         "pname":"",
                         "atts":"4",
-                        "wskill":"4+",
+                        "bskill":"4+",
                         "dmg":"4/4",
                         "srule":[
                             "Armour Penetration 1"
@@ -353,7 +353,7 @@ operatives = [
                     {
                         "pname":"",
                         "atts":"4",
-                        "wskill":"3+",
+                        "bskill":"3+",
                         "dmg":"4/5",
                         "srule":[
                         ],
@@ -391,6 +391,161 @@ operatives = [
             "Leader"
             "Pathfinder"
             "Shas'la"
+        ],
+    },
+    {   # Stealth Battlesuit Shas'ui
+        "opname":"Stealth Battlesuit Shas'ui",
+        "stats":{
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"1",
+            "def":"3",
+            "save":"3+",
+            "wounds":"10",
+        },
+        "rweaps":[
+            {   # Burst Cannon
+                "wname":"Burst Cannon",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"6",
+                        "bskill":"4+",
+                        "dmg":"3/4",
+                        "srule":[
+                            "Ceaseless"
+                            "Fusillade"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Fusion Blaster
+                "wname":"Fusion Blaster",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"4",
+                        "bskill":"5+",
+                        "dmg":"6/3",
+                        "srule":[
+                            "Range 6\""
+                            "Armour Penetration 2"
+                        ],
+                        "crits":[
+                            "Mortal Wounds 4"
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":{
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"4",
+                        "wskill":"5+",
+                        "dmg":"2/3",
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        },
+        "abs":[
+            "Camouflage Field"
+        ],
+        "uacts":[
+        ],
+        "fackey":"Hunter Cadre",
+        "faction":"T'au",
+        "keywords":[
+            "Fly"
+            "Stealth Battlesuit"
+            "Shas'ui"
+        ],
+    },
+    {   # Stealth Battlesuit Shas'vre
+        "opname":"Stealth Battlesuit Shas'vre",
+        "stats":{
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"1",
+            "def":"3",
+            "save":"3+",
+            "wounds":"11",
+        },
+        "rweaps":[
+            {   # Burst Cannon
+                "wname":"Burst Cannon",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"6",
+                        "bskill":"3+",
+                        "dmg":"3/4",
+                        "srule":[
+                            "Ceaseless"
+                            "Fusillade"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Fusion Blaster
+                "wname":"Fusion Blaster",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"4",
+                        "bskill":"4+",
+                        "dmg":"6/3",
+                        "srule":[
+                            "Range 6\""
+                            "Armour Penetration 2"
+                        ],
+                        "crits":[
+                            "Mortal Wounds 4"
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":{
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"4",
+                        "wskill":"4+",
+                        "dmg":"2/3",
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        },
+        "abs":[
+            "Camouflage Field"
+        ],
+        "uacts":[
+        ],
+        "fackey":"Hunter Cadre",
+        "faction":"T'au",
+        "keywords":[
+            "Leader"
+            "Fly"
+            "Stealth Battlesuit"
+            "Shas'vre"
         ],
     },
 ]
