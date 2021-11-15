@@ -91,6 +91,7 @@ operatives = [
         ],
         "fackey":"Hunter Cadre",
         "faction":"T'au",
+        "house":"",
         "keywords":[
             "Fire Warrior"
             "Shas'la"
@@ -188,6 +189,7 @@ operatives = [
         ],
         "fackey":"Hunter Cadre",
         "faction":"T'au",
+        "house":"",
         "keywords":[
             "Leader"
             "Fire Warrior"
@@ -221,7 +223,7 @@ operatives = [
                 ]
             },
         ],
-        "mweaps":{
+        "mweaps":[
             {   # Gun Butt
                 "wname":"Gun Butt",
                 "profiles":[
@@ -237,7 +239,7 @@ operatives = [
                     },
                 ]
             },
-        },
+        ],
         "abs":[
         ],
         "uacts":[
@@ -245,6 +247,7 @@ operatives = [
         ],
         "fackey":"Hunter Cadre",
         "faction":"T'au",
+        "house":"",
         "keywords":[
             "Pathfinder"
             "Shas'la"
@@ -308,7 +311,7 @@ operatives = [
                 ]
             },
         ],
-        "mweaps":{
+        "mweaps":[
             {   # Gun Butt
                 "wname":"Gun Butt",
                 "profiles":[
@@ -324,13 +327,14 @@ operatives = [
                     },
                 ]
             },
-        },
+        ],
         "abs":[
         ],
         "uacts":[
         ],
         "fackey":"Hunter Cadre",
         "faction":"T'au",
+        "house":"",
         "keywords":[
             "Pathfinder"
             "Heavy Gunner"
@@ -363,7 +367,7 @@ operatives = [
                 ]
             },
         ],
-        "mweaps":{
+        "mweaps":[
             {   # Gun Butt
                 "wname":"Gun Butt",
                 "profiles":[
@@ -379,7 +383,7 @@ operatives = [
                     },
                 ]
             },
-        },
+        ],
         "abs":[
         ],
         "uacts":[
@@ -387,6 +391,7 @@ operatives = [
         ],
         "fackey":"Hunter Cadre",
         "faction":"T'au",
+        "house":"",
         "keywords":[
             "Leader"
             "Pathfinder"
@@ -440,7 +445,7 @@ operatives = [
                 ]
             },
         ],
-        "mweaps":{
+        "mweaps":[
             {   # Fists
                 "wname":"Fists",
                 "profiles":[
@@ -456,7 +461,7 @@ operatives = [
                     },
                 ]
             },
-        },
+        ],
         "abs":[
             "Camouflage Field"
         ],
@@ -464,6 +469,7 @@ operatives = [
         ],
         "fackey":"Hunter Cadre",
         "faction":"T'au",
+        "house":"",
         "keywords":[
             "Fly"
             "Stealth Battlesuit"
@@ -517,7 +523,7 @@ operatives = [
                 ]
             },
         ],
-        "mweaps":{
+        "mweaps":[
             {   # Fists
                 "wname":"Fists",
                 "profiles":[
@@ -533,7 +539,7 @@ operatives = [
                     },
                 ]
             },
-        },
+        ],
         "abs":[
             "Camouflage Field"
         ],
@@ -541,11 +547,425 @@ operatives = [
         ],
         "fackey":"Hunter Cadre",
         "faction":"T'au",
+        "house":"",
         "keywords":[
             "Leader"
             "Fly"
             "Stealth Battlesuit"
             "Shas'vre"
+        ],
+    },
+    {   # MV1 Gun Drone
+        "opname":"MV1 Gun Drone",
+        "stats":{
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"1",
+            "def":"3",
+            "save":"4+",
+            "wounds":"7",
+        },
+        "rweaps":[
+            {   # Twin Pulse Carbine
+                "wname":"Twin Pulse Carbine",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"4",
+                        "bskill":"4+",
+                        "dmg":"4/5",
+                        "srule":[
+                            "Relentless"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Ram
+                "wname":"Ram",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"3",
+                        "wskill":"5+",
+                        "dmg":"2/3",
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Artificial Intelligence"
+            "Saviour Protocols"
+        ],
+        "uacts":[
+        ],
+        "fackey":"Hunter Cadre",
+        "faction":"T'au",
+        "house":"",
+        "keywords":[
+            "Drone"
+            "Fly"
+            "MV1 Gun Drone"
+        ],
+    },
+    {   # MV4 Shield Drone
+        "opname":"MV4 Shield Drone",
+        "stats":{
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"1",
+            "def":"3",
+            "save":"4+",
+            "wounds":"7",
+        },
+        "rweaps":[
+        ],
+        "mweaps":[
+            {   # Ram
+                "wname":"Ram",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"3",
+                        "wskill":"5+",
+                        "dmg":"2/3",
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Artificial Intelligence"
+            "Saviour Protocols"
+            "Shield Generator"
+        ],
+        "uacts":[
+        ],
+        "fackey":"Hunter Cadre",
+        "faction":"T'au",
+        "house":"",
+        "keywords":[
+            "Drone"
+            "Fly"
+            "MV4 Shield Drone"
+        ],
+    },
+    {   # MV36 Guardian Drone
+        "opname":"MV36 Guardian Drone",
+        "stats":{
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"1",
+            "def":"3",
+            "save":"4+",
+            "wounds":"7",
+        },
+        "rweaps":[
+        ],
+        "mweaps":[
+            {   # Ram
+                "wname":"Ram",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"3",
+                        "wskill":"5+",
+                        "dmg":"2/3",
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Artificial Intelligence"
+            "Saviour Protocols"
+            "Guardian Shield Generator"
+        ],
+        "uacts":[
+            "Guardian Field"
+        ],
+        "fackey":"Hunter Cadre",
+        "faction":"T'au",
+        "house":"",
+        "keywords":[
+            "Drone"
+            "Fly"
+            "MV36 Guardian Drone"
+        ],
+    },
+    {   # MV31 Pulse Accelerator Drone
+        "opname":"MV31 Pulse Accelerator Drone",
+        "stats":{
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"1",
+            "def":"3",
+            "save":"4+",
+            "wounds":"7",
+        },
+        "rweaps":[
+        ],
+        "mweaps":[
+            {   # Ram
+                "wname":"Ram",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"3",
+                        "wskill":"5+",
+                        "dmg":"2/3",
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Artificial Intelligence"
+            "Saviour Protocols"
+            "Pulse Accelerator"
+        ],
+        "uacts":[
+        ],
+        "fackey":"Hunter Cadre",
+        "faction":"T'au",
+        "house":"",
+        "keywords":[
+            "Drone"
+            "Fly"
+            "MV31 Pulse Accelerator Drone"
+        ],
+    },
+    {   # MV33 Grav-Inhibitor Drone
+        "opname":"MV33 Grav-Inhibitor Drone",
+        "stats":{
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"1",
+            "def":"3",
+            "save":"4+",
+            "wounds":"7",
+        },
+        "rweaps":[
+        ],
+        "mweaps":[
+            {   # Ram
+                "wname":"Ram",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"3",
+                        "wskill":"5+",
+                        "dmg":"2/3",
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Artificial Intelligence"
+            "Saviour Protocols"
+            "Grav-inhibitor"
+        ],
+        "uacts":[
+            "Grav-wave"
+        ],
+        "fackey":"Hunter Cadre",
+        "faction":"T'au",
+        "house":"",
+        "keywords":[
+            "Drone"
+            "Fly"
+            "MV33 Grav-Inhibitor Drone"
+        ],
+    },
+    {   # MV7 Marker Drone
+        "opname":"MV7 Marker Drone",
+        "stats":{
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"1",
+            "def":"3",
+            "save":"4+",
+            "wounds":"7",
+        },
+        "rweaps":[
+        ],
+        "mweaps":[
+            {   # Ram
+                "wname":"Ram",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"3",
+                        "wskill":"5+",
+                        "dmg":"2/3",
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Artificial Intelligence"
+            "Saviour Protocols"
+        ],
+        "uacts":[
+            "Markerlight"
+        ],
+        "fackey":"Hunter Cadre",
+        "faction":"T'au",
+        "house":"",
+        "keywords":[
+            "Drone"
+            "Fly"
+            "MV7 Marker Drone"
+        ],
+    },
+    {   # MB3 Recon Drone
+        "opname":"MB3 Recon Drone",
+        "stats":{
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"1",
+            "def":"4",
+            "save":"4+",
+            "wounds":"12",
+        },
+        "rweaps":[
+            {   # Burst Cannon
+                "wname":"Burst Cannon",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"6",
+                        "bskill":"4+",
+                        "dmg":"3/4",
+                        "srule":[
+                            "Heavy"
+                            "Ceaseless"
+                            "Fusillade"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Ram
+                "wname":"Ram",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"3",
+                        "wskill":"5+",
+                        "dmg":"2/3",
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Artificial Intelligence"
+            "Saviour Protocols"
+        ],
+        "uacts":[
+            "Analyse"
+        ],
+        "fackey":"Hunter Cadre",
+        "faction":"T'au",
+        "house":"",
+        "keywords":[
+            "Drone"
+            "Fly"
+            "MB3 Recon Drone"
+        ],
+    },
+    {   # DS8 Tactical Support Turret
+        "opname":"DS8 Tactical Support Turret",
+        "stats":{
+            "move":"",
+            "apl":"1",
+            "gpact":"1",
+            "def":"4",
+            "save":"4+",
+            "wounds":"9",
+        },
+        "rweaps":[
+            {   # Missile Pod
+                "wname":"Missile Pod",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"4",
+                        "bskill":"4+",
+                        "dmg":"5/7",
+                        "srule":[
+                            "Heavy"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Smart Missile System
+                "wname":"Smart Missile System",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"6",
+                        "bskill":"4+",
+                        "dmg":"3/4",
+                        "srule":[
+                            "Heavy"
+                            "Smart Targeting"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+        ],
+        "abs":[
+            "Artificial Intelligence"
+            "Saviour Protocols"
+            "Smart Targeting"
+            "Support Turret"
+        ],
+        "uacts":[
+        ],
+        "fackey":"Hunter Cadre",
+        "faction":"T'au",
+        "house":"",
+        "keywords":[
+            "Drone"
+            "DS8 Tactical Support Turret"
         ],
     },
 ]

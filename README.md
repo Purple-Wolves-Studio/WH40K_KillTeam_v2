@@ -1,5 +1,38 @@
 # WH40K_KillTeam_v2
 
+## v0.11.15.21
+
+### Project Files
+
+- Templates
+  - File converted to markdown
+  - Ability template created
+  - Unique Actions template created
+  - Melee Weapon template updated
+
+### Factions
+
+- Kroot
+  - New faction added
+  - Unit framework added
+
+- Tau Empire
+  - Unit data updated
+
+### Global
+
+- Abilities
+  - Global file created
+  - Framework added
+  - Tau Abilities added
+
+- Unique Actions
+  - Global file created
+  - Framework added
+  - Tau UAs added
+
+--------------------------------------------------------------------
+
 ## v0.11.12.21
 
 ### Project Files

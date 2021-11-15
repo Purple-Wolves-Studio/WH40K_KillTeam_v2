@@ -1,3 +1,11 @@
+# Templates
+
+## Faction Templates
+
+### Operative Template
+
+```py
+
 operatives = [
     {   # Unit Template
         "opname":"",
@@ -26,7 +34,7 @@ operatives = [
                 ]
             },
         ],
-        "mweaps":{
+        "mweaps":[
             {   # Weapon Template
                 "wname":"",
                 "profiles":[
@@ -42,14 +50,51 @@ operatives = [
                     },
                 ]
             },
-        },
+        ],
         "abs":[
         ],
         "uacts":[
         ],
         "fackey":"",
         "faction":"",
+        "house":"",
         "keywords":[
         ],
     },
 ]
+
+```
+
+--------------------------------------------------------------------
+
+## Global Templates
+
+### Ability Template
+
+```py
+
+abilities = [
+    {   # Ability Template
+        "abname":"",
+        "abtext":"""
+        """,
+    },
+]
+        
+
+```
+
+### Unique Action Template
+
+```py
+
+uacts = [
+    {   # Action Template
+        "actname":"",
+        "actcost":0,
+        "actext":"""
+        """,
+    },
+]
+
+```
