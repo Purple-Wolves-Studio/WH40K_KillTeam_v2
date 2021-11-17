@@ -1,5 +1,47 @@
 # WH40K_KillTeam_v2
 
+## v0.11.16.21
+
+### Project Files
+
+- Templates
+  - Ability template updated
+  - Unique Actions template updated
+  - Operative template updated
+
+### Factions
+
+- Grey Knights
+  - New faction added
+  - Operative framework added
+  - Operative data added
+
+- Kroot
+  - Operative data updated
+
+- T'au Empire
+  - Operative data updated
+
+### Global
+
+- Abilities
+  - No Grey Knights Abilities to add
+  - Kroot Abilities added
+  - T'au Empire Abilities updated
+
+- Crit Rules
+  - File created
+
+- Special Rules
+  - File created
+
+- Unique Actions
+  - Grey Knights UAs added
+  - No Kroot UAs to add
+  - T'au Empire UAs updated
+
+--------------------------------------------------------------------
+
 ## v0.11.15.21
 
 ### Project Files
@@ -14,22 +56,22 @@
 
 - Kroot
   - New faction added
-  - Unit framework added
+  - Operative framework added
 
-- Tau Empire
-  - Unit data updated
+- T'au Empire
+  - Operative data updated
 
 ### Global
 
 - Abilities
   - Global file created
   - Framework added
-  - Tau Abilities added
+  - T'au Empire Abilities added
 
 - Unique Actions
   - Global file created
   - Framework added
-  - Tau UAs added
+  - T'au Empire UAs added
 
 --------------------------------------------------------------------
 
@@ -40,12 +82,12 @@
 - New folder created
   - Notes migrated to folder
   - Templates migrated to folder
-    - Unit template updated
+    - Operative template updated
 
 ### Factions
 
-- Tau Empire
-  - Unit data updated
+- T'au Empire Empire
+  - Operative data updated
   - Need to add Drone data
 
 --------------------------------------------------------------------
@@ -55,13 +97,13 @@
 ### Templates
 
 - Weapon template created
-- Unit template created
+- Operative template created
   - Templates merged
 
 ### Factions
 
-- Tau Empire
-  - Unit data updated
+- T'au Empire Empire
+  - Operative data updated
 
 --------------------------------------------------------------------
 
@@ -69,11 +111,11 @@
 
 ### Project Notes
 
-- Acronyms listed in text file for ref
+- Acronyms listed in text file for reference
 
 ### Factions
 
-- Tau Empire folder created
-  - Unit framework created
+- T'au Empire Empire folder created
+  - Operative framework created
 
 --------------------------------------------------------------------

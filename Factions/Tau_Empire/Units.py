@@ -90,7 +90,9 @@ operatives = [
         "uacts":[
         ],
         "fackey":"Hunter Cadre",
-        "faction":"T'au",
+        "faction":[
+            "T'au Empire"
+        ],
         "house":"",
         "keywords":[
             "Fire Warrior"
@@ -188,7 +190,9 @@ operatives = [
         "uacts":[
         ],
         "fackey":"Hunter Cadre",
-        "faction":"T'au",
+        "faction":[
+            "T'au Empire"
+        ],
         "house":"",
         "keywords":[
             "Leader"
@@ -246,7 +250,9 @@ operatives = [
             "Markerlight"
         ],
         "fackey":"Hunter Cadre",
-        "faction":"T'au",
+        "faction":[
+            "T'au Empire"
+        ],
         "house":"",
         "keywords":[
             "Pathfinder"
@@ -333,7 +339,9 @@ operatives = [
         "uacts":[
         ],
         "fackey":"Hunter Cadre",
-        "faction":"T'au",
+        "faction":[
+            "T'au Empire"
+        ],
         "house":"",
         "keywords":[
             "Pathfinder"
@@ -390,7 +398,9 @@ operatives = [
             "Markerlight"
         ],
         "fackey":"Hunter Cadre",
-        "faction":"T'au",
+        "faction":[
+            "T'au Empire"
+        ],
         "house":"",
         "keywords":[
             "Leader"
@@ -468,7 +478,9 @@ operatives = [
         "uacts":[
         ],
         "fackey":"Hunter Cadre",
-        "faction":"T'au",
+        "faction":[
+            "T'au Empire"
+        ],
         "house":"",
         "keywords":[
             "Fly"
@@ -546,7 +558,9 @@ operatives = [
         "uacts":[
         ],
         "fackey":"Hunter Cadre",
-        "faction":"T'au",
+        "faction":[
+            "T'au Empire"
+        ],
         "house":"",
         "keywords":[
             "Leader"
@@ -607,7 +621,9 @@ operatives = [
         "uacts":[
         ],
         "fackey":"Hunter Cadre",
-        "faction":"T'au",
+        "faction":[
+            "T'au Empire"
+        ],
         "house":"",
         "keywords":[
             "Drone"
@@ -652,7 +668,9 @@ operatives = [
         "uacts":[
         ],
         "fackey":"Hunter Cadre",
-        "faction":"T'au",
+        "faction":[
+            "T'au Empire"
+        ],
         "house":"",
         "keywords":[
             "Drone"
@@ -698,7 +716,9 @@ operatives = [
             "Guardian Field"
         ],
         "fackey":"Hunter Cadre",
-        "faction":"T'au",
+        "faction":[
+            "T'au Empire"
+        ],
         "house":"",
         "keywords":[
             "Drone"
@@ -743,7 +763,9 @@ operatives = [
         "uacts":[
         ],
         "fackey":"Hunter Cadre",
-        "faction":"T'au",
+        "faction":[
+            "T'au Empire"
+        ],
         "house":"",
         "keywords":[
             "Drone"
@@ -789,7 +811,9 @@ operatives = [
             "Grav-wave"
         ],
         "fackey":"Hunter Cadre",
-        "faction":"T'au",
+        "faction":[
+            "T'au Empire"
+        ],
         "house":"",
         "keywords":[
             "Drone"
@@ -834,7 +858,9 @@ operatives = [
             "Markerlight"
         ],
         "fackey":"Hunter Cadre",
-        "faction":"T'au",
+        "faction":[
+            "T'au Empire"
+        ],
         "house":"",
         "keywords":[
             "Drone"
@@ -897,7 +923,9 @@ operatives = [
             "Analyse"
         ],
         "fackey":"Hunter Cadre",
-        "faction":"T'au",
+        "faction":[
+            "T'au Empire"
+        ],
         "house":"",
         "keywords":[
             "Drone"
@@ -961,7 +989,9 @@ operatives = [
         "uacts":[
         ],
         "fackey":"Hunter Cadre",
-        "faction":"T'au",
+        "faction":[
+            "T'au Empire"
+        ],
         "house":"",
         "keywords":[
             "Drone"

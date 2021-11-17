@@ -56,7 +56,8 @@ operatives = [
         "uacts":[
         ],
         "fackey":"",
-        "faction":"",
+        "faction":[
+        ],
         "house":"",
         "keywords":[
         ],
@@ -76,8 +77,7 @@ operatives = [
 abilities = [
     {   # Ability Template
         "abname":"",
-        "abtext":"""
-        """,
+        "abtext":"",
     },
 ]
         
@@ -92,8 +92,7 @@ uacts = [
     {   # Action Template
         "actname":"",
         "actcost":0,
-        "actext":"""
-        """,
+        "actext":"",
     },
 ]
 
