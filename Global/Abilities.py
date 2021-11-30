@@ -15,6 +15,10 @@ abilities = [
         "abname":"Hunting Beast",
         "abtext":"This operative cannot perform mission actions and cannot be equipped with equipment.",
     },
+    {   # Icon Bearer
+        "abname":"Icon Bearer",
+        "abtext":"When determining control of an objective marker, treat this operative's APL characteristic as being 1 higher. Note that this is not a modifier. In narrative play, this is cumulative with the Focused Battle Honour.",
+    },
     {   # Masters of Camouflage
         "abname":"Masters of Camouflage",
         "abtext":"While this operative is in Cover, it has a Save characteristic of 4+.",

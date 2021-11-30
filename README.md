@@ -1,5 +1,24 @@
 # WH40K_KillTeam_v2
 
+## v0.11.30.21
+
+### Factions
+
+- Genestealer Cults
+  - New faction added
+  - Operative framework added
+  - Operative data added
+
+### Global
+
+- Abilities
+  - Genestealer Cults abilities added
+
+- Unique Actions
+  - Genestealer Cults UAs added
+
+--------------------------------------------------------------------
+
 ## v0.11.16.21
 
 ### Project Files
