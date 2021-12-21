@@ -7,9 +7,17 @@ abilities = [
         "abname":"Camouflage Field",
         "abtext":"Each time an enemy operative makes a shooting attack, unless it is within 2\" of this operative or it is a subsequent attack made as a result of the Blast special rule, this operative is always treated as being in Cover for that shooting attack. While this operative has a Conceal order, it is always treated as having a Conceal order, regardless of any other rules (e.g. Vantage Point).",
     },
+    {   # Flip Belt
+        "abname":"Flip Belt",
+        "abtext":"Each time this operative performs an action in which it moves, it moves as though it can Fly and automatically passes jump tests.",
+    },
     {   # Grav-inhibitor
         "abname":"Grav-inhibitor",
         "abtext":"Each time an enemy operative performs a Charge action, if it would move within 6\" of this operative, only add 1\" to the additional distance it can move, instead of 2\". Each time an enemy operative performs a Dash action, if it would move within 6\" of this operative, it can only move up to 2\", instead of up to 3\".",
+    },
+    {   # Holo-suit
+        "abname":"Holo-suit",
+        "abtext":"This operative has a 4+ invulnerable save.",
     },
     {   # Hunting Beast
         "abname":"Hunting Beast",
@@ -18,6 +26,10 @@ abilities = [
     {   # Icon Bearer
         "abname":"Icon Bearer",
         "abtext":"When determining control of an objective marker, treat this operative's APL characteristic as being 1 higher. Note that this is not a modifier. In narrative play, this is cumulative with the Focused Battle Honour.",
+    },
+    {   # Lash Whip
+        "abname":"Lash Whip",
+        "abtext":"While an enemy operative is within Engagement Range of friendly operatives equipped with this weapon, subtract 1 from that enemy operative's Attacks characteristics.",
     },
     {   # Masters of Camouflage
         "abname":"Masters of Camouflage",
@@ -39,8 +51,16 @@ abilities = [
         "abname":"Smart Targeting",
         "abtext":"Each time this operative makes a shooting attack with this weapon, you can use this special rule. If you do so, for that shooting attack:\n\nEnemy operatives with an Engage order that are not within Engagement Range of friendly operatives are valid targets and cannot be in Cover.\n\nIn the Roll Attack Dice step of that shooting attack, attack dice results of 6 are successful normal hits. All other attack dice results are failed hits.",
     },
+    {   # Storm Shield
+        "abname":"Storm Shield",
+        "abtext":"If this operative is equipped with a Storm Shield, it has a 4+ invulnerable save. Each time it fights in combat, in the Resolve Successful Hits step of that combat, each time it parries, two of your opponent's successful hits are discarded (instead of one).",
+    },
     {   # Support Turret
         "abname":"Support Turret",
         "abtext":"This operative cannot have a Conceal order and can only perform Shoot and Overwatch actions. It cannot fight in combat (do not select a weapon or roll any attack dice for it) a n d cannot provide combat support.",
+    },
+    {   # The Emperor's Chosen
+        "abname":"The Emperor's Chosen",
+        "abtext":"Other than the effects of Battle Scars, this operative cannot be injured. You can ignore any or all modifiers to this operative's APL and it is not affected by the Stun critical hit rule.",
     },
 ]

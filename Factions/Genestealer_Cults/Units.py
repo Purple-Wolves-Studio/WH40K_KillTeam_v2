@@ -595,26 +595,28 @@ operatives = [
             "Trooper"
         ],
     },
-    {   # Unit Template
-        "opname":"",
+    {   # Acolyte Hybrid [Gunner]
+        "opname":"Acolyte Hybrid [Gunner]",
         "stats":{
-            "move":"",
-            "apl":"",
-            "gpact":"",
-            "def":"",
-            "save":"",
-            "wounds":"",
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"1",
+            "def":"3",
+            "save":"5+",
+            "wounds":"8",
         },
         "rweaps":[
-            {   # Weapon Template
-                "wname":"",
+            {   # Hand Flamer
+                "wname":"Hand Flamer",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "bskill":"",
-                        "dmg":"",
+                        "atts":"4",
+                        "bskill":"2+",
+                        "dmg":"2/2",
                         "srule":[
+                            "Range 6\""
+                            "Torrent 1\""
                         ],
                         "crits":[
                         ],
@@ -623,17 +625,19 @@ operatives = [
             },
         ],
         "mweaps":[
-            {   # Weapon Template
-                "wname":"",
+            {   # Cult Knife & Claw
+                "wname":"Cult Knife & Claw",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "wskill":"",
-                        "dmg":"",
+                        "atts":"4",
+                        "wskill":"3+",
+                        "dmg":"4/5",
                         "srule":[
+                            "Balanced"
                         ],
                         "crits":[
+                            "Rending"
                         ],
                     },
                 ]
@@ -643,33 +647,37 @@ operatives = [
         ],
         "uacts":[
         ],
-        "fackey":"",
+        "fackey":"Brood Coven",
         "faction":[
+            "Genestealer Cults"
         ],
         "house":"",
         "keywords":[
+            "Acolyte Hybrid"
+            "Gunner"
         ],
     },
-    {   # Unit Template
-        "opname":"",
+    {   # Acolyte Hybrid [Fighter]
+        "opname":"Acolyte Hybrid [Fighter]",
         "stats":{
-            "move":"",
-            "apl":"",
-            "gpact":"",
-            "def":"",
-            "save":"",
-            "wounds":"",
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"1",
+            "def":"3",
+            "save":"5+",
+            "wounds":"8",
         },
         "rweaps":[
-            {   # Weapon Template
-                "wname":"",
+            {   # Autopistol
+                "wname":"Autopistol",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "bskill":"",
-                        "dmg":"",
+                        "atts":"4",
+                        "bskill":"4+",
+                        "dmg":"2/3",
                         "srule":[
+                            "Range 6\""
                         ],
                         "crits":[
                         ],
@@ -678,14 +686,46 @@ operatives = [
             },
         ],
         "mweaps":[
-            {   # Weapon Template
-                "wname":"",
+            {   # Heavy Rock Cutter
+                "wname":"Heavy Rock Cutter",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "wskill":"",
-                        "dmg":"",
+                        "atts":"4",
+                        "wskill":"4+",
+                        "dmg":"5/7",
+                        "srule":[
+                            "Lethal 5+"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Heavy Rock Drill
+                "wname":"Heavy Rock Drill",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"4",
+                        "wskill":"3+",
+                        "dmg":"4/7",
+                        "srule":[
+                            "Brutal"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Heavy Rock Saw
+                "wname":"Heavy Rock Saw",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"4",
+                        "wskill":"3+",
+                        "dmg":"5/6",
                         "srule":[
                         ],
                         "crits":[
@@ -698,33 +738,37 @@ operatives = [
         ],
         "uacts":[
         ],
-        "fackey":"",
+        "fackey":"Brood Coven",
         "faction":[
+            "Genestealer Cults"
         ],
         "house":"",
         "keywords":[
+            "Acolyte Hybrid"
+            "Fighter"
         ],
     },
-    {   # Unit Template
-        "opname":"",
+    {   # Acolyte Hybrid [Icon Bearer]
+        "opname":"Acolyte Hybrid [Icon Bearer]",
         "stats":{
-            "move":"",
-            "apl":"",
-            "gpact":"",
-            "def":"",
-            "save":"",
-            "wounds":"",
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"1",
+            "def":"3",
+            "save":"5+",
+            "wounds":"8",
         },
         "rweaps":[
-            {   # Weapon Template
-                "wname":"",
+            {   # Autopistol
+                "wname":"Autopistol",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "bskill":"",
-                        "dmg":"",
+                        "atts":"4",
+                        "bskill":"4+",
+                        "dmg":"2/3",
                         "srule":[
+                            "Range 6\""
                         ],
                         "crits":[
                         ],
@@ -733,108 +777,174 @@ operatives = [
             },
         ],
         "mweaps":[
-            {   # Weapon Template
-                "wname":"",
+            {   # Cult Knife & Claw
+                "wname":"Cult Knife & Claw",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "wskill":"",
-                        "dmg":"",
+                        "atts":"4",
+                        "wskill":"3+",
+                        "dmg":"4/5",
                         "srule":[
+                            "Balanced"
                         ],
                         "crits":[
+                            "Rending"
                         ],
                     },
                 ]
             },
         ],
         "abs":[
+            "Icon Bearer"
         ],
         "uacts":[
+            "Cult Icon"
         ],
-        "fackey":"",
+        "fackey":"Brood Coven",
         "faction":[
+            "Genestealer Cults"
         ],
         "house":"",
         "keywords":[
+            "Acolyte Hybrid"
+            "Icon Bearer"
         ],
     },
-    {   # Unit Template
-        "opname":"",
+    {   # Acolyte Hybrid [Leader]
+        "opname":"Acolyte Hybrid [Leader]",
         "stats":{
-            "move":"",
-            "apl":"",
-            "gpact":"",
-            "def":"",
-            "save":"",
-            "wounds":"",
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"1",
+            "def":"3",
+            "save":"5+",
+            "wounds":"9",
         },
         "rweaps":[
-            {   # Weapon Template
-                "wname":"",
+            {   # Autopistol
+                "wname":"Autopistol",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "bskill":"",
-                        "dmg":"",
+                        "atts":"4",
+                        "bskill":"3+",
+                        "dmg":"2/3",
                         "srule":[
+                            "Range 6\""
                         ],
                         "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Hand Flamer
+                "wname":"Hand Flamer",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"4",
+                        "bskill":"2+",
+                        "dmg":"2/2",
+                        "srule":[
+                            "Range 6\""
+                            "Torrent 1\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Lash Whip
+                "wname":"Lash Whip",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"4",
+                        "bskill":"2+",
+                        "dmg":"3/4",
+                        "srule":[
+                            "Range 2\""
+                        ],
+                        "crits":[
+                            "Stun"
                         ],
                     },
                 ]
             },
         ],
         "mweaps":[
-            {   # Weapon Template
-                "wname":"",
+            {   # Cult Bonesword & Claw
+                "wname":"Cult Bonesword & Claw",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "wskill":"",
-                        "dmg":"",
+                        "atts":"4",
+                        "wskill":"2+",
+                        "dmg":"4/6",
                         "srule":[
+                            "Balanced"
+                            "Lethal 5+"
                         ],
                         "crits":[
                         ],
                     },
                 ]
             },
+            {   # Cult Knife & Claw
+                "wname":"Cult Knife & Claw",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"4",
+                        "wskill":"2+",
+                        "dmg":"4/5",
+                        "srule":[
+                            "Balanced"
+                        ],
+                        "crits":[
+                            "Rending"
+                        ],
+                    },
+                ]
+            },
         ],
         "abs":[
+            "Lash Whip"
         ],
         "uacts":[
         ],
-        "fackey":"",
+        "fackey":"Brood Coven",
         "faction":[
+            "Genestealer Cults"
         ],
         "house":"",
         "keywords":[
+            "Acolyte Hybrid"
+            "Leader"
         ],
     },
-    {   # Unit Template
-        "opname":"",
+    {   # Hybrid Metamorph [Fighter]
+        "opname":"Hybrid Metamorph [Fighter]",
         "stats":{
-            "move":"",
-            "apl":"",
-            "gpact":"",
-            "def":"",
-            "save":"",
-            "wounds":"",
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"1",
+            "def":"3",
+            "save":"5+",
+            "wounds":"8",
         },
         "rweaps":[
-            {   # Weapon Template
-                "wname":"",
+            {   # Autopistol
+                "wname":"Autopistol",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "bskill":"",
-                        "dmg":"",
+                        "atts":"4",
+                        "bskill":"4+",
+                        "dmg":"2/3",
                         "srule":[
+                            "Range 6\""
                         ],
                         "crits":[
                         ],
@@ -843,17 +953,20 @@ operatives = [
             },
         ],
         "mweaps":[
-            {   # Weapon Template
-                "wname":"",
+            {   # Metamorph Mutations
+                "wname":"Metamorph Mutations",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "wskill":"",
-                        "dmg":"",
+                        "atts":"4",
+                        "wskill":"3+",
+                        "dmg":"4/6",
                         "srule":[
+                            "Balanced"
+                            "Brutal"
                         ],
                         "crits":[
+                            "Rending"
                         ],
                     },
                 ]
@@ -863,33 +976,38 @@ operatives = [
         ],
         "uacts":[
         ],
-        "fackey":"",
+        "fackey":"Brood Coven",
         "faction":[
+            "Genestealer Cults"
         ],
         "house":"",
         "keywords":[
+            "Hybrid Metamorph"
+            "Fighter"
         ],
     },
-    {   # Unit Template
-        "opname":"",
+    {   # Hybrid Metamorph [Gunner]
+        "opname":"Hybrid Metamorph [Gunner]",
         "stats":{
-            "move":"",
-            "apl":"",
-            "gpact":"",
-            "def":"",
-            "save":"",
-            "wounds":"",
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"1",
+            "def":"3",
+            "save":"5+",
+            "wounds":"8",
         },
         "rweaps":[
-            {   # Weapon Template
-                "wname":"",
+            {   # Hand Flamer
+                "wname":"Hand Flamer",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "bskill":"",
-                        "dmg":"",
+                        "atts":"4",
+                        "bskill":"2+",
+                        "dmg":"2/2",
                         "srule":[
+                            "Range 6\""
+                            "Torrent 1\""
                         ],
                         "crits":[
                         ],
@@ -898,17 +1016,20 @@ operatives = [
             },
         ],
         "mweaps":[
-            {   # Weapon Template
-                "wname":"",
+            {   # Metamorph Mutations
+                "wname":"Metamorph Mutations",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "wskill":"",
-                        "dmg":"",
+                        "atts":"4",
+                        "wskill":"3+",
+                        "dmg":"4/6",
                         "srule":[
+                            "Balanced"
+                            "Brutal"
                         ],
                         "crits":[
+                            "Rending"
                         ],
                     },
                 ]
@@ -918,33 +1039,37 @@ operatives = [
         ],
         "uacts":[
         ],
-        "fackey":"",
+        "fackey":"Brood Coven",
         "faction":[
+            "Genestealer Cults"
         ],
         "house":"",
         "keywords":[
+            "Hybrid Metamorph"
+            "Gunner"
         ],
     },
-    {   # Unit Template
-        "opname":"",
+    {   # Hybrid Metamorph [Icon Bearer]
+        "opname":"Hybrid Metamorph [Icon Bearer]",
         "stats":{
-            "move":"",
-            "apl":"",
-            "gpact":"",
-            "def":"",
-            "save":"",
-            "wounds":"",
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"1",
+            "def":"3",
+            "save":"5+",
+            "wounds":"8",
         },
         "rweaps":[
-            {   # Weapon Template
-                "wname":"",
+            {   # Autopistol
+                "wname":"Autopistol",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "bskill":"",
-                        "dmg":"",
+                        "atts":"4",
+                        "bskill":"4+",
+                        "dmg":"2/3",
                         "srule":[
+                            "Range 6\""
                         ],
                         "crits":[
                         ],
@@ -953,53 +1078,79 @@ operatives = [
             },
         ],
         "mweaps":[
-            {   # Weapon Template
-                "wname":"",
+            {   # Metamorph Mutations
+                "wname":"Metamorph Mutations",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "wskill":"",
-                        "dmg":"",
+                        "atts":"4",
+                        "wskill":"3+",
+                        "dmg":"4/6",
                         "srule":[
+                            "Balanced"
+                            "Brutal"
                         ],
                         "crits":[
+                            "Rending"
                         ],
                     },
                 ]
             },
         ],
         "abs":[
+            "Icon Bearer"
         ],
         "uacts":[
+            "Cult Icon"
         ],
-        "fackey":"",
+        "fackey":"Brood Coven",
         "faction":[
+            "Genestealer Cults"
         ],
         "house":"",
         "keywords":[
+            "Hybrid Metamorph"
+            "Icon Bearer"
         ],
     },
-    {   # Unit Template
-        "opname":"",
+    {   # Hybrid Metamorph [Leader]
+        "opname":"Hybrid Metamorph [Leader]",
         "stats":{
-            "move":"",
-            "apl":"",
-            "gpact":"",
-            "def":"",
-            "save":"",
-            "wounds":"",
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"1",
+            "def":"3",
+            "save":"5+",
+            "wounds":"9",
         },
         "rweaps":[
-            {   # Weapon Template
-                "wname":"",
+            {   # Autopistol
+                "wname":"Autopistol",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "bskill":"",
-                        "dmg":"",
+                        "atts":"4",
+                        "bskill":"3+",
+                        "dmg":"2/3",
                         "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Hand Flamer
+                "wname":"Hand Flamer",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"4",
+                        "bskill":"2+",
+                        "dmg":"2/2",
+                        "srule":[
+                            "Range 6\""
+                            "Torrent 1\""
                         ],
                         "crits":[
                         ],
@@ -1008,17 +1159,38 @@ operatives = [
             },
         ],
         "mweaps":[
-            {   # Weapon Template
-                "wname":"",
+            {   # Cult Bonesword & Metamorph Mutations
+                "wname":"Cult Bonesword & Metamorph Mutations",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "wskill":"",
-                        "dmg":"",
+                        "atts":"4",
+                        "wskill":"2+",
+                        "dmg":"4/6",
                         "srule":[
+                            "Balanced"
+                            "Lethal 5+"
                         ],
                         "crits":[
+                            "Rending"
+                        ],
+                    },
+                ]
+            },
+            {   # Metamorph Mutations
+                "wname":"Metamorph Mutations",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"4",
+                        "wskill":"2+",
+                        "dmg":"4/6",
+                        "srule":[
+                            "Balanced"
+                            "Brutal"
+                        ],
+                        "crits":[
+                            "Rending"
                         ],
                     },
                 ]
@@ -1028,11 +1200,14 @@ operatives = [
         ],
         "uacts":[
         ],
-        "fackey":"",
+        "fackey":"Brood Coven",
         "faction":[
+            "Genestealer Cults"
         ],
         "house":"",
         "keywords":[
+            "Hybrid Metamorph"
+            "Leader"
         ],
     },
 ]

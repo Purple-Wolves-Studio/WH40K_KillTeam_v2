@@ -1,5 +1,31 @@
 # WH40K_KillTeam_v2
 
+## v0.12.21.21
+
+### Factions
+
+- Adeptus Custodes
+  - New faction added
+  - Operative framework added
+  - Operative data added
+
+- Genestealer Cults
+  - Operative data updated
+
+- Harlequins
+  - New faction added
+  - Operative framework added
+  - Operative data added
+
+### Global
+
+- Abilities
+  - Adeptus Custodes abilities added
+  - Genestealer Cults ability added
+  - Harlequins abilities added
+
+--------------------------------------------------------------------
+
 ## v0.11.30.21
 
 ### Factions
