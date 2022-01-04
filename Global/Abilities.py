@@ -35,6 +35,10 @@ abilities = [
         "abname":"Masters of Camouflage",
         "abtext":"While this operative is in Cover, it has a Save characteristic of 4+.",
     },
+    {   # Psychic Abomination
+        "abname":"Psychic Abomination",
+        "abtext":"While an operative is within 6\" of an Anathema Psykana operative, it cannot perform psychic actions. Sister of Silence operatives cannot be targeted or affected by psychic actions.",
+    },
     {   # Pulse Accelerator
         "abname":"Pulse Accelerator",
         "abtext":"While a friendly Hunter Cadre operative is within 3\" of this operative, pulse weapons that friendly operative is equipped with are accelerated. While a pulse weapon is accelerated, each time a shooting attack is made with it, in the Roll Attack Dice step of that shooting attack, before rolling your attack dice, you can retain one as a successful normal hit without rolling it. A pulse weapon is a ranged weapon that includes the word 'pulse' in its name, e.g. pulse carbine.",

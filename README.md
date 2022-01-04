@@ -1,5 +1,19 @@
 # WH40K_KillTeam_v2
 
+## v0.1.04.22
+
+### Factions
+
+- Adeptus Custodes renamed Talons of the Emperor
+  - Talons of the Emperor ability added
+  - Talons of the Emperor units updated
+- Genestealer Cults renamed Brood Coven
+- Harlequins renamed Troupe
+- Kroot renamed Cadre Mercenary
+- T'au Empire Empire renamed Hunter Cadre
+
+--------------------------------------------------------------------
+
 ## v0.12.21.21
 
 ### Factions

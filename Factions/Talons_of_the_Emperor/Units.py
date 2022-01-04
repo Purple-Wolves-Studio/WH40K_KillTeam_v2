@@ -191,25 +191,25 @@ operatives = [
             "Leader"
         ],
     },
-    {   # Unit Template
-        "opname":"",
+    {   # Sister of Silence Prosecutor
+        "opname":"Sister of Silence Prosecutor",
         "stats":{
-            "move":"",
-            "apl":"",
-            "gpact":"",
-            "def":"",
-            "save":"",
-            "wounds":"",
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"1",
+            "def":"3",
+            "save":"3+",
+            "wounds":"8",
         },
         "rweaps":[
-            {   # Weapon Template
-                "wname":"",
+            {   # Boltgun
+                "wname":"Boltgun",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "bskill":"",
-                        "dmg":"",
+                        "atts":"4",
+                        "bskill":"3+",
+                        "dmg":"3/4",
                         "srule":[
                         ],
                         "crits":[
@@ -219,14 +219,14 @@ operatives = [
             },
         ],
         "mweaps":[
-            {   # Weapon Template
-                "wname":"",
+            {   # Gun Butt
+                "wname":"Gun Butt",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "wskill":"",
-                        "dmg":"",
+                        "atts":"4",
+                        "wskill":"3+",
+                        "dmg":"2/3",
                         "srule":[
                         ],
                         "crits":[
@@ -236,36 +236,43 @@ operatives = [
             },
         ],
         "abs":[
+            "Psychic Abomination"
         ],
         "uacts":[
         ],
-        "fackey":"",
+        "fackey":"Talons of the Emperor",
         "faction":[
+            "Imperium"
+            "Anathema Psykana"
         ],
         "house":"",
         "keywords":[
+            "Sister of Silence"
+            "Prosecutor"
         ],
     },
-    {   # Unit Template
-        "opname":"",
+    {   # Sister of Silence Witchseeker
+        "opname":"Sister of Silence Witchseeker",
         "stats":{
-            "move":"",
-            "apl":"",
-            "gpact":"",
-            "def":"",
-            "save":"",
-            "wounds":"",
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"1",
+            "def":"3",
+            "save":"3+",
+            "wounds":"8",
         },
         "rweaps":[
-            {   # Weapon Template
-                "wname":"",
+            {   # Flamer
+                "wname":"Flamer",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "bskill":"",
-                        "dmg":"",
+                        "atts":"5",
+                        "bskill":"2+",
+                        "dmg":"2/2",
                         "srule":[
+                            "Range 6\""
+                            "Torrent 2\""
                         ],
                         "crits":[
                         ],
@@ -274,14 +281,14 @@ operatives = [
             },
         ],
         "mweaps":[
-            {   # Weapon Template
-                "wname":"",
+            {   # Gun Butt
+                "wname":"Gun Butt",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "wskill":"",
-                        "dmg":"",
+                        "atts":"4",
+                        "wskill":"3+",
+                        "dmg":"2/3",
                         "srule":[
                         ],
                         "crits":[
@@ -291,53 +298,44 @@ operatives = [
             },
         ],
         "abs":[
+            "Psychic Abomination"
         ],
         "uacts":[
         ],
-        "fackey":"",
+        "fackey":"Talons of the Emperor",
         "faction":[
+            "Imperium"
+            "Anathema Psykana"
         ],
         "house":"",
         "keywords":[
+            "Sister of Silence"
+            "Witchseeker"
         ],
     },
-    {   # Unit Template
-        "opname":"",
+    {   # Sister of Silence Vigilator
+        "opname":"Sister of Silence Vigilator",
         "stats":{
-            "move":"",
-            "apl":"",
-            "gpact":"",
-            "def":"",
-            "save":"",
-            "wounds":"",
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"1",
+            "def":"3",
+            "save":"3+",
+            "wounds":"8",
         },
         "rweaps":[
-            {   # Weapon Template
-                "wname":"",
-                "profiles":[
-                    {
-                        "pname":"",
-                        "atts":"",
-                        "bskill":"",
-                        "dmg":"",
-                        "srule":[
-                        ],
-                        "crits":[
-                        ],
-                    },
-                ]
-            },
         ],
         "mweaps":[
-            {   # Weapon Template
-                "wname":"",
+            {   # Executioner Greatblade
+                "wname":"Executioner Greatblade",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "wskill":"",
-                        "dmg":"",
+                        "atts":"4",
+                        "wskill":"3+",
+                        "dmg":"4/6",
                         "srule":[
+                            "Lethal 5+"
                         ],
                         "crits":[
                         ],
@@ -346,36 +344,58 @@ operatives = [
             },
         ],
         "abs":[
+            "Psychic Abomination"
         ],
         "uacts":[
         ],
-        "fackey":"",
+        "fackey":"Talons of the Emperor",
         "faction":[
+            "Imperium"
+            "Anathema Psykana"
         ],
         "house":"",
         "keywords":[
+            "Sister of Silence"
+            "Vigilator"
         ],
     },
-    {   # Unit Template
-        "opname":"",
+    {   # Sister of Silence Superior
+        "opname":"Sister of Silence Superior",
         "stats":{
-            "move":"",
-            "apl":"",
-            "gpact":"",
-            "def":"",
-            "save":"",
-            "wounds":"",
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"1",
+            "def":"3",
+            "save":"3+",
+            "wounds":"9",
         },
         "rweaps":[
-            {   # Weapon Template
-                "wname":"",
+            {   # Boltgun
+                "wname":"Boltgun",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "bskill":"",
-                        "dmg":"",
+                        "atts":"4",
+                        "bskill":"2+",
+                        "dmg":"3/4",
                         "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Flamer
+                "wname":"Flamer",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"5",
+                        "bskill":"2+",
+                        "dmg":"2/2",
+                        "srule":[
+                            "Range 6\""
+                            "Torrent 2\""
                         ],
                         "crits":[
                         ],
@@ -384,14 +404,30 @@ operatives = [
             },
         ],
         "mweaps":[
-            {   # Weapon Template
-                "wname":"",
+            {   # Executioner Greatblade
+                "wname":"Executioner Greatblade",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "wskill":"",
-                        "dmg":"",
+                        "atts":"4",
+                        "wskill":"2+",
+                        "dmg":"4/6",
+                        "srule":[
+                            "Lethal 5+"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Gun Butt
+                "wname":"Gun Butt",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"4",
+                        "wskill":"2+",
+                        "dmg":"2/3",
                         "srule":[
                         ],
                         "crits":[
@@ -401,14 +437,20 @@ operatives = [
             },
         ],
         "abs":[
+            "Psychic Abomination"
         ],
         "uacts":[
         ],
-        "fackey":"",
+        "fackey":"Talons of the Emperor",
         "faction":[
+            "Imperium"
+            "Anathema Psykana"
         ],
         "house":"",
         "keywords":[
+            "Sister of Silence"
+            "Superior"
+            "Leader"
         ],
     },
 ]
