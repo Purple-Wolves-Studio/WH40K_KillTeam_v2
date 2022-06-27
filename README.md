@@ -1,5 +1,21 @@
 # WH40K_KillTeam_v2
 
+## v0.6.27.22
+
+### General Updates
+
+- Typos
+  - Removed typo from previous update notes
+
+### Factions
+
+- Craftworld
+  - New faction added
+  - Framework added
+  - Addition of unit data started
+
+--------------------------------------------------------------------
+
 ## v0.1.04.22
 
 ### Factions
@@ -10,7 +26,7 @@
 - Genestealer Cults renamed Brood Coven
 - Harlequins renamed Troupe
 - Kroot renamed Cadre Mercenary
-- T'au Empire Empire renamed Hunter Cadre
+- T'au Empire renamed Hunter Cadre
 
 --------------------------------------------------------------------
 
