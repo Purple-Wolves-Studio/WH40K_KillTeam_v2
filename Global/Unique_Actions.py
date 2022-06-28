@@ -4,6 +4,11 @@ uacts = [
         "actcost":1,
         "actext":"Select one enemy operative Visible to this operative, then select one other ready friendly Hunter Cadre operative that is not within Engagement Range of enemy operatives. After this operative's activation ends, you can activate that other friendly operative, and during its next activation, each time it makes a shooting attack against that enemy operative, in the Roll Attack Dice step of that shooting attack, you can re-roll any or all of your attack dice. This operative cannot perform this action while within Engagement Range of enemy operatives.",
     },
+    {   # Control Platform
+        "actname":"Control Platform",
+        "actcost":1,
+        "actext":"Select one ready friendly Guardian Defender Heavy Weapon Platform operative within 3\" of this operative. Perform a free Normal Move, Fall Back or Shoot action with that operative, then change its order token to activated. This operative can not perform this action while within Engagement Range of enemy operatives.",
+    },
     {   # Cult Icon
         "actname":"Cult Icon",
         "actcost":1,
