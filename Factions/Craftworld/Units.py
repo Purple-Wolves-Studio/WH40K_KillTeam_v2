@@ -15,12 +15,13 @@ operatives = [
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "bskill":"",
-                        "dmg":"",
+                        "atts":"4",
+                        "bskill":"3+",
+                        "dmg":"3/4",
                         "srule":[
                         ],
                         "crits":[
+                            "Rending"
                         ],
                     },
                 ]
@@ -32,9 +33,9 @@ operatives = [
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "wskill":"",
-                        "dmg":"",
+                        "atts":"3",
+                        "wskill":"3+",
+                        "dmg":"2/3",
                         "srule":[
                         ],
                         "crits":[
@@ -47,11 +48,76 @@ operatives = [
         ],
         "uacts":[
         ],
-        "fackey":"",
+        "fackey":"Craftworld",
         "faction":[
+            "Aeldari"
+            "Asuryani"
         ],
         "house":"",
         "keywords":[
+            "Guardian Defender"
+            "Warrior"
+        ],
+    },
+    {   # Guardian Defender [Heavy Gunner]
+        "opname":"Guardian Defender [Heavy Gunner]",
+        "stats":{
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"1",
+            "def":"3",
+            "save":"4+",
+            "wounds":"8",
+        },
+        "rweaps":[
+            {   # Shuriken Catapult
+                "wname":"Shuriken Catapult",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"4",
+                        "bskill":"3+",
+                        "dmg":"3/4",
+                        "srule":[
+                        ],
+                        "crits":[
+                            "Rending"
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"3",
+                        "wskill":"3+",
+                        "dmg":"2/3",
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+            "Control Platform"
+        ],
+        "fackey":"Craftworld",
+        "faction":[
+            "Aeldari"
+            "Asuryani"
+        ],
+        "house":"",
+        "keywords":[
+            "Guardian Defender"
+            "Heavy Gunner"
         ],
     },
     {   # Unit Template
