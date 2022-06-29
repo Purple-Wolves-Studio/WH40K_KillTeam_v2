@@ -1,22 +1,18 @@
 # WH40K_KillTeam_v2
 
-## v0.06.28.2022
-
-### General Updates
-
-- Update Names
-  - Increased month to double digits regardless
-  - Increased year to quadruple digit
+## v0.06.29.2022
 
 ### Factions
 
 - Craftworld
-  - Unit data updated
+  - Guardian Defender Heavy Weapon Platform data added
+  - Guardian Defender Leader data added
 
 ### Global
 
-- Unique Actions
-  - Control Platform data added
+- Abilities
+  - Platform Controller data added
+  - Gun Platform data added
 
 --------------------------------------------------------------------
 

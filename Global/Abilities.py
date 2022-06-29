@@ -15,6 +15,10 @@ abilities = [
         "abname":"Grav-inhibitor",
         "abtext":"Each time an enemy operative performs a Charge action, if it would move within 6\" of this operative, only add 1\" to the additional distance it can move, instead of 2\". Each time an enemy operative performs a Dash action, if it would move within 6\" of this operative, it can only move up to 2\", instead of up to 3\".",
     },
+    {   # Gun Platform
+        "abname":"Gun Platform",
+        "abtext":"This operative cannot have a Conceal order. It cannot fight in combat (do not select a weapon or roll any attack dice for it) and cannot provide combat support. In narrative play, this operative cannot gain (or lose) experience points. When drawing a Visibility line from this operative, draw it from any part of the miniature.",
+    },
     {   # Holo-suit
         "abname":"Holo-suit",
         "abtext":"This operative has a 4+ invulnerable save.",
@@ -34,6 +38,10 @@ abilities = [
     {   # Masters of Camouflage
         "abname":"Masters of Camouflage",
         "abtext":"While this operative is in Cover, it has a Save characteristic of 4+.",
+    },
+    {   # Platform Controller
+        "abname":"Platform Controller",
+        "abtext":"This operative cannot be activated as normal. Instead, a friendly Guardian Defender Heavy Gunner operative must perform the Control Platform action.",
     },
     {   # Psychic Abomination
         "abname":"Psychic Abomination",
