@@ -2,6 +2,26 @@
 
 Data framework for use with a Warhammer Kill Team application. This framework is being designed for use with team building and general searches for information. Every update will be listed so all changes are tracked.
 
+## v0.07.01.2022
+
+### Factions
+
+- Tomb World
+  - Necron Warrior data added
+  - Immortal Warrior data added
+  - Immortal Leader data added
+  - Flayed One Warrior data added
+  - Flayed One Leader data added
+  - Deathmark Warrior data added
+  - Deathmark Leader data added
+
+### Global
+
+- Abilities
+  - Living Metal data added
+
+--------------------------------------------------------------------
+
 ## v0.06.30.2022
 
 ### General Updates

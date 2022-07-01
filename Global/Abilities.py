@@ -47,6 +47,10 @@ abilities = [
         "abname":"Lash Whip",
         "abtext":"While an enemy operative is within Engagement Range of friendly operatives equipped with this weapon, subtract 1 from that enemy operative's Attacks characteristics.",
     },
+    {   # Ability Template
+        "abname":"Living Metal",
+        "abtext":"In the Ready Operatives step of each Turning Point, this operative regains up to 2 lost wounds.",
+    },
     {   # Masters of Camouflage
         "abname":"Masters of Camouflage",
         "abtext":"While this operative is in Cover, it has a Save characteristic of 4+.",
