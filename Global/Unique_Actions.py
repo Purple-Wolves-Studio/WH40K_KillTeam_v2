@@ -34,4 +34,9 @@ uacts = [
         "actcost":1,
         "actext":"Each time a friendly Grey Knight operative performs the Manifest Psychic Power action, select one psychic power from the list below to be resolved.\n\nArmoured Resilience\nUntil the end of the Turning Point, improve this operative's Save characteristic by 1.\n\nHammerhand\nUntil the end of the Turning Point, each time this operative fights in combat, in the Resolve Successful Hits step of that combat, the first time it strikes, inflict 1 additional damage on the target.\n\nAstral Aim\nUntil the end of the Turning Point, this operative's ranged weapons gain the No Cover special rule.",
     },
+    {   # Shuriken Storm
+        "actname":"Shuriken Storm",
+        "actcost":2,
+        "actext":"Make two shooting attacks with this operative's twin avenger shuriken catapult. When making those shooting attacks, ignore the weapon's Relentless special rule. This action is treated as a Shoot action. This operative can only perform this action if it is equipped with a twin avenger shuriken catapult.",
+    },
 ]

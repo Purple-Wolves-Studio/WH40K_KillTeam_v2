@@ -1,33 +1,63 @@
 operatives = [
-    {   # Guardian Defender [Warrior]
-        "opname":"Guardian Defender [Warrior]",
+    {   # Boy [Fighter]
+        "opname":"Boy [Fighter]",
         "stats":{
             "move":"6\"",
             "apl":"2",
             "gpact":"1",
             "def":"3",
-            "save":"4+",
-            "wounds":"8",
+            "save":"5+",
+            "wounds":"10",
         },
         "rweaps":[
-            {   # Shuriken Catapult
-                "wname":"Shuriken Catapult",
+            {   # Shoota
+                "wname":"Shoota",
                 "profiles":[
                     {
                         "pname":"",
                         "atts":"4",
-                        "bskill":"3+",
+                        "bskill":"5+",
                         "dmg":"3/4",
                         "srule":[
                         ],
                         "crits":[
-                            "Rending",
+                        ],
+                    },
+                ]
+            },
+            {   # Slugga
+                "wname":"Slugga",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"4",
+                        "bskill":"5+",
+                        "dmg":"3/4",
+                        "srule":[
+                            "Range 6\"",
+                        ],
+                        "crits":[
                         ],
                     },
                 ]
             },
         ],
         "mweaps":[
+            {   # Choppa
+                "wname":"Choppa",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"4",
+                        "wskill":"3+",
+                        "dmg":"4/5",
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
             {   # Fists
                 "wname":"Fists",
                 "profiles":[
@@ -35,7 +65,7 @@ operatives = [
                         "pname":"",
                         "atts":"3",
                         "wskill":"3+",
-                        "dmg":"2/3",
+                        "dmg":"3/4",
                         "srule":[
                         ],
                         "crits":[
@@ -48,238 +78,128 @@ operatives = [
         ],
         "uacts":[
         ],
-        "fackey":"Craftworld",
+        "fackey":"Greenskin",
         "faction":[
-            "Aeldari",
-            "Asuryani",
+            "Ork",
         ],
         "house":"",
         "keywords":[
-            "Guardian Defender",
-            "Warrior",
+            "Boy",
+            "Fighter",
         ],
     },
-    {   # Guardian Defender [Heavy Gunner]
-        "opname":"Guardian Defender [Heavy Gunner]",
+    {   # Boss Nob
+        "opname":"Boss Nob",
         "stats":{
             "move":"6\"",
             "apl":"2",
             "gpact":"1",
             "def":"3",
             "save":"4+",
-            "wounds":"8",
+            "wounds":"13",
         },
         "rweaps":[
-            {   # Shuriken Catapult
-                "wname":"Shuriken Catapult",
+            {   # Kombi-rokkit
+                "wname":"Kombi-rokkit",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"4",
-                        "bskill":"3+",
-                        "dmg":"3/4",
+                        "atts":"5",
+                        "bskill":"5+",
+                        "dmg":"4/5",
                         "srule":[
-                        ],
-                        "crits":[
-                            "Rending",
-                        ],
-                    },
-                ]
-            },
-        ],
-        "mweaps":[
-            {   # Fists
-                "wname":"Fists",
-                "profiles":[
-                    {
-                        "pname":"",
-                        "atts":"3",
-                        "wskill":"3+",
-                        "dmg":"2/3",
-                        "srule":[
-                        ],
-                        "crits":[
-                        ],
-                    },
-                ]
-            },
-        ],
-        "abs":[
-        ],
-        "uacts":[
-            "Control Platform",
-        ],
-        "fackey":"Craftworld",
-        "faction":[
-            "Aeldari",
-            "Asuryani",
-        ],
-        "house":"",
-        "keywords":[
-            "Guardian Defender",
-            "Heavy Gunner",
-        ],
-    },
-    {   # Guardian Defender Heavy Weapon Platform
-        "opname":"Guardian Defender Heavy Weapon Platform",
-        "stats":{
-            "move":"4\"",
-            "apl":"0",
-            "gpact":"1",
-            "def":"3",
-            "save":"3+",
-            "wounds":"12",
-        },
-        "rweaps":[
-            {   # Aeldari Missile Launcher
-                "wname":"Aeldari Missile Launcher",
-                "profiles":[
-                    {
-                        "pname":"Sunburst",
-                        "atts":"4",
-                        "bskill":"3+",
-                        "dmg":"3/5",
-                        "srule":[
-                            "Heavy",
-                            "Blast 2\"",
-                        ],
-                        "crits":[
-                        ],
-                    },
-                    {
-                        "pname":"Starshot",
-                        "atts":"4",
-                        "bskill":"3+",
-                        "dmg":"5/7",
-                        "srule":[
-                            "Heavy",
+                            "Kombi",
+                            "Limited",
                             "AP 1",
                         ],
                         "crits":[
+                            "Splash 1",
                         ],
                     },
                 ]
             },
-            {   # Bright Lance
-                "wname":"Bright Lance",
+            {   # Kombi-skorcha
+                "wname":"Kombi-skorcha",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"6",
+                        "bskill":"2+",
+                        "dmg":"2/2",
+                        "srule":[
+                            "Kombi",
+                            "Limited",
+                            "Range 6\"",
+                            "Torrent 2\"",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Shoota
+                "wname":"Shoota",
                 "profiles":[
                     {
                         "pname":"",
                         "atts":"4",
-                        "bskill":"3+",
-                        "dmg":"6/7",
+                        "bskill":"5+",
+                        "dmg":"3/4",
                         "srule":[
-                            "Heavy",
-                            "AP 2",
                         ],
                         "crits":[
                         ],
                     },
                 ]
             },
-            {   # Scatter Laser
-                "wname":"Scatter Laser",
-                "profiles":[
-                    {
-                        "pname":"",
-                        "atts":"5",
-                        "bskill":"3+",
-                        "dmg":"4/5",
-                        "srule":[
-                            "Heavy",
-                            "Ceaseless",
-                            "Fusillade",
-                        ],
-                        "crits":[
-                        ],
-                    },
-                ]
-            },
-            {   # Shuriken Cannon
-                "wname":"Shuriken Cannon",
-                "profiles":[
-                    {
-                        "pname":"",
-                        "atts":"5",
-                        "bskill":"3+",
-                        "dmg":"4/5",
-                        "srule":[
-                            "Heavy",
-                            "Fusilade",
-                        ],
-                        "crits":[
-                            "Rending",
-                        ],
-                    },
-                ]
-            },
-            {   # Starcannon
-                "wname":"Starcannon",
+            {   # Slugga
+                "wname":"Slugga",
                 "profiles":[
                     {
                         "pname":"",
                         "atts":"4",
-                        "bskill":"3+",
+                        "bskill":"5+",
+                        "dmg":"3/4",
+                        "srule":[
+                            "Range 6\"",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Big Choppa
+                "wname":"Big Choppa",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"4",
+                        "wskill":"2+",
                         "dmg":"5/6",
                         "srule":[
-                            "Heavy",
-                            "AP 1",
                         ],
                         "crits":[
-                            "P2",
                         ],
                     },
                 ]
             },
-        ],
-        "mweaps":[
-        ],
-        "abs":[
-            "Platform Controller",
-        ],
-        "uacts":[
-            "Gun Platform",
-        ],
-        "fackey":"Craftworld",
-        "faction":[
-            "Aeldari",
-            "Asuryani",
-        ],
-        "house":"",
-        "keywords":[
-            "Guardian Defender",
-            "Heavy Weapon Platform",
-        ],
-    },
-    {   # Guardian Defender [Leader]
-        "opname":"Guardian Defender [Leader]",
-        "stats":{
-            "move":"6\"",
-            "apl":"2",
-            "gpact":"1",
-            "def":"3",
-            "save":"4+",
-            "wounds":"9",
-        },
-        "rweaps":[
-            {   # Shuriken Catapult
-                "wname":"Shuriken Catapult",
+            {   # Choppa
+                "wname":"Choppa",
                 "profiles":[
                     {
                         "pname":"",
                         "atts":"4",
-                        "bskill":"2+",
-                        "dmg":"3/4",
+                        "wskill":"2+",
+                        "dmg":"4/5",
                         "srule":[
                         ],
                         "crits":[
-                            "Rending",
                         ],
                     },
                 ]
             },
-        ],
-        "mweaps":[
             {   # Fists
                 "wname":"Fists",
                 "profiles":[
@@ -287,8 +207,40 @@ operatives = [
                         "pname":"",
                         "atts":"3",
                         "wskill":"2+",
-                        "dmg":"2/3",
+                        "dmg":"3/4",
                         "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Killsaw
+                "wname":"Killsaw",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"4",
+                        "wskill":"3+",
+                        "dmg":"5/7",
+                        "srule":[
+                        ],
+                        "crits":[
+                            "Rending",
+                        ],
+                    },
+                ]
+            },
+            {   # Power Klaw
+                "wname":"Power Klaw",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"4",
+                        "wskill":"3+",
+                        "dmg":"5/7",
+                        "srule":[
+                            "Brutal",
                         ],
                         "crits":[
                         ],
@@ -297,56 +249,73 @@ operatives = [
             },
         ],
         "abs":[
+            "Kombi",
         ],
         "uacts":[
         ],
-        "fackey":"Craftworld",
+        "fackey":"Greenskin",
         "faction":[
-            "Aeldari",
-            "Asuryani",
+            "Ork",
         ],
         "house":"",
         "keywords":[
-            "Guardian Defender",
             "Leader",
+            "Boy",
+            "Boss Nob",
         ],
     },
-    {   # Storm Guardian [Warrior]
-        "opname":"Storm Guardian [Warrior]",
+    {   # Boy [Gunner]
+        "opname":"Boy [Gunner]",
         "stats":{
             "move":"6\"",
             "apl":"2",
             "gpact":"1",
             "def":"3",
-            "save":"4+",
-            "wounds":"8",
+            "save":"5+",
+            "wounds":"10",
         },
         "rweaps":[
-            {   # Shuriken Pistol
-                "wname":"Shuriken Pistol",
+            {   # Big Shoota
+                "wname":"Big Shoota",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"4",
-                        "bskill":"3+",
-                        "dmg":"3/4",
+                        "atts":"6",
+                        "bskill":"5+",
+                        "dmg":"2/3",
                         "srule":[
-                            "Range 6\"",
+                            "Fusillade",
                         ],
                         "crits":[
-                            "Rending",
+                        ],
+                    },
+                ]
+            },
+            {   # Rokkit Launcha
+                "wname":"Rokkit Launcha",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"5",
+                        "bskill":"5+",
+                        "dmg":"4/5",
+                        "srule":[
+                            "AP 1",
+                        ],
+                        "crits":[
+                            "Splash 1",
                         ],
                     },
                 ]
             },
         ],
         "mweaps":[
-            {   # Storm Guardian Blades
-                "wname":"Storm Guardian Blades",
+            {   # Fists
+                "wname":"Fists",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"4",
+                        "atts":"3",
                         "wskill":"3+",
                         "dmg":"3/4",
                         "srule":[
@@ -361,30 +330,224 @@ operatives = [
         ],
         "uacts":[
         ],
-        "fackey":"Craftworld",
+        "fackey":"Greenskin",
         "faction":[
-            "Aeldari",
-            "Asuryani",
+            "Ork",
         ],
         "house":"",
         "keywords":[
-            "Storm Guardian",
-            "Warrior",
+            "Boy",
+            "Gunner",
         ],
     },
-    {   # Storm Guardian [Gunner]
-        "opname":"Storm Guardian [Gunner]",
+    {   # Gretchin
+        "opname":"Gretchin",
+        "stats":{
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"2",
+            "def":"3",
+            "save":"6+",
+            "wounds":"5",
+        },
+        "rweaps":[
+            {   # Gretchin Blasta
+                "wname":"Gretchin Blasta",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"3",
+                        "bskill":"4+",
+                        "dmg":"2/3",
+                        "srule":[
+                            "Range 6\"",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Gretchin Knife
+                "wname":"Gretchin Knife",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"3",
+                        "wskill":"5+",
+                        "dmg":"1/2",
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Runt",
+        ],
+        "uacts":[
+        ],
+        "fackey":"Greenskin",
+        "faction":[
+            "Ork",
+        ],
+        "house":"",
+        "keywords":[
+            "Boy",
+            "Gretchin",
+        ],
+    },
+    {   # Clan Kommando [Fighter]
+        "opname":"Clan Kommando [Fighter]",
+        "stats":{
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"1",
+            "def":"3",
+            "save":"5+",
+            "wounds":"10",
+        },
+        "rweaps":[
+            {   # Slugga
+                "wname":"Slugga",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"4",
+                        "bskill":"5+",
+                        "dmg":"3/4",
+                        "srule":[
+                            "Range 6\"",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Choppa
+                "wname":"Choppa",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"4",
+                        "wskill":"3+",
+                        "dmg":"4/5",
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Greenskin",
+        "faction":[
+            "Ork",
+        ],
+        "house":"",
+        "keywords":[
+            "Clan Kommando",
+            "Fighter",
+        ],
+    },
+    {   # Clan Kommando Nob
+        "opname":"Clan Kommando Nob",
         "stats":{
             "move":"6\"",
             "apl":"2",
             "gpact":"1",
             "def":"3",
             "save":"4+",
-            "wounds":"8",
+            "wounds":"13",
         },
         "rweaps":[
-            {   # Flamer
-                "wname":"Flamer",
+            {   # Slugga
+                "wname":"Slugga",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"4",
+                        "bskill":"4+",
+                        "dmg":"3/4",
+                        "srule":[
+                            "Range 6\"",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Choppa
+                "wname":"Choppa",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"4",
+                        "wskill":"2+",
+                        "dmg":"4/5",
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Power Klaw
+                "wname":"Power Klaw",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"4",
+                        "wskill":"3+",
+                        "dmg":"5/7",
+                        "srule":[
+                            "Brutal",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Greenskin",
+        "faction":[
+            "Ork",
+        ],
+        "house":"",
+        "keywords":[
+            "Leader",
+            "Clan Kommando",
+            "Kommando Nob",
+        ],
+    },
+    {   # Burna Boy
+        "opname":"Burna Boy",
+        "stats":{
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"1",
+            "def":"3",
+            "save":"5+",
+            "wounds":"10",
+        },
+        "rweaps":[
+            {   # Burna
+                "wname":"Burna",
                 "profiles":[
                     {
                         "pname":"",
@@ -400,24 +563,6 @@ operatives = [
                     },
                 ]
             },
-            {   # Fusion Gun
-                "wname":"Fusion Gun",
-                "profiles":[
-                    {
-                        "pname":"",
-                        "atts":"4",
-                        "bskill":"3+",
-                        "dmg":"6/3",
-                        "srule":[
-                            "Range 6\"",
-                            "AP 2",
-                        ],
-                        "crits":[
-                            "MW 4",
-                        ],
-                    },
-                ]
-            },
         ],
         "mweaps":[
             {   # Fists
@@ -427,67 +572,6 @@ operatives = [
                         "pname":"",
                         "atts":"3",
                         "wskill":"3+",
-                        "dmg":"2/3",
-                        "srule":[
-                        ],
-                        "crits":[
-                        ],
-                    },
-                ]
-            },
-        ],
-        "abs":[
-        ],
-        "uacts":[
-        ],
-        "fackey":"Craftworld",
-        "faction":[
-            "Aeldari",
-            "Asuryani",
-        ],
-        "house":"",
-        "keywords":[
-            "Storm Guardian",
-            "Gunner",
-        ],
-    },
-    {   # Storm Guardian [Leader]
-        "opname":"Storm Guardian [Leader]",
-        "stats":{
-            "move":"6\"",
-            "apl":"2",
-            "gpact":"1",
-            "def":"3",
-            "save":"4+",
-            "wounds":"9",
-        },
-        "rweaps":[
-            {   # Shuriken Pistol
-                "wname":"Shuriken Pistol",
-                "profiles":[
-                    {
-                        "pname":"",
-                        "atts":"4",
-                        "bskill":"2+",
-                        "dmg":"3/4",
-                        "srule":[
-                            "Range 6\"",
-                        ],
-                        "crits":[
-                            "Rending",
-                        ],
-                    },
-                ]
-            },
-        ],
-        "mweaps":[
-            {   # Storm Guardian Blades
-                "wname":"Storm Guardian Blades",
-                "profiles":[
-                    {
-                        "pname":"",
-                        "atts":"4",
-                        "wskill":"2+",
                         "dmg":"3/4",
                         "srule":[
                         ],
@@ -501,346 +585,53 @@ operatives = [
         ],
         "uacts":[
         ],
-        "fackey":"Craftworld",
+        "fackey":"Greenskin",
         "faction":[
-            "Aeldari",
-            "Asuryani",
+            "Ork",
         ],
         "house":"",
         "keywords":[
-            "Storm Guardian",
-            "Leader",
+            "Speshulist",
+            "Burna Boy",
         ],
     },
-    {   # Ranger [Warrior]
-        "opname":"Ranger [Warrior]",
+    {   # Loota
+        "opname":"Loota",
         "stats":{
             "move":"6\"",
             "apl":"2",
             "gpact":"1",
             "def":"3",
             "save":"5+",
-            "wounds":"8",
+            "wounds":"10",
         },
         "rweaps":[
-            {   # Ranger Long Rifle
-                "wname":"Ranger Long Rifle",
+            {   # Deffgun
+                "wname":"Deffgun",
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"4",
-                        "bskill":"2+",
-                        "dmg":"3/3",
-                        "srule":[
-                            "Heavy",
-                            "Silent",
-                        ],
-                        "crits":[
-                            "MW 1",
-                        ],
-                    },
-                ]
-            },
-            {   # Shuriken Pistol
-                "wname":"Shuriken Pistol",
-                "profiles":[
-                    {
-                        "pname":"",
-                        "atts":"4",
-                        "bskill":"3+",
-                        "dmg":"3/4",
-                        "srule":[
-                            "Range 6\"",
-                        ],
-                        "crits":[
-                            "Rending",
-                        ],
-                    },
-                ]
-            },
-        ],
-        "mweaps":[
-            {   # Fists
-                "wname":"Fists",
-                "profiles":[
-                    {
-                        "pname":"",
-                        "atts":"3",
-                        "wskill":"3+",
-                        "dmg":"2/3",
-                        "srule":[
-                        ],
-                        "crits":[
-                        ],
-                    },
-                ]
-            },
-        ],
-        "abs":[
-            "Camo Cloak",
-        ],
-        "uacts":[
-        ],
-        "fackey":"Craftworld",
-        "faction":[
-            "Aeldari",
-            "Asuryani",
-        ],
-        "house":"",
-        "keywords":[
-            "Ranger",
-            "Warrior",
-        ],
-    },
-    {   # Ranger [Leader]
-        "opname":"Ranger [Leader]",
-        "stats":{
-            "move":"6\"",
-            "apl":"2",
-            "gpact":"1",
-            "def":"3",
-            "save":"5+",
-            "wounds":"9",
-        },
-        "rweaps":[
-            {   # Ranger Long Rifle
-                "wname":"Ranger Long Rifle",
-                "profiles":[
-                    {
-                        "pname":"",
-                        "atts":"4",
-                        "bskill":"2+",
-                        "dmg":"3/3",
-                        "srule":[
-                            "Heavy",
-                            "Silent",
-                            "Balanced",
-                        ],
-                        "crits":[
-                            "MW 1",
-                        ],
-                    },
-                ]
-            },
-            {   # Shuriken Pistol
-                "wname":"Shuriken Pistol",
-                "profiles":[
-                    {
-                        "pname":"",
-                        "atts":"4",
-                        "bskill":"2+",
-                        "dmg":"3/4",
-                        "srule":[
-                            "Range 6\"",
-                        ],
-                        "crits":[
-                            "Rending",
-                        ],
-                    },
-                ]
-            },
-        ],
-        "mweaps":[
-            {   # Fists
-                "wname":"Fists",
-                "profiles":[
-                    {
-                        "pname":"",
-                        "atts":"3",
-                        "wskill":"2+",
-                        "dmg":"2/3",
-                        "srule":[
-                        ],
-                        "crits":[
-                        ],
-                    },
-                ]
-            },
-        ],
-        "abs":[
-            "Camo Cloak",
-        ],
-        "uacts":[
-        ],
-        "fackey":"Craftworld",
-        "faction":[
-            "Aeldari",
-            "Asuryani",
-        ],
-        "house":"",
-        "keywords":[
-            "Ranger",
-            "Leader",
-        ],
-    },
-    {   # Dire Avenger [Warrior]
-        "opname":"Dire Avenger [Warrior]",
-        "stats":{
-            "move":"6\"",
-            "apl":"2",
-            "gpact":"1",
-            "def":"3",
-            "save":"4+",
-            "wounds":"8",
-        },
-        "rweaps":[
-            {   # Avenger Shuriken Catapult
-                "wname":"Avenger Shuriken Catapult",
-                "profiles":[
-                    {
-                        "pname":"",
-                        "atts":"4",
-                        "bskill":"3+",
-                        "dmg":"3/4",
-                        "srule":[
-                            "Balanced",
-                        ],
-                        "crits":[
-                            "Rending",
-                        ],
-                    },
-                ]
-            },
-        ],
-        "mweaps":[
-            {   # Fists
-                "wname":"Fists",
-                "profiles":[
-                    {
-                        "pname":"",
-                        "atts":"3",
-                        "wskill":"3+",
-                        "dmg":"2/3",
-                        "srule":[
-                        ],
-                        "crits":[
-                        ],
-                    },
-                ]
-            },
-        ],
-        "abs":[
-            "Defence Tactics",
-        ],
-        "uacts":[
-        ],
-        "fackey":"Craftworld",
-        "faction":[
-            "Aeldari",
-            "Asuryani",
-        ],
-        "house":"",
-        "keywords":[
-            "Dire Avenger",
-            "Warrior",
-        ],
-    },
-    {   # Dire Avenger Exarch
-        "opname":"Dire Avenger Exarch",
-        "stats":{
-            "move":"6\"",
-            "apl":"2",
-            "gpact":"1",
-            "def":"3",
-            "save":"4+",
-            "wounds":"9",
-        },
-        "rweaps":[
-            {   # Avenger Shuriken Catapult
-                "wname":"Avenger Shuriken Catapult",
-                "profiles":[
-                    {
-                        "pname":"",
-                        "atts":"4",
-                        "bskill":"2+",
-                        "dmg":"3/4",
-                        "srule":[
-                            "Balanced",
-                        ],
-                        "crits":[
-                            "Rending",
-                        ],
-                    },
-                ]
-            },
-            {   # Shuriken Pistol
-                "wname":"Shuriken Pistol",
-                "profiles":[
-                    {
-                        "pname":"",
-                        "atts":"4",
-                        "bskill":"2+",
-                        "dmg":"3/4",
-                        "srule":[
-                            "Range 6\"",
-                        ],
-                        "crits":[
-                            "Rending",
-                        ],
-                    },
-                ]
-            },
-            {   # Twin Avenger Shuriken Catapult
-                "wname":"Avenger Shuriken Catapult",
-                "profiles":[
-                    {
-                        "pname":"",
-                        "atts":"4",
-                        "bskill":"3+",
-                        "dmg":"3/4",
-                        "srule":[
-                            "Relentless",
-                        ],
-                        "crits":[
-                            "Rending",
-                        ],
-                    },
-                ]
-            },
-        ],
-        "mweaps":[
-            {   # Diresword
-                "wname":"Diresword",
-                "profiles":[
-                    {
-                        "pname":"",
-                        "atts":"4",
-                        "wskill":"2+",
-                        "dmg":"4/5",
-                        "srule":[
-                            "Lethal 5+",
-                        ],
-                        "crits":[
-                            "Rending",
-                        ],
-                    },
-                ]
-            },
-            {   # Fists
-                "wname":"Fists",
-                "profiles":[
-                    {
-                        "pname":"",
-                        "atts":"3",
-                        "wskill":"2+",
-                        "dmg":"2/3",
-                        "srule":[
-                        ],
-                        "crits":[
-                        ],
-                    },
-                ]
-            },
-            {   # Power Weapon
-                "wname":"Power Weapon",
-                "profiles":[
-                    {
-                        "pname":"",
-                        "atts":"4",
-                        "wskill":"2+",
+                        "atts":"5",
+                        "bskill":"5+",
                         "dmg":"4/6",
                         "srule":[
-                            "Lethal 5+",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"3",
+                        "wskill":"3+",
+                        "dmg":"3/4",
+                        "srule":[
                         ],
                         "crits":[
                         ],
@@ -849,22 +640,111 @@ operatives = [
             },
         ],
         "abs":[
-            "Defence Tactics",
-            "Shimmershield",
         ],
         "uacts":[
-            "Shuriken Storm",
         ],
-        "fackey":"Craftworld",
+        "fackey":"Greenskin",
         "faction":[
-            "Aeldari",
-            "Asuryani",
+            "Ork",
+        ],
+        "house":"",
+        "keywords":[
+            "Speshulist",
+            "Loota",
+        ],
+    },
+    {   # Spanner
+        "opname":"Spanner",
+        "stats":{
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"1",
+            "def":"3",
+            "save":"5+",
+            "wounds":"11",
+        },
+        "rweaps":[
+            {   # Big Shoota
+                "wname":"Big Shoota",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"6",
+                        "bskill":"4+",
+                        "dmg":"2/3",
+                        "srule":[
+                            "Fusillade",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Kustom Mega-blasta
+                "wname":"Kustom Mega-blasta",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"4",
+                        "bskill":"4+",
+                        "dmg":"5/6",
+                        "srule":[
+                            "AP 2",
+                            "Hot",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Rokkit Launcha
+                "wname":"Rokkit Launcha",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"5",
+                        "bskill":"4+",
+                        "dmg":"4/5",
+                        "srule":[
+                            "AP 1",
+                        ],
+                        "crits":[
+                            "Splash 1",
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"3",
+                        "wskill":"3+",
+                        "dmg":"3/4",
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Greenskin",
+        "faction":[
+            "Ork",
         ],
         "house":"",
         "keywords":[
             "Leader",
-            "Dire Avenger",
-            "Exarch",
+            "Speshulist",
+            "Spanner",
         ],
     },
 ]

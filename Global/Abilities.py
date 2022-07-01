@@ -3,9 +3,17 @@ abilities = [
         "abname":"Artificial Intelligence",
         "abtext":"This operative cannot perform mission actions or the Pick Up action.\n\nFor the purposes of determining control of objective markers, treat this operative's APL as 1 lower.\n\nEach time a shooting attack is made against this operative, in the Roll Defence Dice step of that shooting attack, if it has an Engage order, defence dice cannot be automatically retained as a result of Cover.\n\nWhen drawing a Visibility line from a Drone operative, draw it from any part of the round disc at the top of the miniature, as shown by the red keyline area on the diagram below.\n\nUnless otherwise specified, this operative cannot be equipped with equipment.",
     },
+    {   # Camo Cloak
+        "abname":"Camo Cloak",
+        "abtext":"Each time a shooting attack is made against this operative, in the Roll Defence Dice step of that shooting attack, before rolling your defence dice, if it is in Cover, one additional dice can be retained as a successful normal save as a result of Cover.",
+    },
     {   # Camouflage Field
         "abname":"Camouflage Field",
         "abtext":"Each time an enemy operative makes a shooting attack, unless it is within 2\" of this operative or it is a subsequent attack made as a result of the Blast special rule, this operative is always treated as being in Cover for that shooting attack. While this operative has a Conceal order, it is always treated as having a Conceal order, regardless of any other rules (e.g. Vantage Point).",
+    },
+    {   # Defence Tactics
+        "abname":"Defence Tactics",
+        "abtext":"Each time this operative performs an Overwatch action, for that action's shooting attack, do not worsen the Ballistic Skill characteristic of its ranged weapons as a result of performing an Overwatch action.",
     },
     {   # Flip Belt
         "abname":"Flip Belt",
@@ -31,6 +39,10 @@ abilities = [
         "abname":"Icon Bearer",
         "abtext":"When determining control of an objective marker, treat this operative's APL characteristic as being 1 higher. Note that this is not a modifier. In narrative play, this is cumulative with the Focused Battle Honour.",
     },
+    {   # Kombi
+        "abname":"Kombi",
+        "abtext":"An operative equipped with this weapon is also equipped with a Shoota.",
+    },
     {   # Lash Whip
         "abname":"Lash Whip",
         "abtext":"While an enemy operative is within Engagement Range of friendly operatives equipped with this weapon, subtract 1 from that enemy operative's Attacks characteristics.",
@@ -51,6 +63,10 @@ abilities = [
         "abname":"Pulse Accelerator",
         "abtext":"While a friendly Hunter Cadre operative is within 3\" of this operative, pulse weapons that friendly operative is equipped with are accelerated. While a pulse weapon is accelerated, each time a shooting attack is made with it, in the Roll Attack Dice step of that shooting attack, before rolling your attack dice, you can retain one as a successful normal hit without rolling it. A pulse weapon is a ranged weapon that includes the word 'pulse' in its name, e.g. pulse carbine.",
     },
+    {   # Runt
+        "abname":"Runt",
+        "abtext":"This operative cannot be equipped with equipment. This operative cannot benefit from your Strategic and Tactical Ploys.",
+    },
     {   # Saviour Protocols
         "abname":"Saviour Protocols",
         "abtext":"Each time a friendly Hunter Cadre operative (excluding Drone operatives) is selected as the target of a shooting attack, if there is a friendly Drone operative with this ability Visible to and within 2\" of it and not within Engagement Range of an enemy operative, if that friendly Drone operative is not protecting any other operatives, it can protect that friendly Hunter Cadre operative until the end of the Turning Point. If it does so, until the end of the Turning Point, each time a shooting attack is made against that friendly Hunter Cadre operative, make that shooting attack against that friendly Drone operative instead, even if it would not be a valid target. In the Roll Defence Dice step f that shooting attack, defence dice cannot be automatically retained as a result of Cover.",
@@ -58,6 +74,10 @@ abilities = [
     {   # Shield Generator
         "abname":"Shield Generator",
         "abtext":"This operative has a 4+ invulnerable save. Each time this operative would lose a wound that is not as a result of a mortal wound, roll one D6: on a 5+, that wound is not lost.",
+    },
+    {   # Shimmershield
+        "abname":"Shimmershield",
+        "abtext":"If this operative is equipped with a shimmershield, while a friendly Dire Avenger operative is within 6\" of it, that operative has a 5+ invulnerable save.",
     },
     {   # Smart Targeting
         "abname":"Smart Targeting",

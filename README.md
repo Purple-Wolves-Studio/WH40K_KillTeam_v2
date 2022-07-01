@@ -1,5 +1,50 @@
 # WH40K_KillTeam_v2
 
+Data framework for use with a Warhammer Kill Team application. This framework is being designed for use with team building and general searches for information. Every update will be listed so all changes are tracked.
+
+## v0.06.30.2022
+
+### General Updates
+
+- Readme
+  - Main body description added
+
+### Factions
+
+- Craftworld
+  - Storm Guardian Warrior data added
+  - Storm Guardian Gunner data added
+  - Storm Guardian Leader data added
+  - Ranger Warrior data added
+  - Ranger Leader data added
+  - Dire Avenger Warrior data added
+  - Dire Avenger Exarch data added
+
+- Greenskin
+  - Boy Fighter data added
+  - Boss Nob data added
+  - Boy Gunner data added
+  - Gretchin data added
+  - Clan Kommando Fighter data added
+  - Clan Kommando Nob data added
+  - Burna Boy data added
+  - Loota data added
+  - Spanner data added
+
+### Global
+
+- Abilities
+  - Camo Cloak data added
+  - Defence Tactics data added
+  - Kombi data added
+  - Runt data added
+  - Shimmershield data added
+
+- Unique Actions
+  - Shuriken Storm data added
+
+--------------------------------------------------------------------
+
 ## v0.06.29.2022
 
 ### Factions
