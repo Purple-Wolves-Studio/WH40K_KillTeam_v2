@@ -15,6 +15,10 @@ abilities = [
         "abname":"Defence Tactics",
         "abtext":"Each time this operative performs an Overwatch action, for that action's shooting attack, do not worsen the Ballistic Skill characteristic of its ranged weapons as a result of performing an Overwatch action.",
     },
+    {   # Dodge
+        "abname":"Dodge",
+        "abtext":"This operative has a 5+ invulnerable save.",
+    },
     {   # Flip Belt
         "abname":"Flip Belt",
         "abtext":"Each time this operative performs an action in which it moves, it moves as though it can Fly and automatically passes jump tests.",
@@ -26,6 +30,10 @@ abilities = [
     {   # Gun Platform
         "abname":"Gun Platform",
         "abtext":"This operative cannot have a Conceal order. It cannot fight in combat (do not select a weapon or roll any attack dice for it) and cannot provide combat support. In narrative play, this operative cannot gain (or lose) experience points. When drawing a Visibility line from this operative, draw it from any part of the miniature.",
+    },
+    {   # Hidden Horror
+        "abname":"Hidden Horror",
+        "abtext":"While this operative has a Conceal order, it is always treated as having a Conceal order, regardless of any other rules (e.g. Vantage Point).",
     },
     {   # Holo-suit
         "abname":"Holo-suit",
@@ -47,7 +55,11 @@ abilities = [
         "abname":"Lash Whip",
         "abtext":"While an enemy operative is within Engagement Range of friendly operatives equipped with this weapon, subtract 1 from that enemy operative's Attacks characteristics.",
     },
-    {   # Ability Template
+    {   # Lightning Reflexes
+        "abname":"Lightning Reflexes",
+        "abtext":"This operative has a 5+ invulnerable save. Each time this operative is activated, it can perform a free Dash action during that activation.",
+    },
+    {   # Living Metal
         "abname":"Living Metal",
         "abtext":"In the Ready Operatives step of each Turning Point, this operative regains up to 2 lost wounds.",
     },
@@ -75,6 +87,10 @@ abilities = [
         "abname":"Saviour Protocols",
         "abtext":"Each time a friendly Hunter Cadre operative (excluding Drone operatives) is selected as the target of a shooting attack, if there is a friendly Drone operative with this ability Visible to and within 2\" of it and not within Engagement Range of an enemy operative, if that friendly Drone operative is not protecting any other operatives, it can protect that friendly Hunter Cadre operative until the end of the Turning Point. If it does so, until the end of the Turning Point, each time a shooting attack is made against that friendly Hunter Cadre operative, make that shooting attack against that friendly Drone operative instead, even if it would not be a valid target. In the Roll Defence Dice step f that shooting attack, defence dice cannot be automatically retained as a result of Cover.",
     },
+    {   # Shardnet and Impaler
+        "abname":"Shardnet and Impaler",
+        "abtext":"While an enemy operative is within Engagement Range of friendly operatives equipped with this weapon, subtract 1 from that enemy operative's Attacks characteristic.",
+    },
     {   # Shield Generator
         "abname":"Shield Generator",
         "abtext":"This operative has a 4+ invulnerable save. Each time this operative would lose a wound that is not as a result of a mortal wound, roll one D6: on a 5+, that wound is not lost.",
@@ -95,8 +111,16 @@ abilities = [
         "abname":"Support Turret",
         "abtext":"This operative cannot have a Conceal order and can only perform Shoot and Overwatch actions. It cannot fight in combat (do not select a weapon or roll any attack dice for it) a n d cannot provide combat support.",
     },
+    {   # Synapse
+        "abname":"Synapse",
+        "abtext":"Each time this operative is activated, if it is injured and within 6\" of a friendly Hive Fleet Synapse operative, for that activation, do not subtract 2\" from its Movement characteristic as a result of being injured. While this operative is injured and within 6\" of a friendly Hive Fleet Synapse operative, do not worsen the Ballistic Skill and Weapon Skill of ranged and melee weapons it is equipped with as a result of being injured.",
+    },
     {   # The Emperor's Chosen
         "abname":"The Emperor's Chosen",
         "abtext":"Other than the effects of Battle Scars, this operative cannot be injured. You can ignore any or all modifiers to this operative's APL and it is not affected by the Stun critical hit rule.",
+    },
+    {   # Weaponbeast
+        "abname":"Weaponbeast",
+        "abtext":"If this operative is equipped with two melee weapons, add 1 to their Attacks characteristics.",
     },
 ]

@@ -2,6 +2,42 @@
 
 Data framework for use with a Warhammer Kill Team application. This framework is being designed for use with team building and general searches for information. Every update will be listed so all changes are tracked.
 
+------------------------------------------------------------------------------------------------------------------------
+
+## v0.07.04.2022
+
+### Factions
+
+- Commorrite
+  - Kabalite Warrior data added
+  - Sybarite data added
+  - Kabalite Gunner data added
+  - Kabalite Heavy Gunner data added
+  - Wych Warrior data added
+  - Hekatrix data added
+  - Wych Fighter data added
+
+- Hive Fleet
+  - Genestealer Fighter data added
+  - Genestealer Leader data added
+  - Tyranid Warrior Fighter data added
+  - Tyranid Warrior Heavy Gunner data added
+  - Tyranid Warrior Leader data added
+  - Termagant data added
+  - Hormagaunt data added
+
+### Global
+
+- Abilities
+  - Dodge data added
+  - Hidden Horror data added
+  - Lightning Reflexes data added
+  - Shardnet and Impaler data added
+  - Synapse data added
+  - Weaponbeast data added
+
+------------------------------------------------------------------------------------------------------------------------
+
 ## v0.07.01.2022
 
 ### Factions
@@ -20,7 +56,7 @@ Data framework for use with a Warhammer Kill Team application. This framework is
 - Abilities
   - Living Metal data added
 
---------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 ## v0.06.30.2022
 
@@ -63,7 +99,7 @@ Data framework for use with a Warhammer Kill Team application. This framework is
 - Unique Actions
   - Shuriken Storm data added
 
---------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 ## v0.06.29.2022
 
@@ -79,7 +115,7 @@ Data framework for use with a Warhammer Kill Team application. This framework is
   - Platform Controller data added
   - Gun Platform data added
 
---------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 ## v0.06.27.2022
 
@@ -95,7 +131,7 @@ Data framework for use with a Warhammer Kill Team application. This framework is
   - Framework added
   - Addition of unit data started
 
---------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 ## v0.01.04.2022
 
@@ -109,7 +145,7 @@ Data framework for use with a Warhammer Kill Team application. This framework is
 - Kroot renamed Cadre Mercenary
 - T'au Empire renamed Hunter Cadre
 
---------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 ## v0.12.21.2021
 
@@ -135,7 +171,7 @@ Data framework for use with a Warhammer Kill Team application. This framework is
   - Genestealer Cults ability added
   - Harlequins abilities added
 
---------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 ## v0.11.30.2021
 
@@ -154,7 +190,7 @@ Data framework for use with a Warhammer Kill Team application. This framework is
 - Unique Actions
   - Genestealer Cults UAs added
 
---------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 ## v0.11.16.2021
 
@@ -196,7 +232,7 @@ Data framework for use with a Warhammer Kill Team application. This framework is
   - No Kroot UAs to add
   - T'au Empire UAs updated
 
---------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 ## v0.11.15.2021
 
@@ -229,7 +265,7 @@ Data framework for use with a Warhammer Kill Team application. This framework is
   - Framework added
   - T'au Empire UAs added
 
---------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 ## v0.11.12.2021
 
@@ -246,7 +282,7 @@ Data framework for use with a Warhammer Kill Team application. This framework is
   - Operative data updated
   - Need to add Drone data
 
---------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 ## v0.11.10.2021
 
@@ -261,7 +297,7 @@ Data framework for use with a Warhammer Kill Team application. This framework is
 - T'au Empire Empire
   - Operative data updated
 
---------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 ## v0.11.09.2021
 
@@ -274,4 +310,4 @@ Data framework for use with a Warhammer Kill Team application. This framework is
 - T'au Empire Empire folder created
   - Operative framework created
 
---------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
