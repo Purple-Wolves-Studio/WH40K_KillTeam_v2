@@ -1,4 +1,4 @@
-uacts = [
+unique_actions = [
     {   # Analyse
         "actname":"Analyse",
         "actcost":1,
@@ -13,6 +13,16 @@ uacts = [
         "actname":"Cult Icon",
         "actcost":1,
         "actext":"Until the end of the Turning Point, while this operative is Visible to and within 3\" of a friendly Brood Coven operative, that friendly operative is inspired by the cult. While an operative is inspired by the cult, each time it fights in combat or makes a shooting attack, in the Roll Attack Dice step of that combat or shooting attack, you can re-roll one of your attack dice.",
+    },
+    {   # Daemonic Icon
+        "actname":"Daemonic Icon",
+        "actcost":1,
+        "actext":"Until the end of the Turning Point, while this operative is within 3\" of a friendly Bloodletter operative, that friendly operative is invigorated by Chaos. While an operative is invigorated by Chaos, improve its invulnerable save by 1.",
+    },
+    {   # Instrument of Chaos
+        "actname":"Instrument of Chaos",
+        "actcost":1,
+        "actext":"Until the end of the Turning Point, each time a friendly Bloodletter operative performs a Normal Move or Charge action, it can move an additional 1\".",
     },
     {   # Markerlight
         "actname":"Markerlight",

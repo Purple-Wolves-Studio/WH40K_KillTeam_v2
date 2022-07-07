@@ -11,6 +11,10 @@ abilities = [
         "abname":"Camouflage Field",
         "abtext":"Each time an enemy operative makes a shooting attack, unless it is within 2\" of this operative or it is a subsequent attack made as a result of the Blast special rule, this operative is always treated as being in Cover for that shooting attack. While this operative has a Conceal order, it is always treated as having a Conceal order, regardless of any other rules (e.g. Vantage Point).",
     },
+    {   # Daemon
+        "abname":"Daemon",
+        "abtext":"This operative has a 5+ invulnerable save.",
+    },
     {   # Defence Tactics
         "abname":"Defence Tactics",
         "abtext":"Each time this operative performs an Overwatch action, for that action's shooting attack, do not worsen the Ballistic Skill characteristic of its ranged weapons as a result of performing an Overwatch action.",

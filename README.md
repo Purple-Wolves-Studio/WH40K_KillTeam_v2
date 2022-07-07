@@ -4,6 +4,31 @@ Data framework for use with a Warhammer Kill Team application. This framework is
 
 ------------------------------------------------------------------------------------------------------------------------
 
+## v0.07.06.2022
+
+### Factions
+
+- Chaos Daemon
+  - Bloodletter Fighter data added
+  - Bloodletter Icon Bearer data added
+  - Bloodletter Horn Bearer data added
+  - Bloodreaper data added
+  - Daemonette Fighter data added
+  - Daemonette Icon Bearer data added
+  - Daemonette Horn Bearer data added
+  - Alluress data added
+
+### Global
+
+- Abilities
+  - Daemon data added
+
+- Unique Actions
+  - Daemonic Icon data added
+  - Instrument of Chaos data added
+
+------------------------------------------------------------------------------------------------------------------------
+
 ## v0.07.04.2022
 
 ### Factions
