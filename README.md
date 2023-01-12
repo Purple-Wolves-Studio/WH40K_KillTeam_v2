@@ -4,7 +4,6 @@ Data framework for use with a Warhammer Kill Team application. This framework is
 
 ------------------------------------------------------------------------------------------------------------------------
 
-<<<<<<< HEAD
 ## v0.11.01.23
 
 ### General
@@ -24,7 +23,18 @@ Data framework for use with a Warhammer Kill Team application. This framework is
   - Tempestus Scion [Comms]
   - Tempestus Scion [Gunner]
   - Tempestor
-=======
+
+### Global
+
+- Abilities
+  - Accomplished Leader
+  - Relay Orders
+
+- Unique Actions
+  - Signal
+
+------------------------------------------------------------------------------------------------------------------------
+
 ## v0.07.07.2022
 
 ### Factions
@@ -40,30 +50,17 @@ Data framework for use with a Warhammer Kill Team application. This framework is
   - Pink Horror Iridescent data added
   - Blue Horror data added
   - Brimstone Horrors data added
->>>>>>> be99ef5e9c5c442735a1661d5eb6fdaba5417da3
 
 ### Global
 
 - Abilities
-<<<<<<< HEAD
-  - Accomplished Leader
-  - Relay Orders
-
-- Unique Actions
-  - Signal
-
-------------------------------------------------------------------------------------------------------------------------
-
-## v0.06.07.22
-=======
   - Disgustingly Resilient data added
   - Ephemeral Daemon data added
   - Insignificant data added
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## v0.07.06.2022
->>>>>>> be99ef5e9c5c442735a1661d5eb6fdaba5417da3
+## v0.06.07.22
 
 ### Factions
 
