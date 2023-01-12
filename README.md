@@ -4,7 +4,38 @@ Data framework for use with a Warhammer Kill Team application. This framework is
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## v0.07.06.2022
+## v0.11.01.23
+
+### General
+
+- Version Names
+  - Naming style updated to reflect international date standard instead of previous American version
+  - All version names, past and present, have been updated
+
+### Factions
+
+- Imperial Guard
+  - Guardsman [Trooper]
+  - Guardsman [Comms]
+  - Guardsman [Gunner]
+  - Guardsman Sergeant
+  - Tempestus Scion [Trooper]
+  - Tempestus Scion [Comms]
+  - Tempestus Scion [Gunner]
+  - Tempestor
+
+### Global
+
+- Abilities
+  - Accomplished Leader
+  - Relay Orders
+
+- Unique Actions
+  - Signal
+
+------------------------------------------------------------------------------------------------------------------------
+
+## v0.06.07.22
 
 ### Factions
 
@@ -29,7 +60,7 @@ Data framework for use with a Warhammer Kill Team application. This framework is
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## v0.07.04.2022
+## v0.04.07.22
 
 ### Factions
 
@@ -63,7 +94,7 @@ Data framework for use with a Warhammer Kill Team application. This framework is
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## v0.07.01.2022
+## v0.01.07.22
 
 ### Factions
 
@@ -83,7 +114,7 @@ Data framework for use with a Warhammer Kill Team application. This framework is
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## v0.06.30.2022
+## v0.30.06.22
 
 ### General Updates
 
@@ -126,7 +157,7 @@ Data framework for use with a Warhammer Kill Team application. This framework is
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## v0.06.29.2022
+## v0.29.06.22
 
 ### Factions
 
@@ -142,7 +173,7 @@ Data framework for use with a Warhammer Kill Team application. This framework is
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## v0.06.27.2022
+## v0.27.06.22
 
 ### General Updates
 
@@ -158,7 +189,7 @@ Data framework for use with a Warhammer Kill Team application. This framework is
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## v0.01.04.2022
+## v0.04.01.22
 
 ### Factions
 
@@ -172,7 +203,7 @@ Data framework for use with a Warhammer Kill Team application. This framework is
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## v0.12.21.2021
+## v0.21.12.21
 
 ### Factions
 
@@ -198,7 +229,7 @@ Data framework for use with a Warhammer Kill Team application. This framework is
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## v0.11.30.2021
+## v0.30.11.21
 
 ### Factions
 
@@ -217,7 +248,7 @@ Data framework for use with a Warhammer Kill Team application. This framework is
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## v0.11.16.2021
+## v0.16.11.21
 
 ### Project Files
 
@@ -259,7 +290,7 @@ Data framework for use with a Warhammer Kill Team application. This framework is
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## v0.11.15.2021
+## v0.15.11.21
 
 ### Project Files
 
@@ -292,7 +323,7 @@ Data framework for use with a Warhammer Kill Team application. This framework is
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## v0.11.12.2021
+## v0.12.11.21
 
 ### Project Files
 
@@ -309,7 +340,7 @@ Data framework for use with a Warhammer Kill Team application. This framework is
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## v0.11.10.2021
+## v0.10.11.21
 
 ### Templates
 
@@ -324,7 +355,7 @@ Data framework for use with a Warhammer Kill Team application. This framework is
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## v0.11.09.2021
+## v0.09.11.21
 
 ### Project Notes
 

@@ -44,6 +44,11 @@ unique_actions = [
         "actcost":1,
         "actext":"Each time a friendly Grey Knight operative performs the Manifest Psychic Power action, select one psychic power from the list below to be resolved.\n\nArmoured Resilience\nUntil the end of the Turning Point, improve this operative's Save characteristic by 1.\n\nHammerhand\nUntil the end of the Turning Point, each time this operative fights in combat, in the Resolve Successful Hits step of that combat, the first time it strikes, inflict 1 additional damage on the target.\n\nAstral Aim\nUntil the end of the Turning Point, this operative's ranged weapons gain the No Cover special rule.",
     },
+    {   # Signal
+        "actname":"Signal",
+        "actcost":1,
+        "actext":"Select one friendly Guardsman operative within 6\" of and visible to this operative. Add 1 to the friendly operative's APL. This operative cannot perform this action while within engagement range of enemy operatives.",
+    },
     {   # Shuriken Storm
         "actname":"Shuriken Storm",
         "actcost":2,

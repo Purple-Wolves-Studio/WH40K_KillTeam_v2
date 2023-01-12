@@ -1,4 +1,8 @@
 abilities = [
+    {   # Accomplished Leader
+        "abname":"Accomplished Leader",
+        "abtext":"In each of your Strategy phases, if this operative is in the killzone, you can use one Strategic Ploy without spending any Command Points.",
+    },
     {   # Artificial Intelligence
         "abname":"Artificial Intelligence",
         "abtext":"This operative cannot perform mission actions or the Pick Up action.\n\nFor the purposes of determining control of objective markers, treat this operative's APL as 1 lower.\n\nEach time a shooting attack is made against this operative, in the Roll Defence Dice step of that shooting attack, if it has an Engage order, defence dice cannot be automatically retained as a result of Cover.\n\nWhen drawing a Visibility line from a Drone operative, draw it from any part of the round disc at the top of the miniature, as shown by the red keyline area on the diagram below.\n\nUnless otherwise specified, this operative cannot be equipped with equipment.",
@@ -82,6 +86,10 @@ abilities = [
     {   # Pulse Accelerator
         "abname":"Pulse Accelerator",
         "abtext":"While a friendly Hunter Cadre operative is within 3\" of this operative, pulse weapons that friendly operative is equipped with are accelerated. While a pulse weapon is accelerated, each time a shooting attack is made with it, in the Roll Attack Dice step of that shooting attack, before rolling your attack dice, you can retain one as a successful normal hit without rolling it. A pulse weapon is a ranged weapon that includes the word 'pulse' in its name, e.g. pulse carbine.",
+    },
+    {   # Relay Orders
+        "abname":"Relay Orders",
+        "abtext":"Once in each Turning Point, when this operative is issued a Guardsman Order, it can relay it. If an order is relayed, subtract 1 from this operative's APL and all friendly Guardsman operatives in the killzone are issued that order.",
     },
     {   # Runt
         "abname":"Runt",
