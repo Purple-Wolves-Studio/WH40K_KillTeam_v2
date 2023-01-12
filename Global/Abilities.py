@@ -23,9 +23,17 @@ abilities = [
         "abname":"Defence Tactics",
         "abtext":"Each time this operative performs an Overwatch action, for that action's shooting attack, do not worsen the Ballistic Skill characteristic of its ranged weapons as a result of performing an Overwatch action.",
     },
+    {   # Disgustingly Resilient
+        "abname":"Disgustingly Resilient",
+        "abtext":"Each time this operative would lose a wound, roll one D6; on a 5+, that wound is not lost. Other than the effects of Battle Scars, this operative cannot be injured.",
+    },
     {   # Dodge
         "abname":"Dodge",
         "abtext":"This operative has a 5+ invulnerable save.",
+    },
+    {   # Ephemeral Daemon
+        "abname":"Ephemeral Daemon",
+        "abtext":"This operative has a 6+ invulnerable save.",
     },
     {   # Flip Belt
         "abname":"Flip Belt",
@@ -54,6 +62,10 @@ abilities = [
     {   # Icon Bearer
         "abname":"Icon Bearer",
         "abtext":"When determining control of an objective marker, treat this operative's APL characteristic as being 1 higher. Note that this is not a modifier. In narrative play, this is cumulative with the Focused Battle Honour.",
+    },
+    {   # Insignificant
+        "abname":"Insignificant",
+        "abtext":"Each time this operative would perform a mission action or the Pick Up action, you must subtract one additional AP to do so. This operative cannot be equipped with equipment. Note that in narrative play, this operative does not have a narrative data card and is no longer part of your kill team after the game.",
     },
     {   # Kombi
         "abname":"Kombi",
