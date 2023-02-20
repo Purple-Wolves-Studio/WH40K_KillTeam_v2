@@ -4,6 +4,46 @@ Data framework for use with a Warhammer Kill Team application. This framework is
 
 ------------------------------------------------------------------------------------------------------------------------
 
+## v0.20.02.23
+
+### General
+
+- Project Files
+  - Folder moved out of Global folder
+
+### Factions
+
+- Grey Knight
+  - Grey Knight [Warrior] updated
+  - Grey Knight [Gunner] updated
+  - Grey Knight Justicar updated
+
+- Thousand Sons
+  - Rubric Marine [Warrior] data added
+  - Robric Marine [Gunner] data added
+  - Rubric Marine [Icon Bearer] data added
+  - Aspiring Sorcerer data added
+  - Tzaangor [Fighter] data added
+  - Tzaangor [Icon Bearer] data added
+  - Tzaangor [Horn Bearer] data added
+  - Twistbray data added
+
+### Global
+
+- Abilities
+  - All Is Dust
+  - Favoured By Change
+  - Icon Of Flame
+
+- Unique Actions
+  - Manifest Psychic Power split into two sections
+    - Manifest Psychic Power [Grey Knight]
+    - Manifest Psychic Power [Thousand Sons]
+  - Herd Banner
+  - Brayhorn
+
+------------------------------------------------------------------------------------------------------------------------
+
 ## v0.11.01.23
 
 ### General

@@ -96,7 +96,7 @@ operatives = [
         "abs":[
         ],
         "uacts":[
-            "Manifest Psychic Power"
+            "Manifest Psychic Power [Grey Knight]"
         ],
         "fackey":"Grey Knight",
         "faction":[
@@ -192,7 +192,7 @@ operatives = [
         "abs":[
         ],
         "uacts":[
-            "Manifest Psychic Power"
+            "Manifest Psychic Power [Grey Knight]"
         ],
         "fackey":"Grey Knight",
         "faction":[
@@ -302,7 +302,7 @@ operatives = [
         "abs":[
         ],
         "uacts":[
-            "Manifest Psychic Power"
+            "Manifest Psychic Power [Grey Knight]"
         ],
         "fackey":"Grey Knight",
         "faction":[

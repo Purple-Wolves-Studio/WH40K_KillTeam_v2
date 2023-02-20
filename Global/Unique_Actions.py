@@ -4,6 +4,11 @@ unique_actions = [
         "actcost":1,
         "actext":"Select one enemy operative Visible to this operative, then select one other ready friendly Hunter Cadre operative that is not within Engagement Range of enemy operatives. After this operative's activation ends, you can activate that other friendly operative, and during its next activation, each time it makes a shooting attack against that enemy operative, in the Roll Attack Dice step of that shooting attack, you can re-roll any or all of your attack dice. This operative cannot perform this action while within Engagement Range of enemy operatives.",
     },
+    {   # Brayhorn
+        "actname":"Brayhorn",
+        "actcost":1,
+        "actext":"Until the end of the Turning Point, each time a friendly Tzaangor operative performs a Normal Move or Charge action, it can move an additional 1\".",
+    },
     {   # Control Platform
         "actname":"Control Platform",
         "actcost":1,
@@ -39,10 +44,20 @@ unique_actions = [
         "actcost":1,
         "acttext":"Until this operative is next activated, while a friendly Hunter Cadre operative is within 3\" of this operative, it has a 5+ invulnerable save.",
     },
-    {   # Manifest Psychic Power
-        "actname":"Manifest Psychic Power",
+    {   # Herd Banner
+        "actname":"Herd Banner",
+        "actcost":1,
+        "acttext":"Until the end of the Turning Point, while this operative is within 3\" of a friendly Tzaangor operative, that operative is invigorated by chaos. While an operative is invigorated by chaos, improve its invulnerable save by 1.",
+    },
+    {   # Manifest Psychic Power [Grey Knight]
+        "actname":"Manifest Psychic Power [Grey Knight]",
         "actcost":1,
         "actext":"Each time a friendly Grey Knight operative performs the Manifest Psychic Power action, select one psychic power from the list below to be resolved.\n\nArmoured Resilience\nUntil the end of the Turning Point, improve this operative's Save characteristic by 1.\n\nHammerhand\nUntil the end of the Turning Point, each time this operative fights in combat, in the Resolve Successful Hits step of that combat, the first time it strikes, inflict 1 additional damage on the target.\n\nAstral Aim\nUntil the end of the Turning Point, this operative's ranged weapons gain the No Cover special rule.",
+    },
+    {   # Manifest Psychic Power [Thousand Sons]
+        "actname":"Manifest Psychic Power [Thousand Sons]",
+        "actcost":1,
+        "actext":"The first time a friendly Thousand Sons Aspiring Sorcerer operative performs the Manifest Psychic Power action in each of its activations, select one psychic power from the list below to be resolved.\n\nThe second time a friendly Thousand Sons Aspiring Sorcerer operative performs the Manifest Psychic Power action in each of its activations, roll one D6. On a 1-2, that operative suffers 3 mortal wounds. On a 3+, select one psychic power from the list below to be resolved. You cannot select one that you have resolved during this Turning Point.\n\nDoombolt\nPerform a free Shoot action using the Doombolt ranged weapon.\n\nFirestorm\nPerform a free Shoot action using the Firestorm ranged weapon.\n\nImmaterial Surge\nSelect one other friendly Thousand Sons operative visible to this operative. Add 1 to its APL.\n\nTwist Of Fate\nSelect one enemy operative visible to this operative. Until the end of the Turning Point, each time a friendly Thousand Sons operative fights in combat or makes a shooting attack against that enemy operative, in the Roll Attack Dice step of the combat or shooting attack, you can re-roll one of your attack dice.",
     },
     {   # Signal
         "actname":"Signal",

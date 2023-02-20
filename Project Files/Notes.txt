@@ -25,3 +25,6 @@ Triangle = 1"
 Circle = 2"
 Square = 3"
 Pentagon = 6"
+
+
+Figure out how to add Thousand Sons psychic power weapons. Doombolt and Firestorm.

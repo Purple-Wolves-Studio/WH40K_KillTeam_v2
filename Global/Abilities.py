@@ -3,6 +3,10 @@ abilities = [
         "abname":"Accomplished Leader",
         "abtext":"In each of your Strategy phases, if this operative is in the killzone, you can use one Strategic Ploy without spending any Command Points.",
     },
+    {   # All Is Dust
+        "abname":"All Is Dust",
+        "abtext":"Each time a shooting attack is made against this operative, if the ranged weapon has a Normal Damage characteristic of 3 or less, this operative is treated as having a Save characteristic of 2+ for that shooting attack.",
+    },
     {   # Artificial Intelligence
         "abname":"Artificial Intelligence",
         "abtext":"This operative cannot perform mission actions or the Pick Up action.\n\nFor the purposes of determining control of objective markers, treat this operative's APL as 1 lower.\n\nEach time a shooting attack is made against this operative, in the Roll Defence Dice step of that shooting attack, if it has an Engage order, defence dice cannot be automatically retained as a result of Cover.\n\nWhen drawing a Visibility line from a Drone operative, draw it from any part of the round disc at the top of the miniature, as shown by the red keyline area on the diagram below.\n\nUnless otherwise specified, this operative cannot be equipped with equipment.",
@@ -35,6 +39,10 @@ abilities = [
         "abname":"Ephemeral Daemon",
         "abtext":"This operative has a 6+ invulnerable save.",
     },
+    {   # Favoured By Change
+        "abname":"Favoured By Change",
+        "abtext":"This operative has a 5+ invulnerable save.",
+    },
     {   # Flip Belt
         "abname":"Flip Belt",
         "abtext":"Each time this operative performs an action in which it moves, it moves as though it can Fly and automatically passes jump tests.",
@@ -62,6 +70,10 @@ abilities = [
     {   # Icon Bearer
         "abname":"Icon Bearer",
         "abtext":"When determining control of an objective marker, treat this operative's APL characteristic as being 1 higher. Note that this is not a modifier. In narrative play, this is cumulative with the Focused Battle Honour.",
+    },
+    {   # Icon Of Flame
+        "abname":"Icon Of Flame",
+        "abtext":"While a friendly Thousand Sons Aspiring Sorcerer operative is within 3\" of this operative, it can resolve a second psychic power in its activation as a result of the Manifest Psychic Power action without needing to roll one D6.",
     },
     {   # Insignificant
         "abname":"Insignificant",
