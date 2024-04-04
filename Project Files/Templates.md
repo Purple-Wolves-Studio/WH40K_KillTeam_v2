@@ -10,12 +10,12 @@ operatives = [
     {   # Unit Template
         "opname":"",
         "stats":{
-            "move":"",
-            "apl":"",
-            "gpact":"",
-            "def":"",
-            "save":"",
-            "wounds":"",
+            "move":,
+            "apl":,
+            "gpact":,
+            "def":,
+            "save":,
+            "wounds":,
         },
         "rweaps":[
             {   # Weapon Template
@@ -23,9 +23,10 @@ operatives = [
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "bskill":"",
-                        "dmg":"",
+                        "atts":,
+                        "skill":,
+                        "dmg1":,
+                        "dmg2":,
                         "srule":[
                         ],
                         "crits":[
@@ -40,9 +41,10 @@ operatives = [
                 "profiles":[
                     {
                         "pname":"",
-                        "atts":"",
-                        "wskill":"",
-                        "dmg":"",
+                        "atts":,
+                        "skill":,
+                        "dmg1":,
+                        "dmg2":,
                         "srule":[
                         ],
                         "crits":[
@@ -60,6 +62,8 @@ operatives = [
         ],
         "house":"",
         "keywords":[
+        ],
+        "specials":[
         ],
     },
 ]

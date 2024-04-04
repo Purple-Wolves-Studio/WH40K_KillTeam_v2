@@ -1,6 +1,67 @@
-# WH40K_KillTeam_v2
+# Warhammer 40,000 Kill Team - Operative Data Framework - Supports 2021 Edition
 
 Data framework for use with a Warhammer Kill Team application. This framework is being designed for use with team building and general searches for information. Every update will be listed so all changes are tracked.
+
+## Design Requirements
+
+The following UI elements require a plus symbol (+) to be displayed directly to the right of the integer:
+    - Save
+    - Ballistic Skill
+    - Weapon Skill
+
+The following UI elements require a quotation mark (") to be displayed directly to the right of the integer:
+    - Movement
+
+The following UI elements require a forward slash (/) between the two (2) integers:
+    - Damage
+
+### Known Issues
+
+Outdated framework affects the following factions:
+    - Brood Coven
+    - Cadre Mercenary
+    - Chaos Daemon
+    - Commorrite
+    - Craftworld
+    - Greenskin
+    - Grey Knight
+    - Hive Fleet
+    - Hunter Cadre
+    - Imperial Guard
+    - Talons of the Emperor
+    - Thousand Sons
+    - Tomb World
+    - Troupe
+
+Unfinished Faction Files
+    - Death Guard
+
+Operatives missing Specialisms
+
+### Change Log
+
+------------------------------------------------------------------------------------------------------------------------
+
+## v0.03.04.24
+
+### Project Files
+
+- Templates
+  - Operative template updated
+
+### Factions
+
+- Forge World
+  - Skitarii Ranger [Trooper]
+  - Skitarii Ranger [Gunner]
+  - Skitarii Ranger Alpha
+  - Skitarii Vanguard [Trooper]
+  - Skitarii Vanguard [Gunner]
+  - Skitarii Vanguard Alpha
+  - Sicarian Ruststalker [Trooper]
+  - Sicarian Ruststalker Princeps
+  - Sicarian Infiltrator [Trooper]
+  - Sicarian Infiltrator Princeps
 
 ------------------------------------------------------------------------------------------------------------------------
 
