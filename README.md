@@ -1,495 +1,85 @@
-# Warhammer 40,000 Kill Team - Operative Data Framework - Supports 2021 Edition
+# Warhammer 40,000 Kill Team Data Framework [2021 Edition]
 
-Data framework for use with a Warhammer Kill Team application. This framework is being designed for use with team building and general searches for information. Every update will be listed so all changes are tracked.
+    - Data framework for use with a Warhammer Kill Team application.
+    - Designed for use with team building and general searches for information.
 
-## Design Requirements
+## Design, Requirements, and Known Issues
 
-The following UI elements require a plus symbol (+) to be displayed directly to the right of the integer:
-    - Save
-    - Ballistic Skill
-    - Weapon Skill
+Required Code Elements
 
-The following UI elements require a quotation mark (") to be displayed directly to the right of the integer:
-    - Movement
+    - The Combi ability provides a Boltgun for every operative carrying a weapon with the "Combi" special rule. There needs to be a boolean to provide the operative with a Boltgun if true.
 
-The following UI elements require a forward slash (/) between the two (2) integers:
-    - Damage
+Required UI Elements
 
-### Known Issues
+    - Some weapons have options for how to fire them. To make it user friendly, a tab style of swapping between choices would be simple and quick. No dropdown menus. Only seamless transitions.
 
-Outdated framework affects the following factions:
+    - A plus sign (+) is required to the right of these integers:
+        - Save
+        - Ballistic Skill
+        - Weapon Skill
+    
+    - A quotation mark (") is required to the right of this integer:
+        - Movement
+    
+    - A forward slash (/) is required between the two (2) integers:
+        - Damage
+    
+    - The following factions, using the "house" variable, require the following name to the left of the string:
+        - Space Marine "Chapter"
+        - Grey Knight "Brotherhood"
+        - Imperial Guard "Regiment"
+        - Forge World "Forge World"
+        - Ecclesiarchy "Order"
+        - Talons of the Emperor "Shield Host"
+        - Traitor Space Marine "Legion"
+        - Death Guard "Plague Company"
+        - Thousand Sons "Great Cult"
+        - Chaos Daemon "Chaos God"
+        - Craftworld "Craftworld"
+        - Commorrite "Kabal"
+        - Troupe "Masque"
+        - Greenskin "Clan"
+        - Tomb World "Dynasty"
+        - Hunter Cadre "Sept"
+        - Cadre Mercenary "Sept"
+        - Hive Fleet "Hive Fleet"
+        - Brood Coven "Cult"
+
+Outdated Frameworks
+
     - Brood Coven
-    - Cadre Mercenary
     - Chaos Daemon
     - Commorrite
     - Craftworld
-    - Greenskin
-    - Grey Knight
-    - Hive Fleet
-    - Hunter Cadre
+    - Death Guard
     - Imperial Guard
-    - Talons of the Emperor
+    - Space Marine
     - Thousand Sons
     - Tomb World
-    - Troupe
+    - Traitor Space Marine
 
-Unfinished Faction Files
-    - Death Guard
+TO-DO
 
-Operatives missing Specialisms
+    - Review and potentially update all Global frameworks
 
 ### Change Log
 
-------------------------------------------------------------------------------------------------------------------------
-
-## v0.03.04.24
-
-### Project Files
-
-- Templates
-  - Operative template updated
-
-### Factions
-
-- Forge World
-  - Skitarii Ranger [Trooper]
-  - Skitarii Ranger [Gunner]
-  - Skitarii Ranger Alpha
-  - Skitarii Vanguard [Trooper]
-  - Skitarii Vanguard [Gunner]
-  - Skitarii Vanguard Alpha
-  - Sicarian Ruststalker [Trooper]
-  - Sicarian Ruststalker Princeps
-  - Sicarian Infiltrator [Trooper]
-  - Sicarian Infiltrator Princeps
-
-------------------------------------------------------------------------------------------------------------------------
-
-## v0.20.02.23
-
-### General
-
-- Project Files
-  - Folder moved out of Global folder
-
-### Factions
-
-- Grey Knight
-  - Grey Knight [Warrior] updated
-  - Grey Knight [Gunner] updated
-  - Grey Knight Justicar updated
-
-- Thousand Sons
-  - Rubric Marine [Warrior] data added
-  - Robric Marine [Gunner] data added
-  - Rubric Marine [Icon Bearer] data added
-  - Aspiring Sorcerer data added
-  - Tzaangor [Fighter] data added
-  - Tzaangor [Icon Bearer] data added
-  - Tzaangor [Horn Bearer] data added
-  - Twistbray data added
-
-### Global
-
-- Abilities
-  - All Is Dust
-  - Favoured By Change
-  - Icon Of Flame
-
-- Unique Actions
-  - Manifest Psychic Power split into two sections
-    - Manifest Psychic Power [Grey Knight]
-    - Manifest Psychic Power [Thousand Sons]
-  - Herd Banner
-  - Brayhorn
-
-------------------------------------------------------------------------------------------------------------------------
-
-## v0.11.01.23
-
-### General
-
-- Version Names
-  - Naming style updated to reflect international date standard instead of previous American version
-  - All version names, past and present, have been updated
-
-### Factions
-
-- Imperial Guard
-  - Guardsman [Trooper]
-  - Guardsman [Comms]
-  - Guardsman [Gunner]
-  - Guardsman Sergeant
-  - Tempestus Scion [Trooper]
-  - Tempestus Scion [Comms]
-  - Tempestus Scion [Gunner]
-  - Tempestor
-
-### Global
-
-- Abilities
-  - Accomplished Leader
-  - Relay Orders
-
-- Unique Actions
-  - Signal
-
-------------------------------------------------------------------------------------------------------------------------
-
-## v0.07.07.2022
-
-### Factions
-
-- Chaos Daemon
-  - Plaguebearer Fighter data added
-  - Plaguebearer Icon Bearer data added
-  - Plaguebearer Horn Bearer data added
-  - Plagueridden data added
-  - Pink Horror Fighter data added
-  - Pink Horror Icon Bearer data added
-  - Pink Horror Horn Bearer data added
-  - Pink Horror Iridescent data added
-  - Blue Horror data added
-  - Brimstone Horrors data added
-
-### Global
-
-- Abilities
-  - Disgustingly Resilient data added
-  - Ephemeral Daemon data added
-  - Insignificant data added
-
-------------------------------------------------------------------------------------------------------------------------
-
-## v0.06.07.22
-
-### Factions
-
-- Chaos Daemon
-  - Bloodletter Fighter data added
-  - Bloodletter Icon Bearer data added
-  - Bloodletter Horn Bearer data added
-  - Bloodreaper data added
-  - Daemonette Fighter data added
-  - Daemonette Icon Bearer data added
-  - Daemonette Horn Bearer data added
-  - Alluress data added
-
-### Global
-
-- Abilities
-  - Daemon data added
-
-- Unique Actions
-  - Daemonic Icon data added
-  - Instrument of Chaos data added
-
-------------------------------------------------------------------------------------------------------------------------
-
-## v0.04.07.22
-
-### Factions
-
-- Commorrite
-  - Kabalite Warrior data added
-  - Sybarite data added
-  - Kabalite Gunner data added
-  - Kabalite Heavy Gunner data added
-  - Wych Warrior data added
-  - Hekatrix data added
-  - Wych Fighter data added
-
-- Hive Fleet
-  - Genestealer Fighter data added
-  - Genestealer Leader data added
-  - Tyranid Warrior Fighter data added
-  - Tyranid Warrior Heavy Gunner data added
-  - Tyranid Warrior Leader data added
-  - Termagant data added
-  - Hormagaunt data added
-
-### Global
-
-- Abilities
-  - Dodge data added
-  - Hidden Horror data added
-  - Lightning Reflexes data added
-  - Shardnet and Impaler data added
-  - Synapse data added
-  - Weaponbeast data added
-
-------------------------------------------------------------------------------------------------------------------------
-
-## v0.01.07.22
-
-### Factions
-
-- Tomb World
-  - Necron Warrior data added
-  - Immortal Warrior data added
-  - Immortal Leader data added
-  - Flayed One Warrior data added
-  - Flayed One Leader data added
-  - Deathmark Warrior data added
-  - Deathmark Leader data added
-
-### Global
-
-- Abilities
-  - Living Metal data added
-
-------------------------------------------------------------------------------------------------------------------------
-
-## v0.30.06.22
-
-### General Updates
-
-- Readme
-  - Main body description added
-
-### Factions
-
-- Craftworld
-  - Storm Guardian Warrior data added
-  - Storm Guardian Gunner data added
-  - Storm Guardian Leader data added
-  - Ranger Warrior data added
-  - Ranger Leader data added
-  - Dire Avenger Warrior data added
-  - Dire Avenger Exarch data added
-
-- Greenskin
-  - Boy Fighter data added
-  - Boss Nob data added
-  - Boy Gunner data added
-  - Gretchin data added
-  - Clan Kommando Fighter data added
-  - Clan Kommando Nob data added
-  - Burna Boy data added
-  - Loota data added
-  - Spanner data added
-
-### Global
-
-- Abilities
-  - Camo Cloak data added
-  - Defence Tactics data added
-  - Kombi data added
-  - Runt data added
-  - Shimmershield data added
-
-- Unique Actions
-  - Shuriken Storm data added
-
-------------------------------------------------------------------------------------------------------------------------
-
-## v0.29.06.22
-
-### Factions
-
-- Craftworld
-  - Guardian Defender Heavy Weapon Platform data added
-  - Guardian Defender Leader data added
-
-### Global
-
-- Abilities
-  - Platform Controller data added
-  - Gun Platform data added
-
-------------------------------------------------------------------------------------------------------------------------
-
-## v0.27.06.22
-
-### General Updates
-
-- Typos
-  - Removed typo from previous update notes
-
-### Factions
-
-- Craftworld
-  - New faction added
-  - Framework added
-  - Addition of unit data started
-
-------------------------------------------------------------------------------------------------------------------------
-
-## v0.04.01.22
-
-### Factions
-
-- Adeptus Custodes renamed Talons of the Emperor
-  - Talons of the Emperor ability added
-  - Talons of the Emperor units updated
-- Genestealer Cults renamed Brood Coven
-- Harlequins renamed Troupe
-- Kroot renamed Cadre Mercenary
-- T'au Empire renamed Hunter Cadre
-
-------------------------------------------------------------------------------------------------------------------------
-
-## v0.21.12.21
-
-### Factions
-
-- Adeptus Custodes
-  - New faction added
-  - Operative framework added
-  - Operative data added
-
-- Genestealer Cults
-  - Operative data updated
-
-- Harlequins
-  - New faction added
-  - Operative framework added
-  - Operative data added
-
-### Global
-
-- Abilities
-  - Adeptus Custodes abilities added
-  - Genestealer Cults ability added
-  - Harlequins abilities added
-
-------------------------------------------------------------------------------------------------------------------------
-
-## v0.30.11.21
-
-### Factions
-
-- Genestealer Cults
-  - New faction added
-  - Operative framework added
-  - Operative data added
-
-### Global
-
-- Abilities
-  - Genestealer Cults abilities added
-
-- Unique Actions
-  - Genestealer Cults UAs added
-
-------------------------------------------------------------------------------------------------------------------------
-
-## v0.16.11.21
-
-### Project Files
-
-- Templates
-  - Ability template updated
-  - Unique Actions template updated
-  - Operative template updated
-
-### Factions
-
-- Grey Knights
-  - New faction added
-  - Operative framework added
-  - Operative data added
-
-- Kroot
-  - Operative data updated
-
-- T'au Empire
-  - Operative data updated
-
-### Global
-
-- Abilities
-  - No Grey Knights Abilities to add
-  - Kroot Abilities added
-  - T'au Empire Abilities updated
-
-- Crit Rules
-  - File created
-
-- Special Rules
-  - File created
-
-- Unique Actions
-  - Grey Knights UAs added
-  - No Kroot UAs to add
-  - T'au Empire UAs updated
-
-------------------------------------------------------------------------------------------------------------------------
-
-## v0.15.11.21
-
-### Project Files
-
-- Templates
-  - File converted to markdown
-  - Ability template created
-  - Unique Actions template created
-  - Melee Weapon template updated
-
-### Factions
-
-- Kroot
-  - New faction added
-  - Operative framework added
-
-- T'au Empire
-  - Operative data updated
-
-### Global
-
-- Abilities
-  - Global file created
-  - Framework added
-  - T'au Empire Abilities added
-
-- Unique Actions
-  - Global file created
-  - Framework added
-  - T'au Empire UAs added
-
-------------------------------------------------------------------------------------------------------------------------
-
-## v0.12.11.21
-
-### Project Files
-
-- New folder created
-  - Notes migrated to folder
-  - Templates migrated to folder
-    - Operative template updated
-
-### Factions
-
-- T'au Empire Empire
-  - Operative data updated
-  - Need to add Drone data
-
-------------------------------------------------------------------------------------------------------------------------
-
-## v0.10.11.21
-
-### Templates
-
-- Weapon template created
-- Operative template created
-  - Templates merged
-
-### Factions
-
-- T'au Empire Empire
-  - Operative data updated
-
-------------------------------------------------------------------------------------------------------------------------
-
-## v0.09.11.21
-
-### Project Notes
-
-- Acronyms listed in text file for reference
-
-### Factions
-
-- T'au Empire Empire folder created
-  - Operative framework created
-
-------------------------------------------------------------------------------------------------------------------------
+v0.04.04.24
+
+    - Framework
+        - Design has been updated. All stats are now integers instead of strings. This will require certain UI design elements to display information properly. Damage was split into two integers for ease of use.
+        - A redesign for abilities, equipment, rules, and other somewhat universal data will be required after the faction data is updated.
+    
+    - Faction Data
+        - Operator names have been updated to remove brackets.
+        - A new file has been created and all operative data will be migrated to this single data source. Comments will be heavily used to aid in readability.
+        - Faction data is currently being updated to match the new framework design.
+        - All updates to the new operatives file are to be listed under "Operatives".
+
+v0.03.04.24
+
+    -Framework
+        - Framework has been designed to accomodate all information listed on data slates. Updates will be required as the project advances and Games Workshop adjusts their game rules.
+
+    - Faction Data
+        - All factions have been added from the core rulebook. Additional factions have been released and need to be added.

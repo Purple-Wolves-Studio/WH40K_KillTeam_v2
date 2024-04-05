@@ -49,6 +49,7 @@ unique_actions = [
         "actcost":1,
         "acttext":"Until the end of the Turning Point, while this operative is within 3\" of a friendly Tzaangor operative, that operative is invigorated by chaos. While an operative is invigorated by chaos, improve its invulnerable save by 1.",
     },
+    ICON OF PURITY
     {   # Manifest Psychic Power [Grey Knight]
         "actname":"Manifest Psychic Power [Grey Knight]",
         "actcost":1,
@@ -69,4 +70,5 @@ unique_actions = [
         "actcost":2,
         "actext":"Make two shooting attacks with this operative's twin avenger shuriken catapult. When making those shooting attacks, ignore the weapon's Relentless special rule. This action is treated as a Shoot action. This operative can only perform this action if it is equipped with a twin avenger shuriken catapult.",
     },
+    Whip Into Fury
 ]

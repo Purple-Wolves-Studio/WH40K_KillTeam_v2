@@ -11,6 +11,7 @@ abilities = [
         "abname":"Artificial Intelligence",
         "abtext":"This operative cannot perform mission actions or the Pick Up action.\n\nFor the purposes of determining control of objective markers, treat this operative's APL as 1 lower.\n\nEach time a shooting attack is made against this operative, in the Roll Defence Dice step of that shooting attack, if it has an Engage order, defence dice cannot be automatically retained as a result of Cover.\n\nWhen drawing a Visibility line from a Drone operative, draw it from any part of the round disc at the top of the miniature, as shown by the red keyline area on the diagram below.\n\nUnless otherwise specified, this operative cannot be equipped with equipment.",
     },
+    Berserk Killing Machine
     {   # Camo Cloak
         "abname":"Camo Cloak",
         "abtext":"Each time a shooting attack is made against this operative, in the Roll Defence Dice step of that shooting attack, before rolling your defence dice, if it is in Cover, one additional dice can be retained as a successful normal save as a result of Cover.",
@@ -19,6 +20,7 @@ abilities = [
         "abname":"Camouflage Field",
         "abtext":"Each time an enemy operative makes a shooting attack, unless it is within 2\" of this operative or it is a subsequent attack made as a result of the Blast special rule, this operative is always treated as being in Cover for that shooting attack. While this operative has a Conceal order, it is always treated as having a Conceal order, regardless of any other rules (e.g. Vantage Point).",
     },
+    COMBI
     {   # Daemon
         "abname":"Daemon",
         "abtext":"This operative has a 5+ invulnerable save.",
@@ -139,6 +141,7 @@ abilities = [
         "abname":"Smart Targeting",
         "abtext":"Each time this operative makes a shooting attack with this weapon, you can use this special rule. If you do so, for that shooting attack:\n\nEnemy operatives with an Engage order that are not within Engagement Range of friendly operatives are valid targets and cannot be in Cover.\n\nIn the Roll Attack Dice step of that shooting attack, attack dice results of 6 are successful normal hits. All other attack dice results are failed hits.",
     },
+    Solace in Anguish
     {   # Storm Shield
         "abname":"Storm Shield",
         "abtext":"If this operative is equipped with a Storm Shield, it has a 4+ invulnerable save. Each time it fights in combat, in the Resolve Successful Hits step of that combat, each time it parries, two of your opponent's successful hits are discarded (instead of one).",

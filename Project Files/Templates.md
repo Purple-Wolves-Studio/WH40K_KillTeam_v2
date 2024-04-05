@@ -64,7 +64,11 @@ operatives = [
         "keywords":[
         ],
         "specials":[
-        ],
+            "Combat",
+            "Staunch",
+            "Marksman",
+            "Scout"
+        ]
     },
 ]
 
