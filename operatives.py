@@ -1,5 +1,1322 @@
 operatives = [
     # Brood Coven
+    {   # Neophyte Hybrid Trooper
+        "opname":"Neophyte Hybrid Trooper",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":2,
+            "def":3,
+            "save":5,
+            "wounds":7,
+        },
+        "rweaps":[
+            {   # Autogun
+                "wname":"Autogun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Shotgun
+                "wname":"Shotgun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":3,
+                        "dmg2":3,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Gun Butt
+                "wname":"Gun Butt",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Brood Coven",
+        "faction":[
+            "Genestealer Cults"
+        ],
+        "house":"",
+        "keywords":[
+            "Neophyte Hybrid",
+            "Trooper"
+        ],
+        "specials":[
+            "Marksman",
+            "Scout"
+        ]
+    },
+    {   # Neophyte Hybrid Gunner
+        "opname":"Neophyte Hybrid Gunner",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":5,
+            "wounds":7,
+        },
+        "rweaps":[
+            {   # Flamer
+                "wname":"Flamer",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "bskill":2,
+                        "dmg1":2,
+                        "dmg2":2,
+                        "srule":[
+                            "Range 6\""
+                            "Torrent 2\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Grenade Launcher
+                "wname":"Grenade Launcher",
+                "profiles":[
+                    {
+                        "pname":"Frag",
+                        "atts":4,
+                        "bskill":4,
+                        "dmg1":2,
+                        "dmg2":4,
+                        "srule":[
+                            "Blast 2\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                    {
+                        "pname":"Krak",
+                        "atts":4,
+                        "bskill":4,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                            "AP 1"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Webber
+                "wname":"Webber",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":2,
+                        "dmg2":2,
+                        "srule":[
+                            "Range 6\""
+                            "Lethal 5+"
+                        ],
+                        "crits":[
+                            "Stun"
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Gun Butt
+                "wname":"Gun Butt",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Brood Coven",
+        "faction":[
+            "Genestealer Cults"
+        ],
+        "house":"",
+        "keywords":[
+            "Neophyte Hybrid",
+            "Gunner"
+        ],
+        "specials":[
+            "Marksman",
+            "Scout"
+        ]
+    },
+    {   # Neophyte Hybrid Heavy Gunner
+        "opname":"Neophyte Hybrid Heavy Gunner",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":5,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Heavy Stubber
+                "wname":"Heavy Stubber",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "bskill":4,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Heavy"
+                            "Ceaseless"
+                            "Fusillade"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Mining Laser
+                "wname":"Mining Laser",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "bskill":4,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                            "Heavy"
+                            "AP 1"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Seismic Cannon
+                "wname":"Seismic Cannon",
+                "profiles":[
+                    {
+                        "pname":"Long-wave",
+                        "atts":6,
+                        "bskill":4,
+                        "dmg1":2,
+                        "dmg2":2,
+                        "srule":[
+                            "Heavy"
+                            "Blast 1\""
+                        ],
+                        "crits":[
+                            "Stun"
+                        ],
+                    },
+                    {
+                        "pname":"Short-wave",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":4,
+                        "dmg2":4,
+                        "srule":[
+                            "Heavy"
+                            "Range 6\""
+                        ],
+                        "crits":[
+                            "Stun"
+                            "P 1"
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Gun Butt
+                "wname":"Gun Butt",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Brood Coven",
+        "faction":[
+            "Genestealer Cults"
+        ],
+        "house":"",
+        "keywords":[
+            "Neophyte Hybrid",
+            "Heavy Gunner"
+        ],
+        "specials":[
+            "Staunch",
+            "Marksman"
+        ]
+    },
+    {   # Neophyte Hybrid Icon Bearer
+        "opname":"Neophyte Hybrid Icon Bearer",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":5,
+            "wounds":7,
+        },
+        "rweaps":[
+            {   # Autogun
+                "wname":"Autogun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Shotgun
+                "wname":"Shotgun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":3,
+                        "dmg2":3,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Gun Butt
+                "wname":"Gun Butt",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Icon Bearer"
+        ],
+        "uacts":[
+            "Cult Icon"
+        ],
+        "fackey":"Brood Coven",
+        "faction":[
+            "Genestealer Cults"
+        ],
+        "house":"",
+        "keywords":[
+            "Neophyte Hybrid",
+            "Icon Bearer"
+        ],
+        "specials":[
+            "Staunch"
+        ]
+    },
+    {   # Neophyte Hybrid Leader
+        "opname":"Neophyte Hybrid Leader",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":5,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Autogun
+                "wname":"Autogun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Autopistol
+                "wname":"Autopistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Bolt Pistol
+                "wname":"Bolt Pistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Shotgun
+                "wname":"Shotgun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":3,
+                        "dmg2":3,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Web Pistol
+                "wname":"Web Pistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":2,
+                        "dmg2":2,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                            "Stun"
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Chainsword
+                "wname":"Chainsword",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Gun Butt
+                "wname":"Gun Butt",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Power Maul
+                "wname":"Power Maul",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                        ],
+                        "crits":[
+                            "Stun"
+                        ],
+                    },
+                ]
+            },
+            {   # Power Pick
+                "wname":"Power Pick",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                        ],
+                        "crits":[
+                            "Rending"
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Brood Coven",
+        "faction":[
+            "Genestealer Cults"
+        ],
+        "house":"",
+        "keywords":[
+            "Neophyte Hybrid",
+            "Leader"
+        ],
+        "specials":[
+            "Combat",
+            "Marksman",
+            "Scout"
+        ]
+    },
+    {   # Acolyte Hybrid Trooper
+        "opname":"Acolyte Hybrid Trooper",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":5,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Autopistol
+                "wname":"Autopistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Cult Knife and Claw
+                "wname":"Cult Knife and Claw",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                            "Balanced"
+                        ],
+                        "crits":[
+                            "Rending"
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Brood Coven",
+        "faction":[
+            "Genestealer Cults"
+        ],
+        "house":"",
+        "keywords":[
+            "Acolyte Hybrid",
+            "Trooper"
+        ],
+        "specials":[
+            "Combat",
+            "Scout"
+        ]
+    },
+    {   # Acolyte Hybrid Gunner
+        "opname":"Acolyte Hybrid Gunner",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":5,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Hand Flamer
+                "wname":"Hand Flamer",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":2,
+                        "dmg2":2,
+                        "srule":[
+                            "Range 6\""
+                            "Torrent 1\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Cult Knife & Claw
+                "wname":"Cult Knife & Claw",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                            "Balanced"
+                        ],
+                        "crits":[
+                            "Rending"
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Brood Coven",
+        "faction":[
+            "Genestealer Cults"
+        ],
+        "house":"",
+        "keywords":[
+            "Acolyte Hybrid",
+            "Gunner"
+        ],
+        "specials":[
+            "Combat",
+            "Marksman",
+            "Scout"
+        ]
+    },
+    {   # Acolyte Hybrid Fighter
+        "opname":"Acolyte Hybrid Fighter",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":5,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Autopistol
+                "wname":"Autopistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Heavy Rock Cutter
+                "wname":"Heavy Rock Cutter",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":4,
+                        "dmg1":5,
+                        "dmg2":7,
+                        "srule":[
+                            "Lethal 5+"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Heavy Rock Drill
+                "wname":"Heavy Rock Drill",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":4,
+                        "dmg2":7,
+                        "srule":[
+                            "Brutal"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Heavy Rock Saw
+                "wname":"Heavy Rock Saw",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Brood Coven",
+        "faction":[
+            "Genestealer Cults"
+        ],
+        "house":"",
+        "keywords":[
+            "Acolyte Hybrid",
+            "Fighter"
+        ],
+        "specials":[
+            "Combat",
+            "Scout"
+        ]
+    },
+    {   # Acolyte Hybrid Icon Bearer
+        "opname":"Acolyte Hybrid Icon Bearer",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":5,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Autopistol
+                "wname":"Autopistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Cult Knife & Claw
+                "wname":"Cult Knife & Claw",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                            "Balanced"
+                        ],
+                        "crits":[
+                            "Rending"
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Icon Bearer"
+        ],
+        "uacts":[
+            "Cult Icon"
+        ],
+        "fackey":"Brood Coven",
+        "faction":[
+            "Genestealer Cults"
+        ],
+        "house":"",
+        "keywords":[
+            "Acolyte Hybrid",
+            "Icon Bearer"
+        ],
+        "specials":[
+            "Staunch"
+        ]
+    },
+    {   # Acolyte Hybrid Leader
+        "opname":"Acolyte Hybrid Leader",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":5,
+            "wounds":9,
+        },
+        "rweaps":[
+            {   # Autopistol
+                "wname":"Autopistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Hand Flamer
+                "wname":"Hand Flamer",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":2,
+                        "dmg2":2,
+                        "srule":[
+                            "Range 6\""
+                            "Torrent 1\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Lash Whip
+                "wname":"Lash Whip",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Range 2\""
+                        ],
+                        "crits":[
+                            "Stun"
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Cult Bonesword & Claw
+                "wname":"Cult Bonesword & Claw",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":2,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                            "Balanced"
+                            "Lethal 5+"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Cult Knife & Claw
+                "wname":"Cult Knife & Claw",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":2,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                            "Balanced"
+                        ],
+                        "crits":[
+                            "Rending"
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Lash Whip"
+        ],
+        "uacts":[
+        ],
+        "fackey":"Brood Coven",
+        "faction":[
+            "Genestealer Cults"
+        ],
+        "house":"",
+        "keywords":[
+            "Acolyte Hybrid",
+            "Leader"
+        ],
+        "specials":[
+            "Combat",
+            "Scout"
+        ]
+    },
+    {   # Hybrid Metamorph Fighter
+        "opname":"Hybrid Metamorph Fighter",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":5,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Autopistol
+                "wname":"Autopistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Metamorph Mutations
+                "wname":"Metamorph Mutations",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                            "Balanced"
+                            "Brutal"
+                        ],
+                        "crits":[
+                            "Rending"
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Brood Coven",
+        "faction":[
+            "Genestealer Cults"
+        ],
+        "house":"",
+        "keywords":[
+            "Hybrid Metamorph",
+            "Fighter"
+        ],
+        "specials":[
+            "Combat",
+            "Scout"
+        ]
+    },
+    {   # Hybrid Metamorph Gunner
+        "opname":"Hybrid Metamorph Gunner",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":5,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Hand Flamer
+                "wname":"Hand Flamer",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":2,
+                        "dmg2":2,
+                        "srule":[
+                            "Range 6\""
+                            "Torrent 1\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Metamorph Mutations
+                "wname":"Metamorph Mutations",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                            "Balanced"
+                            "Brutal"
+                        ],
+                        "crits":[
+                            "Rending"
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Brood Coven",
+        "faction":[
+            "Genestealer Cults"
+        ],
+        "house":"",
+        "keywords":[
+            "Hybrid Metamorph",
+            "Gunner"
+        ],
+        "specials":[
+            "Combat",
+            "Marksman",
+            "Scout"
+        ]
+    },
+    {   # Hybrid Metamorph Icon Bearer
+        "opname":"Hybrid Metamorph Icon Bearer",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":5,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Autopistol
+                "wname":"Autopistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Metamorph Mutations
+                "wname":"Metamorph Mutations",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                            "Balanced"
+                            "Brutal"
+                        ],
+                        "crits":[
+                            "Rending"
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Icon Bearer"
+        ],
+        "uacts":[
+            "Cult Icon"
+        ],
+        "fackey":"Brood Coven",
+        "faction":[
+            "Genestealer Cults"
+        ],
+        "house":"",
+        "keywords":[
+            "Hybrid Metamorph",
+            "Icon Bearer"
+        ],
+        "specials":[
+            "Staunch"
+        ]
+    },
+    {   # Hybrid Metamorph Leader
+        "opname":"Hybrid Metamorph Leader",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":5,
+            "wounds":9,
+        },
+        "rweaps":[
+            {   # Autopistol
+                "wname":"Autopistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Hand Flamer
+                "wname":"Hand Flamer",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":2,
+                        "dmg2":2,
+                        "srule":[
+                            "Range 6\""
+                            "Torrent 1\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Cult Bonesword & Metamorph Mutations
+                "wname":"Cult Bonesword & Metamorph Mutations",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":2,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                            "Balanced"
+                            "Lethal 5+"
+                        ],
+                        "crits":[
+                            "Rending"
+                        ],
+                    },
+                ]
+            },
+            {   # Metamorph Mutations
+                "wname":"Metamorph Mutations",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":2,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                            "Balanced"
+                            "Brutal"
+                        ],
+                        "crits":[
+                            "Rending"
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Brood Coven",
+        "faction":[
+            "Genestealer Cults"
+        ],
+        "house":"",
+        "keywords":[
+            "Hybrid Metamorph",
+            "Leader"
+        ],
+        "specials":[
+            "Combat",
+            "Scout"
+        ]
+    },
     # Cadre Mercenary
     {   # Kroot Carnivore Warrior
         "opname":"Kroot Carnivore Warrior",
@@ -5225,6 +6542,880 @@ operatives = [
         ]
     },
     # Imperial Guard
+    {   # Guardsman Trooper
+        "opname":"Guardsman Trooper",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":2,
+            "def":3,
+            "save":5,
+            "wounds":7,
+        },
+        "rweaps":[
+            {   # Lasgun
+                "wname":"Lasgun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Bayonet
+                "wname":"Bayonet",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Imperial Guard",
+        "faction":[
+            "Imperium",
+            "Astra Militarum"
+        ],
+        "house":"",
+        "keywords":[
+            "Guardsman",
+            "Trooper"
+        ],
+        "specials":[
+            "Marksman",
+            "Scout"
+        ]
+    },
+    {   # Guardsman Comms
+        "opname":"Guardsman Comms",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":5,
+            "wounds":7,
+        },
+        "rweaps":[
+            {   # Lasgun
+                "wname":"Lasgun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Bayonet
+                "wname":"Bayonet",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Relay Orders"
+        ],
+        "uacts":[
+            "Signal"
+        ],
+        "fackey":"Imperial Guard",
+        "faction":[
+            "Imperium",
+            "Astra Militarum"
+        ],
+        "house":"",
+        "keywords":[
+            "Guardsman",
+            "Comms"
+        ],
+        "specials":[
+            "Staunch",
+            "Scout"
+        ]
+    },
+    {   # Guardsman Gunner
+        "opname":"Guardsman Gunner",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":7,
+        },
+        "rweaps":[
+            {   # Flamer
+                "wname":"Flamer",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "bskill":2,
+                        "dmg1":2,
+                        "dmg2":2,
+                        "srule":[
+                            "Range 6\""
+                            "Torrent 2\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Grenade Launcher
+                "wname":"Grenade Launcher",
+                "profiles":[
+                    {
+                        "pname":"Frag",
+                        "atts":4,
+                        "bskill":4,
+                        "dmg1":2,
+                        "dmg2":4,
+                        "srule":[
+                            "Blast 2\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                    {
+                        "pname":"Krak",
+                        "atts":4,
+                        "bskill":4,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                            "AP 1"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Meltagun
+                "wname":"Meltagun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":4,
+                        "dmg1":6,
+                        "dmg2":3,
+                        "srule":[
+                            "Range 6\""
+                            "AP 2"
+                        ],
+                        "crits":[
+                            "MW 4"
+                        ],
+                    },
+                ]
+            },
+            {   # Plasma Gun
+                "wname":"Plasma Gun",
+                "profiles":[
+                    {
+                        "pname":"Standard",
+                        "atts":4,
+                        "bskill":4,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                            "AP 1"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                    {
+                        "pname":"Supercharge",
+                        "atts":4,
+                        "bskill":4,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                            "AP 2"
+                            "Hot"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Sniper Rifle
+                "wname":"Sniper Rifle",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":3,
+                        "dmg2":3,
+                        "srule":[
+                            "Heavy"
+                            "Silent"
+                        ],
+                        "crits":[
+                            "MW 1"
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Bayonet
+                "wname":"Bayonet",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":"3",
+                        "wskill":"4+",
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Imperial Guard",
+        "faction":[
+            "Imperium",
+            "Astra Militarum"
+        ],
+        "house":"",
+        "keywords":[
+            "Guardsman",
+            "Gunner"
+        ],
+        "specials":[
+            "Marksman"
+        ]
+    },
+    {   # Guardsman Sergeant
+        "opname":"Guardsman Sergeant",
+        "stats":{
+            "move":"6\"",
+            "apl":"2",
+            "gpact":"1",
+            "def":"3",
+            "save":"5+",
+            "wounds":"8",
+        },
+        "rweaps":[
+            {   # Bolt Pistol
+                "wname":"Bolt Pistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Laspistol
+                "wname":"Laspistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Plasma Pistol
+                "wname":"Plasma Pistol",
+                "profiles":[
+                    {
+                        "pname":"Standard",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                            "Range 6\""
+                            "AP 1"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                    {
+                        "pname":"Supercharge",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                            "Range 6\""
+                            "AP 2"
+                            "Hot"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Chainsword
+                "wname":"Chainsword",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":4,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Power Weapon
+                "wname":"Power Weapon",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":4,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                            "Lethal 5+"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Imperial Guard",
+        "faction":[
+            "Imperium",
+            "Astra Militarum"
+        ],
+        "house":"",
+        "keywords":[
+            "Leader",
+            "Guardsman",
+            "Sergeant"
+        ],
+        "specials":[
+            "Combat",
+            "Staunch",
+            "Marksman"
+        ]
+    },
+    {   # Tempestus Scion Trooper
+        "opname":"Tempestus Scion Trooper",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":4,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Hot-shot Lasgun
+                "wname":"Hot-shot Lasgun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Gun Butt
+                "wname":"Gun Butt",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+            "Signal"
+        ],
+        "fackey":"Imperial Guard",
+        "faction":[
+            "Imperium",
+            "Astra Militarum"
+        ],
+        "house":"",
+        "keywords":[
+            "Tempsestus Scion",
+            "Trooper"
+        ],
+        "specials":[
+            "Marksman",
+            "Scout"
+        ]
+    },
+    {   # Tempestus Scion Comms
+        "opname":"Tempestus Scion Comms",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":4,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Hot-shot Lasgun
+                "wname":"Hot-shot Lasgun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Gun Butt
+                "wname":"Gun Butt",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+            "Signal"
+        ],
+        "fackey":"Imperial Guard",
+        "faction":[
+            "Imperium",
+            "Astra Militarum"
+        ],
+        "house":"",
+        "keywords":[
+            "Tempsestus Scion",
+            "Comms"
+        ],
+        "specials":[
+            "Staunch",
+            "Scout"
+        ]
+    },
+    {   # Tempestus Scion Gunner
+        "opname":"Tempestus Scion Gunner",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":4,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Flamer
+                "wname":"Flamer",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "bskill":2,
+                        "dmg1":2,
+                        "dmg2":2,
+                        "srule":[
+                            "Range 6\""
+                            "Torrent 2\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Grenade Launcher
+                "wname":"Grenade Launcher",
+                "profiles":[
+                    {
+                        "pname":"Frag",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":2,
+                        "dmg2":4,
+                        "srule":[
+                            "Blast 2\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                    {
+                        "pname":"Krak",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                            "AP 1"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Hot-shot Volley Gun
+                "wname":"Hot-shot Volley Gun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "bskill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Fusillade"
+                        ],
+                        "crits":[
+                            "P 4"
+                        ],
+                    },
+                ]
+            },
+            {   # Meltagun
+                "wname":"Meltagun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":4,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                            "Range 6\""
+                            "AP 2"
+                        ],
+                        "crits":[
+                            "MW 4"
+                        ],
+                    },
+                ]
+            },
+            {   # Plasma Gun
+                "wname":"Plasma Gun",
+                "profiles":[
+                    {
+                        "pname":"Standard",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                            "AP 1"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                    {
+                        "pname":"Supercharge",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                            "AP 2"
+                            "Hot"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Gun Butt
+                "wname":"Gun Butt",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":3,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Imperial Guard",
+        "faction":[
+            "Imperium",
+            "Astra Militarum"
+        ],
+        "house":"",
+        "keywords":[
+            "Tempsestus Scion",
+            "Gunner"
+        ],
+        "specials":[
+            "Marksman"
+        ]
+    },
+    {   # Tempestor
+        "opname":"Tempestor",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":4,
+            "wounds":9,
+        },
+        "rweaps":[
+            {   # Bolt Pistol
+                "wname":"Bolt Pistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Hot-shot Laspistol
+                "wname":"Hot-shot Laspistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Plasma Gun
+                "wname":"Plasma Gun",
+                "profiles":[
+                    {
+                        "pname":"Standard",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                            "Range 6\""
+                            "AP 1"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                    {
+                        "pname":"Supercharge",
+                        "atts":"4",
+                        "bskill":2,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                            "Range 6\""
+                            "AP 2"
+                            "Hot"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Chainsword
+                "wname":"Chainsword",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Power Fist
+                "wname":"Power Fist",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":4,
+                        "dmg1":5,
+                        "dmg2":7,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Power Weapon
+                "wname":"Power Weapon",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                            "Lethal 5+"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Accomplished Leader"
+        ],
+        "uacts":[
+        ],
+        "fackey":"Imperial Guard",
+        "faction":[
+            "Imperium",
+            "Astra Militarum"
+        ],
+        "house":"",
+        "keywords":[
+            "Leader",
+            "Tempsestus Scion",
+            "Tempestor"
+        ],
+        "specials":[
+            "Combat",
+            "Staunch",
+            "Marksman"
+        ]
+    },
     # Space Marine
     # Talons of the Emperor
     {   # Custodian Guard Warrior

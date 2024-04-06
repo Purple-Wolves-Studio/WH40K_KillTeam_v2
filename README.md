@@ -64,6 +64,14 @@ TO-DO
 
 ### Change Log
 
+v0.06.04.24
+
+    - Operatives
+        - Migration work is proceeding quickly with half the faction data already consolidated.
+
+    - Global Data
+        - All files located in this folder have been moved to the main location and the folder removed.
+
 v0.04.04.24
 
     - Framework
