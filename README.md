@@ -5,11 +5,11 @@
 
 ## Design, Requirements, and Known Issues
 
-Required Code Elements
+Required Code Elements:
 
     - The Combi ability provides a Boltgun for every operative carrying a weapon with the "Combi" special rule. There needs to be a boolean to provide the operative with a Boltgun if true.
 
-Required UI Elements
+Required UI Elements:
 
     - Some weapons have options for how to fire them. To make it user friendly, a tab style of swapping between choices would be simple and quick. No dropdown menus. Only seamless transitions.
 
@@ -45,7 +45,7 @@ Required UI Elements
         - Hive Fleet "Hive Fleet"
         - Brood Coven "Cult"
 
-Outdated Frameworks
+Outdated Frameworks:
 
     - Brood Coven
     - Chaos Daemon
@@ -58,11 +58,17 @@ Outdated Frameworks
     - Tomb World
     - Traitor Space Marine
 
-TO-DO
+To-Do
 
     - Review and potentially update all Global frameworks
 
 ### Change Log
+
+v0.XX.08.24
+
+    - Operatives
+        - All operative data has been consolidated to the new file. Work can now progress on modifying the framework used by abilities, equipment, etc.
+        - All original kill teams have been added to the framework. Work continues on adding the supplemental teams and gameplay data to the framework.
 
 v0.06.04.24
 

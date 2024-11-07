@@ -1,4 +1,95 @@
 operatives = [
+    {   # Heavy Intercessor [Warrior]
+        "opname":"Heavy Intercessor [Warrior]",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":18,
+        },
+        "rweaps":[
+            {   # Executor Bolt Rifle
+                "wname":"Executor Bolt Rifle",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":,
+                        "skill":,
+                        "dmg1":,
+                        "dmg2":,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Weapon Template
+                "wname":"",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":,
+                        "skill":,
+                        "dmg1":,
+                        "dmg2":,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Weapon Template
+                "wname":"",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":,
+                        "skill":,
+                        "dmg1":,
+                        "dmg2":,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Weapon Template
+                "wname":"",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":,
+                        "skill":,
+                        "dmg1":,
+                        "dmg2":,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"",
+        "faction":[
+        ],
+        "house":"",
+        "keywords":[
+        ],
+        "specials":[
+        ],
+    },
     {   # Unit Template
         "opname":"",
         "stats":{

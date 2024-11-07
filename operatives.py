@@ -1,5 +1,5 @@
 operatives = [
-    # Brood Coven
+    # --- Brood Coven ---
     {   # Neophyte Hybrid Trooper
         "opname":"Neophyte Hybrid Trooper",
         "stats":{
@@ -1317,7 +1317,7 @@ operatives = [
             "Scout"
         ]
     },
-    # Cadre Mercenary
+    # --- Cadre Mercenary ---
     {   # Kroot Carnivore Warrior
         "opname":"Kroot Carnivore Warrior",
         "stats":{
@@ -1570,11 +1570,3262 @@ operatives = [
             "Marksman"
         ]
     },
-    # Chaos Daemon
-    # Commorrite
-    # Craftworld
-    # Death Guard
-    # Ecclesiarchy
+    # --- Chaos Daemon ---
+    {   # Bloodletter Fighter
+        "opname":"Bloodletter Fighter",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":6,
+            "wounds":9,
+        },
+        "rweaps":[
+        ],
+        "mweaps":[
+            {   # Hellblade
+                "wname":"Hellblade",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                            "Lethal 5+"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Daemon"
+        ],
+        "uacts":[
+        ],
+        "fackey":"Chaos Daemon",
+        "faction":[
+            "Chaos",
+            "Daemon"
+        ],
+        "house":"Khorne",
+        "keywords":[
+            "Bloodletter",
+            "Fighter"
+        ],
+        "specials":[
+            "Combat"
+        ]
+    },
+    {   # Bloodletter Icon Bearer
+        "opname":"Bloodletter Icon Bearer",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":6,
+            "wounds":9,
+        },
+        "rweaps":[
+        ],
+        "mweaps":[
+            {   # Hellblade
+                "wname":"Hellblade",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                            "Lethal 5+"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Daemon",
+            "Icon Bearer"
+        ],
+        "uacts":[
+            "Daemonic Icon"
+        ],
+        "fackey":"Chaos Daemon",
+        "faction":[
+            "Chaos",
+            "Daemon"
+        ],
+        "house":"Khorne",
+        "keywords":[
+            "Bloodletter",
+            "Icon Bearer"
+        ],
+        "specials":[
+            "Combat"
+        ]
+    },
+    {   # Bloodletter Horn Bearer
+        "opname":"Bloodletter Horn Bearer",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":6,
+            "wounds":9,
+        },
+        "rweaps":[
+        ],
+        "mweaps":[
+            {   # Hellblade
+                "wname":"Hellblade",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                            "Lethal 5+"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Daemon"
+        ],
+        "uacts":[
+            "Instrument of Chaos"
+        ],
+        "fackey":"Chaos Daemon",
+        "faction":[
+            "Chaos",
+            "Daemon"
+        ],
+        "house":"Khorne",
+        "keywords":[
+            "Bloodletter",
+            "Horn Bearer"
+        ],
+        "specials":[
+            "Combat"
+        ]
+    },
+    {   # Bloodreaper
+        "opname":"Bloodreaper",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":6,
+            "wounds":10,
+        },
+        "rweaps":[
+        ],
+        "mweaps":[
+            {   # Hellblade
+                "wname":"Hellblade",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":2,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                            "Lethal 5+"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Daemon"
+        ],
+        "uacts":[
+        ],
+        "fackey":"Chaos Daemon",
+        "faction":[
+            "Chaos",
+            "Daemon"
+        ],
+        "house":"Khorne",
+        "keywords":[
+            "Leader",
+            "Bloodletter",
+            "Bloodreaper"
+        ],
+        "specials":[
+            "Combat"
+        ]
+    },
+    {   # Daemonette Fighter
+        "opname":"Daemonette Fighter",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":6,
+            "wounds":8,
+        },
+        "rweaps":[
+        ],
+        "mweaps":[
+            {   # Claws
+                "wname":"Claws",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                            "Relentless"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Daemon"
+        ],
+        "uacts":[
+        ],
+        "fackey":"Chaos Daemon",
+        "faction":[
+            "Chaos",
+            "Daemon"
+        ],
+        "house":"Slaanesh",
+        "keywords":[
+            "Daemonette",
+            "Fighter"
+        ],
+        "specials":[
+            "Combat",
+            "Scout"
+        ]
+    },
+    {   # Daemonette Icon Bearer
+        "opname":"Daemonette Icon Bearer",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":6,
+            "wounds":8,
+        },
+        "rweaps":[
+        ],
+        "mweaps":[
+            {   # Claws
+                "wname":"Claws",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":3,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                            "Relentless"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Daemon",
+            "Icon Bearer"
+        ],
+        "uacts":[
+            "Daemonic Icon"
+        ],
+        "fackey":"Chaos Daemon",
+        "faction":[
+            "Chaos",
+            "Daemon"
+        ],
+        "house":"Slaanesh",
+        "keywords":[
+            "Daemonette",
+            "Icon Bearer"
+        ],
+        "specials":[
+            "Combat",
+            "Scout"
+        ]
+    },
+    {   # Daemonette Horn Bearer
+        "opname":"Daemonette Horn Bearer",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":6,
+            "wounds":8,
+        },
+        "rweaps":[
+        ],
+        "mweaps":[
+            {   # Claws
+                "wname":"Claws",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":3,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                            "Relentless"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Daemon"
+        ],
+        "uacts":[
+            "Instrument of Chaos"
+        ],
+        "fackey":"Chaos Daemon",
+        "faction":[
+            "Chaos",
+            "Daemon"
+        ],
+        "house":"Slaanesh",
+        "keywords":[
+            "Daemonette",
+            "Horn Bearer"
+        ],
+        "specials":[
+            "Combat",
+            "Scout"
+        ]
+    },
+    {   # Alluress
+        "opname":"Alluress",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":6,
+            "wounds":9,
+        },
+        "rweaps":[
+        ],
+        "mweaps":[
+            {   # Claws
+                "wname":"Claws",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":2,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                            "Relentless"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Daemon"
+        ],
+        "uacts":[
+        ],
+        "fackey":"Chaos Daemon",
+        "faction":[
+            "Chaos",
+            "Daemon"
+        ],
+        "house":"Slaanesh",
+        "keywords":[
+            "Leader",
+            "Daemonette",
+            "Alluress"
+        ],
+        "specials":[
+            "Combat",
+            "Scout"
+        ]
+    },
+    {   # Plaguebearer Fighter
+        "opname":"Plaguebearer Fighter",
+        "stats":{
+            "move":4,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":5,
+            "wounds":8,
+        },
+        "rweaps":[
+        ],
+        "mweaps":[
+            {   # Plaguesword
+                "wname":"Plaguesword",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Daemon",
+            "Disgustingly Resilient"
+        ],
+        "uacts":[
+        ],
+        "fackey":"Chaos Daemon",
+        "faction":[
+            "Chaos",
+            "Daemon"
+        ],
+        "house":"Nurgle",
+        "keywords":[
+            "Plaguebearer",
+            "Fighter"
+        ],
+        "specials":[
+            "Staunch"
+        ]
+    },
+    {   # Plaguebearer Icon Bearer
+        "opname":"Plaguebearer Icon Bearer",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":5,
+            "wounds":8,
+        },
+        "rweaps":[
+        ],
+        "mweaps":[
+            {   # Plaguesword
+                "wname":"Plaguesword",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Daemon",
+            "Disgustingly Resilient",
+            "Icon Bearer"
+        ],
+        "uacts":[
+            "Daemonic Icon"
+        ],
+        "fackey":"Chaos Daemon",
+        "faction":[
+            "Chaos",
+            "Daemon"
+        ],
+        "house":"Nurgle",
+        "keywords":[
+            "Plaguebearer",
+            "Icon Bearer"
+        ],
+        "specials":[
+            "Staunch"
+        ]
+    },
+    {   # Plaguebearer Horn Bearer
+        "opname":"Plaguebearer Horn Bearer",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":5,
+            "wounds":8,
+        },
+        "rweaps":[
+        ],
+        "mweaps":[
+            {   # Plaguesword
+                "wname":"Plaguesword",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Daemon",
+            "Disgustingly Resilient"
+        ],
+        "uacts":[
+            "Instrument of Chaos"
+        ],
+        "fackey":"Chaos Daemon",
+        "faction":[
+            "Chaos",
+            "Daemon"
+        ],
+        "house":"Nurgle",
+        "keywords":[
+            "Plaguebearer",
+            "Horn Bearer"
+        ],
+        "specials":[
+            "Staunch"
+        ]
+    },
+    {   # Plagueridden
+        "opname":"Plagueridden",
+        "stats":{
+            "move":4,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":5,
+            "wounds":9,
+        },
+        "rweaps":[
+        ],
+        "mweaps":[
+            {   # Plaguesword
+                "wname":"Plaguesword",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":2,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Daemon",
+            "Disgustingly Resilient"
+        ],
+        "uacts":[
+        ],
+        "fackey":"Chaos Daemon",
+        "faction":[
+            "Chaos",
+            "Daemon"
+        ],
+        "house":"Nurgle",
+        "keywords":[
+            "Leader",
+            "Plaguebearer",
+            "Plagueridden"
+        ],
+        "specials":[
+            "Staunch"
+        ]
+    },
+    {   # Pink Horror Fighter
+        "opname":"Pink Horror Fighter",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":6,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Coruscating Flames
+                "wname":"Coruscating Flames",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Daemon"
+        ],
+        "uacts":[
+        ],
+        "fackey":"Chaos Daemon",
+        "faction":[
+            "Chaos",
+            "Daemon"
+        ],
+        "house":"Tzeentch",
+        "keywords":[
+            "Pink Horror",
+            "Fighter"
+        ],
+        "specials":[
+            "Marksman"
+        ]
+    },
+    {   # Pink Horror Icon Bearer
+        "opname":"Pink Horror Icon Bearer",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":6,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Coruscating Flames
+                "wname":"Coruscating Flames",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Daemon",
+            "Icon Bearer"
+        ],
+        "uacts":[
+            "Daemonic Icon"
+        ],
+        "fackey":"Chaos Daemon",
+        "faction":[
+            "Chaos",
+            "Daemon"
+        ],
+        "house":"Tzeentch",
+        "keywords":[
+            "Pink Horror",
+            "Icon Bearer"
+        ],
+        "specials":[
+            "Marksman"
+        ]
+    },
+    {   # Pink Horror Horn Bearer
+        "opname":"Pink Horror Horn Bearer",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":6,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Coruscating Flames
+                "wname":"Coruscating Flames",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Daemon"
+        ],
+        "uacts":[
+            "Instrument of Chaos"
+        ],
+        "fackey":"Chaos Daemon",
+        "faction":[
+            "Chaos",
+            "Daemon"
+        ],
+        "house":"Tzeentch",
+        "keywords":[
+            "Pink Horror",
+            "Horn Bearer"
+        ],
+        "specials":[
+            "Marksman"
+        ]
+    },
+    {   # Pink Horror Iridescent
+        "opname":"Pink Horror Iridescent",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":6,
+            "wounds":9,
+        },
+        "rweaps":[
+            {   # Coruscating Flames
+                "wname":"Coruscating Flames",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Daemon"
+        ],
+        "uacts":[
+        ],
+        "fackey":"Chaos Daemon",
+        "faction":[
+            "Chaos",
+            "Daemon"
+        ],
+        "house":"Tzeentch",
+        "keywords":[
+            "Leader",
+            "Pink Horror",
+            "Iridescent"
+        ],
+        "specials":[
+            "Marksman"
+        ]
+    },
+    {   # Blue Horror
+        "opname":"Blue Horror",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":2,
+            "def":3,
+            "save":6,
+            "wounds":6,
+        },
+        "rweaps":[
+            {   # Fizzing Flames
+                "wname":"Fizzing Flames",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                            "Range 6\"",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":5,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Ephemeral Daemon"
+        ],
+        "uacts":[
+        ],
+        "fackey":"Chaos Daemon",
+        "faction":[
+            "Chaos",
+            "Daemon"
+        ],
+        "house":"Tzeentch",
+        "keywords":[
+            "Blue Horror"
+        ],
+        "specials":[
+            "Marksman",
+            "Scout"
+        ]
+    },
+    {   # Brimstone Horrors
+        "opname":"Brimstone Horrors",
+        "stats":{
+            "move":4,
+            "apl":2,
+            "gpact":2,
+            "def":2,
+            "save":6,
+            "wounds":5,
+        },
+        "rweaps":[
+        ],
+        "mweaps":[
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":2,
+                        "wskill":5,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Ephemeral Daemon",
+            "Insignificant"
+        ],
+        "uacts":[
+        ],
+        "fackey":"Chaos Daemon",
+        "faction":[
+            "Chaos",
+            "Daemon"
+        ],
+        "house":"Tzeentch",
+        "keywords":[
+            "Brimstone Horrors"
+        ],
+        "specials":[
+        ]
+    },
+    # --- Commorrite ---
+    {   # Kabalite Warrior
+        "opname":"Kabalite Warrior",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":4,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Splinter Rifle
+                "wname":"Splinter Rifle",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":2,
+                        "dmg2":4,
+                        "srule":[
+                            "Lethal 5+"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Array of Blades
+                "wname":"Array of Blades",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":3,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                            "Rending"
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Commorrite",
+        "faction":[
+            "Aeldari",
+            "Drukhari"
+        ],
+        "house":"",
+        "keywords":[
+            "Kabalite",
+            "Warrior"
+        ],
+        "specials":[
+            "Marksman",
+            "Scout"
+        ]
+    },
+    {   # Sybarite
+        "opname":"Sybarite",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":4,
+            "wounds":9,
+        },
+        "rweaps":[
+            {   # Blast Pistol
+                "wname":"Blast Pistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                            "Range 6\"",
+                            "AP 2"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Splinter Pistol
+                "wname":"Splinter Pistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":2,
+                        "dmg2":4,
+                        "srule":[
+                            "Lethal 5+",
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Splinter Rifle
+                "wname":"Splinter Rifle",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":2,
+                        "dmg2":4,
+                        "srule":[
+                            "Lethal 5+"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Agoniser
+                "wname":"Agoniser",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":2,
+                        "dmg1":3,
+                        "dmg2":6,
+                        "srule":[
+                            "Lethal 5",
+                            "Brutal"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Array of Blades
+                "wname":"Array of Blades",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":2,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                            "Rending"
+                        ],
+                    },
+                ]
+            },
+            {   # Power Weapon
+                "wname":"Power Weapon",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":2,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                            "Lethal 5+"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Commorrite",
+        "faction":[
+            "Aeldari",
+            "Drukhari"
+        ],
+        "house":"",
+        "keywords":[
+            "Kabalite",
+            "Leader",
+            "Sybarite"
+        ],
+        "specials":[
+            "Combat",
+            "Marksman",
+            "Scout"
+        ]
+    },
+    {   # Kabalite Gunner
+        "opname":"Kabalite Gunner",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":4,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Blaster
+                "wname":"Blaster",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                            "AP 2"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Shredder
+                "wname":"Shredder",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "bskill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                            "Blast 2\""
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Array of Blades
+                "wname":"Array of Blades",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":3,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                            "Rending"
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Commorrite",
+        "faction":[
+            "Aeldari",
+            "Drukhari"
+        ],
+        "house":"",
+        "keywords":[
+            "Kabalite",
+            "Gunner"
+        ],
+        "specials":[
+            "Marksman",
+            "Scout"
+        ]
+    },
+    {   # Kabalite Heavy Gunner
+        "opname":"Kabalite Heavy Gunner",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":4,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Dark Lance
+                "wname":"Dark Lance",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":6,
+                        "dmg2":7,
+                        "srule":[
+                            "Heavy",
+                            "Unwieldy",
+                            "AP 2"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Splinter Cannon
+                "wname":"Splinter Cannon",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "bskill":3,
+                        "dmg1":3,
+                        "dmg2":5,
+                        "srule":[
+                            "Heavy",
+                            "Lethal 5+",
+                            "Fussilade"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Array of Blades
+                "wname":"Array of Blades",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":3,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                            "Rending"
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Commorrite",
+        "faction":[
+            "Aeldari",
+            "Drukhari"
+        ],
+        "house":"",
+        "keywords":[
+            "Kabalite",
+            "Heavy Gunner"
+        ],
+        "specials":[
+            "Marksman"
+        ]
+    },
+    {   # Wych Warrior
+        "opname":"Wych Warrior",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":6,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Splinter Pistol
+                "wname":"Splinter Pistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":2,
+                        "dmg2":4,
+                        "srule":[
+                            "Lethal 5+",
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Hekatarii Blade
+                "wname":"Hekatarii Blade",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                            "Rending"
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Dodge",
+        ],
+        "uacts":[
+        ],
+        "fackey":"Commorrite",
+        "faction":[
+            "Aeldari",
+            "Drukhari"
+        ],
+        "house":"",
+        "keywords":[
+            "Wych",
+            "Warrior"
+        ],
+        "specials":[
+            "Combat",
+            "Scout"
+        ]
+    },
+    {   # Hekatrix
+        "opname":"Hekatrix",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":6,
+            "wounds":9,
+        },
+        "rweaps":[
+            {   # Blast Pistol
+                "wname":"Blast Pistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                            "Range 6\"",
+                            "AP 2"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Splinter Pistol
+                "wname":"Splinter Pistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":2,
+                        "dmg2":4,
+                        "srule":[
+                            "Lethal 5+",
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Agoniser
+                "wname":"Agoniser",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":2,
+                        "dmg1":3,
+                        "dmg2":6,
+                        "srule":[
+                            "Lethal 5",
+                            "Brutal"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Hekatarii Blade
+                "wname":"Hekatarii Blade",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":2,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                            "Rending"
+                        ],
+                    },
+                ]
+            },
+            {   # Power Weapon
+                "wname":"Power Weapon",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":2,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                            "Lethal 5+"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Dodge",
+        ],
+        "uacts":[
+        ],
+        "fackey":"Commorrite",
+        "faction":[
+            "Aeldari",
+            "Drukhari"
+        ],
+        "house":"",
+        "keywords":[
+            "Leader",
+            "Wych",
+            "Hekatrix"
+        ],
+        "specials":[
+            "Combat",
+            "Scout"
+        ]
+    },
+    {   # Wych Fighter
+        "opname":"Wych Fighter",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":6,
+            "wounds":8,
+        },
+        "rweaps":[
+        ],
+        "mweaps":[
+            {   # Hydra Gauntlets
+                "wname":"Hydra Gauntlets",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "wskill":3,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Razorflails
+                "wname":"Razorflails",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "wskill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Ceaseless",
+                            "Brutal"
+                        ],
+                        "crits":[
+                            "Reap 1"
+                        ],
+                    },
+                ]
+            },
+            {   # Shardnet and Impaler
+                "wname":"Shardnet and Impaler",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                        ],
+                        "crits":[
+                            "Rending"
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Dodge",
+            "Shardnet and Impaler"
+        ],
+        "uacts":[
+        ],
+        "fackey":"Commorrite",
+        "faction":[
+            "Aeldari",
+            "Drukhari"
+        ],
+        "house":"",
+        "keywords":[
+            "Wych",
+            "Fighter"
+        ],
+        "specials":[
+            "Combat",
+            "Scout"
+        ]
+    },
+    # --- Craftworld ---
+    {   # Guardian Defender Warrior
+        "opname":"Guardian Defender Warrior",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":4,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Shuriken Catapult
+                "wname":"Shuriken Catapult",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                            "Rending",
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":3,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Craftworld",
+        "faction":[
+            "Aeldari",
+            "Asuryani",
+        ],
+        "house":"",
+        "keywords":[
+            "Guardian Defender",
+            "Warrior",
+        ],
+        "specials":[
+            "Marksman",
+            "Scout"
+        ]
+    },
+    {   # Guardian Defender Heavy Gunner
+        "opname":"Guardian Defender Heavy Gunner",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":4,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Shuriken Catapult
+                "wname":"Shuriken Catapult",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                            "Rending",
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":3,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+            "Control Platform",
+        ],
+        "fackey":"Craftworld",
+        "faction":[
+            "Aeldari",
+            "Asuryani",
+        ],
+        "house":"",
+        "keywords":[
+            "Guardian Defender",
+            "Heavy Gunner",
+        ],
+        "specials":[
+            "Marksman",
+            "Scout"
+        ]
+    },
+    {   # Guardian Defender Heavy Weapon Platform
+        "opname":"Guardian Defender Heavy Weapon Platform",
+        "stats":{
+            "move":4,
+            "apl":0,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":12,
+        },
+        "rweaps":[
+            {   # Aeldari Missile Launcher
+                "wname":"Aeldari Missile Launcher",
+                "profiles":[
+                    {
+                        "pname":"Sunburst",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":3,
+                        "dmg2":5,
+                        "srule":[
+                            "Heavy",
+                            "Blast 2\"",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                    {
+                        "pname":"Starshot",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":5,
+                        "dmg2":7,
+                        "srule":[
+                            "Heavy",
+                            "AP 1",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Bright Lance
+                "wname":"Bright Lance",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":6,
+                        "dmg2":7,
+                        "srule":[
+                            "Heavy",
+                            "AP 2",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Scatter Laser
+                "wname":"Scatter Laser",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "bskill":3,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                            "Heavy",
+                            "Ceaseless",
+                            "Fusillade",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Shuriken Cannon
+                "wname":"Shuriken Cannon",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "bskill":3,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                            "Heavy",
+                            "Fusilade",
+                        ],
+                        "crits":[
+                            "Rending",
+                        ],
+                    },
+                ]
+            },
+            {   # Starcannon
+                "wname":"Starcannon",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                            "Heavy",
+                            "AP 1",
+                        ],
+                        "crits":[
+                            "P2",
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+        ],
+        "abs":[
+            "Platform Controller",
+        ],
+        "uacts":[
+            "Gun Platform",
+        ],
+        "fackey":"Craftworld",
+        "faction":[
+            "Aeldari",
+            "Asuryani",
+        ],
+        "house":"",
+        "keywords":[
+            "Guardian Defender",
+            "Heavy Weapon Platform",
+        ],
+        "specials":[
+        ]
+    },
+    {   # Guardian Defender Leader
+        "opname":"Guardian Defender Leader",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":4,
+            "wounds":9,
+        },
+        "rweaps":[
+            {   # Shuriken Catapult
+                "wname":"Shuriken Catapult",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                            "Rending",
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":2,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Craftworld",
+        "faction":[
+            "Aeldari",
+            "Asuryani",
+        ],
+        "house":"",
+        "keywords":[
+            "Guardian Defender",
+            "Leader",
+        ],
+        "specials":[
+            "Marksman",
+            "Scout"
+        ]
+    },
+    {   # Storm Guardian Warrior
+        "opname":"Storm Guardian Warrior",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":4,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Shuriken Pistol
+                "wname":"Shuriken Pistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Range 6\"",
+                        ],
+                        "crits":[
+                            "Rending",
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Storm Guardian Blades
+                "wname":"Storm Guardian Blades",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Craftworld",
+        "faction":[
+            "Aeldari",
+            "Asuryani",
+        ],
+        "house":"",
+        "keywords":[
+            "Storm Guardian",
+            "Warrior",
+        ],
+        "specials":[
+            "Combat",
+            "Scout"
+        ]
+    },
+    {   # Storm Guardian Gunner
+        "opname":"Storm Guardian Gunner",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":4,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Flamer
+                "wname":"Flamer",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "bskill":2,
+                        "dmg1":2,
+                        "dmg2":2,
+                        "srule":[
+                            "Range 6\"",
+                            "Torrent 2\"",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Fusion Gun
+                "wname":"Fusion Gun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":6,
+                        "dmg2":3,
+                        "srule":[
+                            "Range 6\"",
+                            "AP 2",
+                        ],
+                        "crits":[
+                            "MW 4",
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":3,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Craftworld",
+        "faction":[
+            "Aeldari",
+            "Asuryani",
+        ],
+        "house":"",
+        "keywords":[
+            "Storm Guardian",
+            "Gunner",
+        ],
+        "specials":[
+            "Marksman",
+            "Scout"
+        ]
+    },
+    {   # Storm Guardian Leader
+        "opname":"Storm Guardian Leader",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":4,
+            "wounds":9,
+        },
+        "rweaps":[
+            {   # Shuriken Pistol
+                "wname":"Shuriken Pistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Range 6\"",
+                        ],
+                        "crits":[
+                            "Rending",
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Storm Guardian Blades
+                "wname":"Storm Guardian Blades",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":2,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Craftworld",
+        "faction":[
+            "Aeldari",
+            "Asuryani",
+        ],
+        "house":"",
+        "keywords":[
+            "Storm Guardian",
+            "Leader",
+        ],
+        "specials":[
+            "Combat",
+            "Scout"
+        ]
+    },
+    {   # Ranger Warrior
+        "opname":"Ranger Warrior",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":5,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Ranger Long Rifle
+                "wname":"Ranger Long Rifle",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":3,
+                        "dmg2":3,
+                        "srule":[
+                            "Heavy",
+                            "Silent",
+                        ],
+                        "crits":[
+                            "MW 1",
+                        ],
+                    },
+                ]
+            },
+            {   # Shuriken Pistol
+                "wname":"Shuriken Pistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Range 6\"",
+                        ],
+                        "crits":[
+                            "Rending",
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":3,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Camo Cloak",
+        ],
+        "uacts":[
+        ],
+        "fackey":"Craftworld",
+        "faction":[
+            "Aeldari",
+            "Asuryani",
+        ],
+        "house":"",
+        "keywords":[
+            "Ranger",
+            "Warrior",
+        ],
+        "specials":[
+            "Marksman",
+            "Scout"
+        ]
+    },
+    {   # Ranger Leader
+        "opname":"Ranger Leader",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":5,
+            "wounds":9,
+        },
+        "rweaps":[
+            {   # Ranger Long Rifle
+                "wname":"Ranger Long Rifle",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":3,
+                        "dmg2":3,
+                        "srule":[
+                            "Heavy",
+                            "Silent",
+                            "Balanced",
+                        ],
+                        "crits":[
+                            "MW 1",
+                        ],
+                    },
+                ]
+            },
+            {   # Shuriken Pistol
+                "wname":"Shuriken Pistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Range 6\"",
+                        ],
+                        "crits":[
+                            "Rending",
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":2,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Camo Cloak",
+        ],
+        "uacts":[
+        ],
+        "fackey":"Craftworld",
+        "faction":[
+            "Aeldari",
+            "Asuryani",
+        ],
+        "house":"",
+        "keywords":[
+            "Ranger",
+            "Leader",
+        ],
+        "specials":[
+            "Marksman",
+            "Scout"
+        ]
+    },
+    {   # Dire Avenger Warrior
+        "opname":"Dire Avenger Warrior",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":4,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Avenger Shuriken Catapult
+                "wname":"Avenger Shuriken Catapult",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Balanced",
+                        ],
+                        "crits":[
+                            "Rending",
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":3,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Defence Tactics",
+        ],
+        "uacts":[
+        ],
+        "fackey":"Craftworld",
+        "faction":[
+            "Aeldari",
+            "Asuryani",
+        ],
+        "house":"",
+        "keywords":[
+            "Dire Avenger",
+            "Warrior",
+        ],
+        "specials":[
+            "Marksman",
+            "Scout"
+        ]
+    },
+    {   # Dire Avenger Exarch
+        "opname":"Dire Avenger Exarch",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":4,
+            "wounds":9,
+        },
+        "rweaps":[
+            {   # Avenger Shuriken Catapult
+                "wname":"Avenger Shuriken Catapult",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Balanced",
+                        ],
+                        "crits":[
+                            "Rending",
+                        ],
+                    },
+                ]
+            },
+            {   # Shuriken Pistol
+                "wname":"Shuriken Pistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Range 6\"",
+                        ],
+                        "crits":[
+                            "Rending",
+                        ],
+                    },
+                ]
+            },
+            {   # Twin Avenger Shuriken Catapult
+                "wname":"Avenger Shuriken Catapult",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Relentless",
+                        ],
+                        "crits":[
+                            "Rending",
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Diresword
+                "wname":"Diresword",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":2,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                            "Lethal 5+",
+                        ],
+                        "crits":[
+                            "Rending",
+                        ],
+                    },
+                ]
+            },
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":2,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Power Weapon
+                "wname":"Power Weapon",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":2,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                            "Lethal 5+",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Defence Tactics",
+            "Shimmershield",
+        ],
+        "uacts":[
+            "Shuriken Storm",
+        ],
+        "fackey":"Craftworld",
+        "faction":[
+            "Aeldari",
+            "Asuryani",
+        ],
+        "house":"",
+        "keywords":[
+            "Leader",
+            "Dire Avenger",
+            "Exarch",
+        ],
+        "specials":[
+            "Combat",
+            "Marksman",
+            "Scout"
+        ]
+    },
+    # --- Death Guard ---
+    {   # Plague Marine [Warrior]
+        "opname":"Plague Marine [Warrior]",
+        "stats":{
+            "move":4,
+            "apl":3,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":12,
+        },
+        "rweaps":[
+            {   # Boltgun
+                "wname":"Boltgun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Plague Knife
+                "wname":"Plague Knife",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":5,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Disgustingly Resilient"
+        ],
+        "uacts":[
+        ],
+        "fackey":"Death Guard",
+        "faction":[
+            "Chaos",
+            "Bubonic Astartes"
+        ],
+        "house":"",
+        "keywords":[
+            "Plague Marine",
+            "Warrior"
+        ],
+        "specials":[
+        ],
+    },
+    {   # Plague Marine [Gunner]
+        "opname":"Plague Marine [Gunner]",
+        "stats":{
+            "move":4,
+            "apl":3,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":12,
+        },
+        "rweaps":[
+            {   # Meltagun
+                "wname":"Meltagun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":6,
+                        "dmg2":3,
+                        "srule":[
+                            "Range 6\"",
+                            "AP 2"
+                        ],
+                        "crits":[
+                            "MW 4"
+                        ],
+                    },
+                ]
+            },
+            {   # Plague Belcher
+                "wname":"Plague Belcher",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "skill":2,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                            "Range 6\"",
+                            "Torrent 2\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Plasma Gun
+                "wname":"Plasma Gun",
+                "profiles":[
+                    {
+                        "pname":"Standard",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                            "AP 1"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                    {
+                        "pname":"Supercharge",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                            "AP 2",
+                            "Hot"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Plague Knife
+                "wname":"Plague Knife",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":5,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Disgustingly Resilient"
+        ],
+        "uacts":[
+        ],
+        "fackey":"Death Guard",
+        "faction":[
+            "Chaos",
+            "Bubonic Astartes"
+        ],
+        "house":"",
+        "keywords":[
+            "Plague Marine",
+            "Gunner"
+        ],
+        "specials":[
+        ],
+    },
+    {   # Plague Marine [Heavy Gunner]
+        "opname":"Plague Marine [Heavy Gunner]",
+        "stats":{
+            "move":4,
+            "apl":3,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":12,
+        },
+        "rweaps":[
+            {   # Blight Launcher
+                "wname":"Blight Launcher",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                            "AP 1"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Plague Spewer
+                "wname":"Plague Spewer",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":6,
+                        "skill":2,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                            "Range 6\"",
+                            "Torrent 2\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Plague Knife
+                "wname":"Plague Knife",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":5,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Disgustingly Resilient"
+        ],
+        "uacts":[
+        ],
+        "fackey":"Death Guard",
+        "faction":[
+            "Chaos",
+            "Bubonic Astartes"
+        ],
+        "house":"",
+        "keywords":[
+            "Plague Marine",
+            "Heavy Gunner"
+        ],
+        "specials":[
+        ],
+    },
+    {   # Plague Marine [Fighter]
+        "opname":"Plague Marine [Fighter]",
+        "stats":{
+            "move":4,
+            "apl":3,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":12,
+        },
+        "rweaps":[
+            {   # Bolt Pistol
+                "wname":"Bolt Pistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Bubotic Axe
+                "wname":"Bubotic Axe",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "skill":3,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                        ],
+                        "crits":[
+                            "Rending"
+                        ],
+                    },
+                ]
+            },
+            {   # Flail of Corruption
+                "wname":"Flail of Corruption",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "skill":3,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                        ],
+                        "crits":[
+                            "Reap 2"
+                        ],
+                    },
+                ]
+            },
+            {   # Great Plague Cleaver
+                "wname":"Great Plague Cleaver",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "skill":4,
+                        "dmg1":5,
+                        "dmg2":7,
+                        "srule":[
+                        ],
+                        "crits":[
+                            "Rending"
+                        ],
+                    },
+                ]
+            },
+            {   # Mace of Contagion
+                "wname":"Mace of Contagion",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "skill":3,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                        ],
+                        "crits":[
+                            "Stun"
+                        ],
+                    },
+                ]
+            },
+            {   # Plague Knives
+                "wname":"Plague Knives",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":5,
+                        "srule":[
+                            "Relentless"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Disgustingly Resilient"
+        ],
+        "uacts":[
+        ],
+        "fackey":"Death Guard",
+        "faction":[
+            "Chaos",
+            "Bubonic Astartes"
+        ],
+        "house":"",
+        "keywords":[
+            "Plague Marine",
+            "Fighter"
+        ],
+        "specials":[
+        ],
+    },
+    {   # Plague Marine [Icon Bearer]
+        "opname":"Plague Marine [Icon Bearer]",
+        "stats":{
+            "move":4,
+            "apl":3,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":12,
+        },
+        "rweaps":[
+            {   # Boltgun
+                "wname":"Boltgun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Plague Knife
+                "wname":"Plague Knife",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":5,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Disgustingly Resilient",
+            "Icon Bearer"
+        ],
+        "uacts":[
+            "Icon of Decay"
+        ],
+        "fackey":"Death Guard",
+        "faction":[
+            "Chaos",
+            "Bubonic Astartes"
+        ],
+        "house":"",
+        "keywords":[
+            "Plague Marine",
+            "Icon Bearer"
+        ],
+        "specials":[
+        ],
+    },
+    {   # Plague Marine Champion
+        "opname":"Plague Marine Champion",
+        "stats":{
+            "move":6,
+            "apl":3,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":13,
+        },
+        "rweaps":[
+            {   # Boltgun
+                "wname":"Boltgun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":2,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Bolt Pistol
+                "wname":"Bolt Pistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":2,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Plasma Pistol
+                "wname":"Plasma Pistol",
+                "profiles":[
+                    {
+                        "pname":"Standard",
+                        "atts":4,
+                        "skill":2,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                            "Range 6\"",
+                            "AP 1"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                    {
+                        "pname":"Supercharge",
+                        "atts":4,
+                        "skill":2,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                            "Range 6\"",
+                            "AP 2",
+                            "Hot"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Plague Knife
+                "wname":"Plague Knife",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "skill":2,
+                        "dmg1":3,
+                        "dmg2":5,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Plague Sword
+                "wname":"Plague Sword",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "skill":2,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Power Fist
+                "wname":"Power Fist",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "skill":3,
+                        "dmg1":5,
+                        "dmg2":7,
+                        "srule":[
+                            "Brutal"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Disgustingly Resilient"
+        ],
+        "uacts":[
+        ],
+        "fackey":"Death Guard",
+        "faction":[
+            "Chaos",
+            "Bubonic Astartes"
+        ],
+        "house":"",
+        "keywords":[
+            "Leader",
+            "Plague Marine",
+            "Champion"
+        ],
+        "specials":[
+        ],
+    },
+    {   # Poxwalker
+        "opname":"Poxwalker",
+        "stats":{
+            "move":4,
+            "apl":2,
+            "gpact":2,
+            "def":3,
+            "save":6,
+            "wounds":7,
+        },
+        "rweaps":[
+        ],
+        "mweaps":[
+            {   # Improvised Weapon
+                "wname":"Improvised Weapon",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Mindless",
+            "Disgustingly Resilient"
+        ],
+        "uacts":[
+        ],
+        "fackey":"Death Guard",
+        "faction":[
+            "Chaos"
+        ],
+        "house":"",
+        "keywords":[
+            "Poxwalker"
+        ],
+        "specials":[
+        ],
+    },
+    # --- Ecclesiarchy ---
     {   # Battle Sister Warrior
         "opname":"Battle Sister Warrior",
         "stats":{
@@ -2382,7 +5633,7 @@ operatives = [
             "Scout"
         ],
     },
-    # Forge World
+    # --- Forge World ---
     {   # Skitarii Ranger Trooper
         "opname":"Skitarii Ranger Trooper",
         "stats":{
@@ -3460,7 +6711,7 @@ operatives = [
             "Scout"
         ],
     },
-    # Greenskin
+    # --- Greenskin ---
     {   # Boy Fighter
         "opname":"Boy Fighter",
         "stats":{
@@ -4276,7 +7527,7 @@ operatives = [
             "Marksman"
         ]
     },
-    # Grey Knights
+    # --- Grey Knights ---
     {   # Grey Knight Warrior
         "opname":"Grey Knight Warrior",
         "stats":{
@@ -4622,7 +7873,7 @@ operatives = [
             "Marksman"
         ]
     },
-    # Hive Fleet
+    # --- Hive Fleet ---
     {   # Genestealer Fighter
         "opname":"Genestealer Fighter",
         "stats":{
@@ -5450,7 +8701,7 @@ operatives = [
             "Scout"
         ]
     },
-    # Hunter Cadre
+    # --- Hunter Cadre ---
     {   # Fire Warrior Shas'la
         "opname":"Fire Warrior Shas'la",
         "stats":{
@@ -6541,7 +9792,7 @@ operatives = [
             "Marksman"
         ]
     },
-    # Imperial Guard
+    # --- Imperial Guard ---
     {   # Guardsman Trooper
         "opname":"Guardsman Trooper",
         "stats":{
@@ -7416,8 +10667,1037 @@ operatives = [
             "Marksman"
         ]
     },
-    # Space Marine
-    # Talons of the Emperor
+    # --- Space Marine ---
+    {   # Intercessor [Warrior]
+        "opname":"Intercessor [Warrior]",
+        "stats":{
+            "move":6,
+            "apl":3,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":13,
+        },
+        "rweaps":[
+            {   # Auto Bolt Rifle
+                "wname":"Auto Bolt Rifle",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Ceaseless"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Bolt Rifle
+                "wname":"Bolt Rifle",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                            "P 1"
+                        ],
+                    },
+                ]
+            },
+            {   # Stalker Bolt Rifle
+                "wname":"Stalker Bolt Rifle",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Heavy",
+                            "AP 1"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Space Marine",
+        "faction":[
+            "Imperium",
+            "Adeptus Astartes"
+        ],
+        "house":"",
+        "keywords":[
+            "Primaris",
+            "Intercessor",
+            "Warrior"
+        ],
+        "specials":[
+        ],
+    },
+    {   # Intercessor Sergeant
+        "opname":"Intercessor Sergeant",
+        "stats":{
+            "move":6,
+            "apl":3,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":14,
+        },
+        "rweaps":[
+            {   # Auto Bolt Rifle
+                "wname":"Auto Bolt Rifle",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":2,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Ceaseless"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Bolt Pistol
+                "wname":"Bolt Pistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":2,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Bolt Rifle
+                "wname":"Bolt Rifle",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":2,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                            "P 1"
+                        ],
+                    },
+                ]
+            },
+            {   # Hand Flamer
+                "wname":"Hand Flamer",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":2,
+                        "dmg1":2,
+                        "dmg2":2,
+                        "srule":[
+                            "Range 6\"",
+                            "Torrent 1\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Plasma Pistol
+                "wname":"Plasma Pistol",
+                "profiles":[
+                    {
+                        "pname":"Standard",
+                        "atts":4,
+                        "skill":2,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                            "Range 6\"",
+                            "AP 1"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                    {
+                        "pname":"Supercharge",
+                        "atts":4,
+                        "skill":2,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                            "Range 6\"",
+                            "AP 2",
+                            "Hot"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Stalker Bolt Rifle
+                "wname":"Stalker Bolt Rifle",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":2,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Heavy",
+                            "AP 1"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Chainsword
+                "wname":"Chainsword",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Power Fist
+                "wname":"Power Fist",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":4,
+                        "dmg1":5,
+                        "dmg2":7,
+                        "srule":[
+                            "Brutal"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Power Weapon
+                "wname":"Power Weapon",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                            "Lethal 5+"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Thunder Hammer
+                "wname":"Thunder Hammer",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":4,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                        ],
+                        "crits":[
+                            "Stun"
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Space Marine",
+        "faction":[
+            "Imperium",
+            "Adeptus Astartes"
+        ],
+        "house":"",
+        "keywords":[
+            "Primaris",
+            "Leader",
+            "Intercessor",
+            "Sergeant"
+        ],
+        "specials":[
+        ],
+    },
+    {   # Assault Intercessor [Warrior]
+        "opname":"Assault Intercessor [Warrior]",
+        "stats":{
+            "move":6,
+            "apl":3,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":13,
+        },
+        "rweaps":[
+            {   # Heavy Bolt Pistol
+                "wname":"Heavy Bolt Pistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                            "P 1"
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Chainsword
+                "wname":"Chainsword",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "skill":3,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Space Marine",
+        "faction":[
+            "Imperium",
+            "Adeptus Astartes"
+        ],
+        "house":"",
+        "keywords":[
+            "Primaris",
+            "Assault Intercessor",
+            "Warrior"
+        ],
+        "specials":[
+        ],
+    },
+    {   # Assault Intercessor Sergeant
+        "opname":"Assault Intercessor Sergeant",
+        "stats":{
+            "move":6,
+            "apl":3,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":14,
+        },
+        "rweaps":[
+            {   # Hand Flamer
+                "wname":"Hand Flamer",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":2,
+                        "dmg1":2,
+                        "dmg2":2,
+                        "srule":[
+                            "Range 6\"",
+                            "Torrent 1\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Heavy Bolt Pistol
+                "wname":"Heavy Bolt Pistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                            "P 1"
+                        ],
+                    },
+                ]
+            },
+            {   # Plasma Pistol
+                "wname":"Plasma Pistol",
+                "profiles":[
+                    {
+                        "pname":"Standard",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                            "Range 6\"",
+                            "AP 1"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                    {
+                        "pname":"Supercharge",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                            "Range 6\"",
+                            "AP 2",
+                            "Hot"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Chainsword
+                "wname":"Chainsword",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "skill":2,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Power Fist
+                "wname":"Power Fist",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "skill":3,
+                        "dmg1":5,
+                        "dmg2":7,
+                        "srule":[
+                            "Brutal"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Power Weapon
+                "wname":"Power Weapon",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "skill":2,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                            "Lethal 5"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Thunder Hammer
+                "wname":"Thunder Hammer",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "skill":3,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                        ],
+                        "crits":[
+                            "Stun"
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Space Marine",
+        "faction":[
+            "Imperium",
+            "Adeptus Astartes"
+        ],
+        "house":"",
+        "keywords":[
+            "Primaris",
+            "Leader",
+            "Assault Intercessor",
+            "Sergeant"
+        ],
+        "specials":[
+        ],
+    },
+    {   # Infiltrator [Warrior]
+        "opname":"Infiltrator [Warrior]",
+        "stats":{
+            "move":6,
+            "apl":3,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":12,
+        },
+        "rweaps":[
+            {   # Marksman Bolt Carbine
+                "wname":"Marksman Bolt Carbine",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Lethal 5"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Space Marine",
+        "faction":[
+            "Imperium",
+            "Adeptus Astartes"
+        ],
+        "house":"",
+        "keywords":[
+            "Primaris",
+            "Infiltrator",
+            "Warrior"
+        ],
+        "specials":[
+        ],
+    },
+    {   # Infiltrator Sergeant
+        "opname":"Infiltrator Sergeant",
+        "stats":{
+            "move":6,
+            "apl":3,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":13,
+        },
+        "rweaps":[
+            {   # Marksman Bolt Carbine
+                "wname":"Marksman Bolt Carbine",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":2,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Lethal 5"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Space Marine",
+        "faction":[
+            "Imperium",
+            "Adeptus Astartes"
+        ],
+        "house":"",
+        "keywords":[
+            "Primaris",
+            "Leader",
+            "Infiltrator",
+            "Sergeant"
+        ],
+        "specials":[
+        ],
+    },
+    {   # Incursor [Warrior]
+        "opname":"Incursor [Warrior]",
+        "stats":{
+            "move":6,
+            "apl":3,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":12,
+        },
+        "rweaps":[
+            {   # Occulus Bolt Carbine
+                "wname":"Occulus Bolt Carbine",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "No Cover"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Combat Knife
+                "wname":"Combat Knife",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":5,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Space Marine",
+        "faction":[
+            "Imperium",
+            "Adeptus Astartes"
+        ],
+        "house":"",
+        "keywords":[
+            "Primaris",
+            "Incursor",
+            "Warrior"
+        ],
+        "specials":[
+        ],
+    },
+    {   # Incursor Sergeant
+        "opname":"Incursor Sergeant",
+        "stats":{
+            "move":6,
+            "apl":3,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":13,
+        },
+        "rweaps":[
+            {   # Occulus Bolt Carbine
+                "wname":"Occulus Bolt Carbine",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":2,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "No Cover"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Combat Blade
+                "wname":"Combat Blade",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":5,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Space Marine",
+        "faction":[
+            "Imperium",
+            "Adeptus Astartes"
+        ],
+        "house":"",
+        "keywords":[
+            "Primaris",
+            "Leader",
+            "Incursor",
+            "Sergeant"
+        ],
+        "specials":[
+        ],
+    },
+    {   # Reiver [Warrior]
+        "opname":"Reiver [Warrior]",
+        "stats":{
+            "move":6,
+            "apl":3,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":12,
+        },
+        "rweaps":[
+            {   # Bolt Carbine
+                "wname":"Bolt Carbine",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Special Issue Bolt Pistol
+                "wname":"Special Issue Bolt Pistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Range 6\"",
+                            "AP 1"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Combat Knife
+                "wname":"Combat Knife",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Space Marine",
+        "faction":[
+            "Imperium",
+            "Adeptus Astartes"
+        ],
+        "house":"",
+        "keywords":[
+            "Primaris",
+            "Reiver",
+            "Warrior"
+        ],
+        "specials":[
+        ],
+    },
+    {   # Reiver Sergeant
+        "opname":"Reiver Sergeant",
+        "stats":{
+            "move":6,
+            "apl":3,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":13,
+        },
+        "rweaps":[
+            {   # Bolt Carbine
+                "wname":"Bolt Carbine",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":2,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Special Issue Bolt Pistol
+                "wname":"Special Issue Bolt Pistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":2,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Range 6\"",
+                            "AP 1"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Combat Knife
+                "wname":"Combat Knife",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "skill":2,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":2,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Bladesman"
+        ],
+        "uacts":[
+        ],
+        "fackey":"Space Marine",
+        "faction":[
+            "Imperium",
+            "Adeptus Astartes"
+        ],
+        "house":"",
+        "keywords":[
+            "Primaris",
+            "Leader",
+            "Reiver",
+            "Sergeant"
+        ],
+        "specials":[
+        ],
+    },
+    # --- Talons of the Emperor ---
     {   # Custodian Guard Warrior
         "opname":"Custodian Guard Warrior",
         "stats":{
@@ -7918,8 +12198,626 @@ operatives = [
             "Scout"
         ]
     },
-    # Thousand Sons
-    # Tomb World
+    # --- Thousand Sons ---
+    {   # Rubric Marine Warrior
+        "opname":"Rubric Marine Warrior",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":12,
+        },
+        "rweaps":[
+            {   # Inferno Boltgun
+                "wname":"Inferno Boltgun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "AP 1",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Favoured By Change",
+            "All Is Dust",
+        ],
+        "uacts":[
+        ],
+        "fackey":"Thousand Sons",
+        "faction":[
+            "Chaos",
+            "Arcana Astartes",
+        ],
+        "house":"",
+        "keywords":[
+            "Rubric Marine",
+            "Warrior",
+        ],
+        "specials":[
+            "Staunch",
+            "Marksman"
+        ]
+    },
+    {   # Rubric Marine Gunner
+        "opname":"Rubric Marine Gunner",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":12,
+        },
+        "rweaps":[
+            {   # Soulreaper Cannon
+                "wname":"Soulreaper Cannon",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":6,
+                        "bskill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "AP 1",
+                            "Fusillade",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Warpflamer
+                "wname":"Warpflamer",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "bskill":2,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                            "Range 6\"",
+                            "Torrent 2\"",
+                            "AP 1",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Favoured By Change",
+            "All Is Dust",
+        ],
+        "uacts":[
+        ],
+        "fackey":"Thousand Sons",
+        "faction":[
+            "Chaos",
+            "Arcana Astartes",
+        ],
+        "house":"",
+        "keywords":[
+            "Rubric Marine",
+            "Gunner",
+        ],
+        "specials":[
+            "Staunch",
+            "Marksman"
+        ]
+    },
+    {   # Rubric Marine Icon Bearer
+        "opname":"Rubric Marine Icon Bearer",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":12,
+        },
+        "rweaps":[
+            {   # Inferno Boltgun
+                "wname":"Inferno Boltgun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "AP 1",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "wskill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Favoured By Change",
+            "All Is Dust",
+            "Icon Bearer",
+            "Icon Of Flame",
+        ],
+        "uacts":[
+        ],
+        "fackey":"Thousand Sons",
+        "faction":[
+            "Chaos",
+            "Arcana Astartes",
+        ],
+        "house":"",
+        "keywords":[
+            "Rubric Marine",
+            "Icon Bearer",
+        ],
+        "specials":[
+            "Staunch",
+            "Marksman"
+        ]
+    },
+    {   # Aspiring Sorcerer
+        "opname":"Aspiring Sorcerer",
+        "stats":{
+            "move":6,
+            "apl":3,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":13,
+        },
+        "rweaps":[
+            {   # Inferno Bolt Pistol
+                "wname":"Inferno Bolt Pistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Range 6\"",
+                            "AP 1",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Plasma Pistol
+                "wname":"Plasma Pistol",
+                "profiles":[
+                    {
+                        "pname":"Standard",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                            "Range 6\"",
+                            "AP 1",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                    {
+                        "pname":"Supercharge",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                            "Range 6\"",
+                            "AP 2",
+                            "Hot",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Warpflame Pistol
+                "wname":"Warpflame Pistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":2,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                            "Range 6\"",
+                            "Torrent 1\"",
+                            "AP 1",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Force Stave
+                "wname":"Force Stave",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                        ],
+                        "crits":[
+                            "Stun",
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Favoured By Change",
+        ],
+        "uacts":[
+            "Manifest Psychic Power [Thousand Sons]",
+        ],
+        "fackey":"Thousand Sons",
+        "faction":[
+            "Chaos",
+            "Arcana Astartes",
+        ],
+        "house":"",
+        "keywords":[
+            "Psyker",
+            "Leader",
+            "Rubric Marine",
+            "Aspiring Sorcerer",
+        ],
+        "specials":[
+            "Combat",
+            "Staunch",
+            "Marksman"
+        ]
+    },
+    {   # Tzaangor Fighter
+        "opname":"Tzaangor Fighter",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":6,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Autopistol
+                "wname":"Autopistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                            "Range 6\"",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Chainsword
+                "wname":"Chainsword",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":4,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Tzaangor Blades
+                "wname":"Tzaangor Blades",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":4,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                            "Relentless",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Favoured By Change",
+        ],
+        "uacts":[
+        ],
+        "fackey":"Thousand Sons",
+        "faction":[
+            "Chaos",
+        ],
+        "house":"",
+        "keywords":[
+            "Tzaangor",
+            "Fighter",
+        ],
+        "specials":[
+            "Combat",
+            "Scout"
+        ]
+    },
+    {   # Tzaangor Icon Bearer
+        "opname":"Tzaangor Icon Bearer",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":6,
+            "wounds":8,
+        },
+        "rweaps":[
+        ],
+        "mweaps":[
+            {   # Dagger
+                "wname":"Dagger",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":4,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Favoured By Change",
+            "Icon Bearer",
+        ],
+        "uacts":[
+            "Herd Banner",
+        ],
+        "fackey":"Thousand Sons",
+        "faction":[
+            "Chaos",
+        ],
+        "house":"",
+        "keywords":[
+            "Tzaangor",
+            "Icon Bearer",
+        ],
+        "specials":[
+            "Combat",
+            "Scout"
+        ]
+    },
+    {   # Tzaangor Horn Bearer
+        "opname":"Tzaangor Horn Bearer",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":6,
+            "wounds":8,
+        },
+        "rweaps":[
+        ],
+        "mweaps":[
+            {   # Dagger
+                "wname":"Dagger",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":4,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Favoured By Change",
+        ],
+        "uacts":[
+            "Brayhorn",
+        ],
+        "fackey":"Thousand Sons",
+        "faction":[
+            "Chaos",
+        ],
+        "house":"",
+        "keywords":[
+            "Tzaangor",
+            "Horn Bearer",
+        ],
+        "specials":[
+            "Combat",
+            "Scout"
+        ]
+    },
+    {   # Twistbray
+        "opname":"Twistbray",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":6,
+            "wounds":9,
+        },
+        "rweaps":[
+            {   # Autopistol
+                "wname":"Autopistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "bskill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                            "Range 6\"",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Chainsword
+                "wname":"Chainsword",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Tzaangor Blades
+                "wname":"Tzaangor Blades",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "wskill":3,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                            "Relentless",
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Favoured By Change",
+        ],
+        "uacts":[
+        ],
+        "fackey":"Thousand Sons",
+        "faction":[
+            "Chaos",
+        ],
+        "house":"",
+        "keywords":[
+            "Leader",
+            "Tzaangor",
+            "Twistbray",
+        ],
+        "specials":[
+            "Combat",
+            "Scout"
+        ]
+    },
+    # --- Tomb World ---
     {   # Necron Warrior
         "opname":"Necron Warrior",
         "stats":{
@@ -8405,8 +13303,867 @@ operatives = [
             "Scout"
         ]
     },
-    # Traitor Space Marine
-    # Troupe
+    # --- Traitor Space Marine ---
+    {   # Chaos Space Marine [Warrior]
+        "opname":"Chaos Space Marine [Warrior]",
+        "stats":{
+            "move":6,
+            "apl":3,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":12,
+        },
+        "rweaps":[
+            {   # Boltgun
+                "wname":"Boltgun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Bolt Pistol
+                "wname":"Bolt Pistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Chainsword
+                "wname":"Chainsword",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Traitor Space Marine",
+        "faction":[
+            "Chaos",
+            "Heretic Astartes"
+        ],
+        "house":"",
+        "keywords":[
+            "Chaos Space Marine",
+            "Warrior"
+        ],
+        "specials":[
+        ],
+    },
+    {   # Chaos Space Marine [Gunner]
+        "opname":"Chaos Space Marine [Gunner]",
+        "stats":{
+            "move":6,
+            "apl":3,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":12,
+        },
+        "rweaps":[
+            {   # Flamer
+                "wname":"Flamer",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "skill":2,
+                        "dmg1":2,
+                        "dmg2":2,
+                        "srule":[
+                            "Range 6\"",
+                            "Torrent 2\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Meltagun
+                "wname":"Meltagun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":6,
+                        "dmg2":3,
+                        "srule":[
+                            "Range 6\"",
+                            "AP 2"
+                        ],
+                        "crits":[
+                            "MW 4"
+                        ],
+                    },
+                ]
+            },
+            {   # Plasma Gun
+                "wname":"Plasma Gun",
+                "profiles":[
+                    {
+                        "pname":"Standard",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                            "AP 1"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                    {
+                        "pname":"Supercharge",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                            "AP 2",
+                            "Hot"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Traitor Space Marine",
+        "faction":[
+            "Chaos",
+            "Heretic Astartes"
+        ],
+        "house":"",
+        "keywords":[
+            "Chaos Space Marine",
+            "Gunner"
+        ],
+        "specials":[
+        ],
+    },
+    {   # Chaos Space Marine [Heavy Gunner]
+        "opname":"Chaos Space Marine [Heavy Gunner]",
+        "stats":{
+            "move":6,
+            "apl":3,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":12,
+        },
+        "rweaps":[
+            {   # Heavy Bolter
+                "wname":"Heavy Bolter",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "skill":3,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                            "Heavy",
+                            "Fusillade"
+                        ],
+                        "crits":[
+                            "P 1"
+                        ],
+                    },
+                ]
+            },
+            {   # Missile Launcher
+                "wname":"Missile Launcher",
+                "profiles":[
+                    {
+                        "pname":"Frag",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":5,
+                        "srule":[
+                            "Heavy",
+                            "Blast 2\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                    {
+                        "pname":"Krak",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":5,
+                        "dmg2":7,
+                        "srule":[
+                            "Heavy",
+                            "AP 1"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Traitor Space Marine",
+        "faction":[
+            "Chaos",
+            "Heretic Astartes"
+        ],
+        "house":"",
+        "keywords":[
+            "Chaos Space Marine",
+            "Heavy Gunner"
+        ],
+        "specials":[
+        ],
+    },
+    {   # Chaos Space Marine [Icon Bearer]
+        "opname":"Chaos Space Marine [Icon Bearer]",
+        "stats":{
+            "move":6,
+            "apl":3,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":12,
+        },
+        "rweaps":[
+            {   # Boltgun
+                "wname":"Boltgun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Bolt Pistol
+                "wname":"Bolt Pistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Chainsword
+                "wname":"Chainsword",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+            "Icon Bearer"
+        ],
+        "uacts":[
+            "Icon of Vegeance"
+        ],
+        "fackey":"Traitor Space Marine",
+        "faction":[
+            "Chaos",
+            "Heretic Astartes"
+        ],
+        "house":"",
+        "keywords":[
+            "Chaos Space Marine",
+            "Icon Bearer"
+        ],
+        "specials":[
+        ],
+    },
+    {   # Chaos Space Marine Aspiring Champion
+        "opname":"Chaos Space Marine Aspiring Champion",
+        "stats":{
+            "move":6,
+            "apl":3,
+            "gpact":1,
+            "def":3,
+            "save":3,
+            "wounds":13,
+        },
+        "rweaps":[
+            {   # Boltgun
+                "wname":"Boltgun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":2,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Bolt Pistol
+                "wname":"Bolt Pistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":2,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Plasma Pistol
+                "wname":"Plasma Pistol",
+                "profiles":[
+                    {
+                        "pname":"Standard",
+                        "atts":4,
+                        "skill":2,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                            "Range 6\"",
+                            "AP 1"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                    {
+                        "pname":"Supercharge",
+                        "atts":4,
+                        "skill":2,
+                        "dmg1":5,
+                        "dmg2":6,
+                        "srule":[
+                            "Range 6\"",
+                            "AP 2",
+                            "Hot"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Chainsword
+                "wname":"Chainsword",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":2,
+                        "dmg1":4,
+                        "dmg2":5,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Fists
+                "wname":"Fists",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Power Fist
+                "wname":"Power Fist",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "skill":3,
+                        "dmg1":5,
+                        "dmg2":7,
+                        "srule":[
+                            "Brutal"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Power Weapon
+                "wname":"Power Weapon",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "skill":2,
+                        "dmg1":4,
+                        "dmg2":6,
+                        "srule":[
+                            "Lethal 5+"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Traitor Space Marine",
+        "faction":[
+            "Chaos",
+            "Heretic Astartes"
+        ],
+        "house":"",
+        "keywords":[
+            "Leader",
+            "Chaos Space Marine",
+            "Aspiring Champion"
+        ],
+        "specials":[
+        ],
+    },
+    {   # Chaos Cultist [Fighter]
+        "opname":"Chaos Cultist [Fighter]",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":2,
+            "def":3,
+            "save":5,
+            "wounds":7,
+        },
+        "rweaps":[
+            {   # Autogun
+                "wname":"Autogun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Autopistol
+                "wname":"Autopistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Brutal Assault Weapon
+                "wname":"Brutal Assault Weapon",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Gun Butt
+                "wname":"Gun Butt",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "skill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Traitor Space Marine",
+        "faction":[
+            "Chaos"
+        ],
+        "house":"",
+        "keywords":[
+            "Cultist",
+            "Fighter"
+        ],
+        "specials":[
+        ],
+    },
+    {   # Chaos Cultist [Gunner]
+        "opname":"Chaos Cultist [Gunner]",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":5,
+            "wounds":7,
+        },
+        "rweaps":[
+            {   # Flamer
+                "wname":"Flamer",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "skill":2,
+                        "dmg1":2,
+                        "dmg2":2,
+                        "srule":[
+                            "Range 6\"",
+                            "Torrent 2\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Heavy Stubber
+                "wname":"Heavy Stubber",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":5,
+                        "skill":4,
+                        "dmg1":3,
+                        "dmg2":4,
+                        "srule":[
+                            "Heavy",
+                            "Ceaseless",
+                            "Fusillade"
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Gun Butt
+                "wname":"Gun Butt",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "skill":4,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Traitor Space Marine",
+        "faction":[
+            "Chaos"
+        ],
+        "house":"",
+        "keywords":[
+            "Cultist",
+            "Gunner"
+        ],
+        "specials":[
+        ],
+    },
+    {   # Chaos Cultist Champion
+        "opname":"Chaos Cultist Champion",
+        "stats":{
+            "move":6,
+            "apl":2,
+            "gpact":1,
+            "def":3,
+            "save":5,
+            "wounds":8,
+        },
+        "rweaps":[
+            {   # Autogun
+                "wname":"Autogun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Autopistol
+                "wname":"Autopistol",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Shotgun
+                "wname":"Shotgun",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":2,
+                        "dmg1":3,
+                        "dmg2":3,
+                        "srule":[
+                            "Range 6\""
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "mweaps":[
+            {   # Brutal Assault Weapon
+                "wname":"Brutal Assault Weapon",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":4,
+                        "skill":3,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+            {   # Gun Butt
+                "wname":"Gun Butt",
+                "profiles":[
+                    {
+                        "pname":"",
+                        "atts":3,
+                        "skill":3,
+                        "dmg1":2,
+                        "dmg2":3,
+                        "srule":[
+                        ],
+                        "crits":[
+                        ],
+                    },
+                ]
+            },
+        ],
+        "abs":[
+        ],
+        "uacts":[
+        ],
+        "fackey":"Traitor Space Marine",
+        "faction":[
+            "Chaos"
+        ],
+        "house":"",
+        "keywords":[
+            "Leader",
+            "Cultist",
+            "Champion"
+        ],
+        "specials":[
+        ],
+    },
+    # --- Troupe ---
     {   # Player Warrior
         "opname":"Player Warrior",
         "stats":{
